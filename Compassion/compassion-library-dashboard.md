@@ -5,467 +5,645 @@
 
 ## Quick navigation
 
+- [Current reconciled state](#current-state)
 - [Full Library — Compassion Only](#full-library)
 - [Best Matches — Concept Only](#concept-matches)
 - [Best Matches — Vibe Adjusted](#vibe-matches)
+- [Best Matches — Breadth](#breadth-matches)
+- [Category Occurrence Matrix](#category-matrix)
 - [Detailed Audits](#detailed-audits)
+
+<a id="current-state"></a>
+## Current reconciled state — 2026-10-06
+
+The authoritative project state is the ongoing tracker + working JSON + completed transcript-audit batches + latest unified profile; this dashboard is a rendered output.
+
+- **11 verified anchors**, now including **The Listener**, which the user verified as a **very good match**.
+- **118 completed transcript/subtitle audits + 3 explicit partials** in the source corpus.
+- Latest genuinely new transcript-scanned additions: **Zoey's Extraordinary Playlist, Twice in a Lifetime (1999), The Collector (2004), Father Brown, and Journeyman (2007)**.
+- Breadth is now a required sortable dimension separate from raw frequency.
+- The breadth table below covers every detailed audit rendered in this dashboard. Older dashboard audits use modeled category estimates derived from their preserved detailed evidence; The Listener + the five-title batch use explicit allocations from the 2026-10-06 transcript/subtitle pass.
+
 
 <a id="full-library"></a>
 ## Full Library — Compassion Only (No Preferences)
 
-This section contains **all 281 accepted works** and does **not** use verified-title preferences, personal vibe, popularity, watch status, or user ratings.
+This section contains **all 287 accepted works** and does **not** use verified-title preferences, personal vibe, popularity, watch status, or user ratings.
 
 **Neutral score formula:** `(25 centrality + 20 consequences + 15 intensity + 10 frequency + 10 empathy + 10 helping + 5 max(redemption, found family, moral courage) + 5 emotional depth) / 5`
 
 | Rank | Work | Year | Format | Flags | Compassion | Centrality | Depth | Frequency | Consequences | Empathy | Helping | References |
 |---:|---|---:|---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | Steven Universe | 2013 | series | `Animation` | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Steven_Universe) · [IMDb](https://www.imdb.com/title/tt3061046/) |
-| 2 | Sense8 | 2015 | series | — | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sense8) · [IMDb](https://www.imdb.com/title/tt2431438/) |
+| 1 | Fruits Basket (2019) | 2019 | series | `Anime` `Animation` | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)) · [IMDb](https://www.imdb.com/title/tt9304350/) |
+| 2 | Kipo and the Age of Wonderbeasts | 2020 | series | `Animation` | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts) · [IMDb](https://www.imdb.com/title/tt10482560/) |
 | 3 | Red Beard | 1965 | film | — | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Red_Beard) |
-| 4 | Kipo and the Age of Wonderbeasts | 2020 | series | `Animation` | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts) · [IMDb](https://www.imdb.com/title/tt10482560/) |
-| 5 | Fruits Basket (2019) | 2019 | series | `Anime` `Animation` | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)) · [IMDb](https://www.imdb.com/title/tt9304350/) |
-| 6 | Natsume's Book of Friends | 2008 | series | `Anime` `Animation` | 99.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends) · [IMDb](https://www.imdb.com/title/tt1352421/) |
-| 7 | My Mister | 2018 | series | `Korean` | 99.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/My_Mister) |
-| 8 | The Good Place | 2016 | series | — | 98.0 | 5 | 5 | 5 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Place) · [IMDb](https://www.imdb.com/title/tt4955642/) |
-| 9 | Charmed (2018) | 2018 | series | — | 98.0 | 5 | 5 | 4 | 5 | 5 | 5 | [IMDb](https://www.imdb.com/title/tt6394324/) |
-| 10 | Where Is the Friend's House? | 1987 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Where_Is_the_Friend%27s_House?) |
-| 11 | Trigun (1998) | 1998 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Trigun) |
-| 12 | Tomorrow | 2022 | series | `Korean` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Tomorrow_(South_Korean_TV_series)) |
-| 13 | Tokyo Godfathers | 2003 | film | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Tokyo_Godfathers) |
-| 14 | The Zookeeper's Wife | 2017 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Zookeeper%27s_Wife_(film)) |
-| 15 | The White Helmets | 2016 | short documentary | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_White_Helmets_(film)) |
-| 16 | The Kid | 1921 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Kid_(1921_film)) |
-| 17 | The Iron Giant | 1999 | film | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Iron_Giant) |
-| 18 | The Innocents (2016) | 2016 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Innocents_(2016_film)) |
-| 19 | The Dark Horse | 2014 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Dark_Horse_(2014_film)) |
-| 20 | The Cave (2019) | 2019 | documentary | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Cave_(2019_Syrian_film)) |
-| 21 | Tangerines | 2013 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Tangerines_(film)) |
-| 22 | Somebody Somewhere | 2022 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Somebody_Somewhere_(TV_series)) |
-| 23 | Somali and the Forest Spirit | 2020 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit) · [IMDb](https://www.imdb.com/title/tt11428586/) |
-| 24 | Schindler's List | 1993 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Schindler%27s_List) |
-| 25 | Radical | 2023 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Radical_(film)) |
-| 26 | Quantum Leap (1989) | 1989 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)) |
-| 27 | One Life | 2023 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/One_Life_(2023_film)) |
-| 28 | Of Gods and Men | 2010 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Of_Gods_and_Men_(film)) |
-| 29 | Nausicaä of the Valley of the Wind | 1984 | film | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)) · [IMDb](https://www.imdb.com/title/tt0087544/) |
-| 30 | Mystic Pop-up Bar | 2020 | series | `Korean` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar) · [IMDb](https://www.imdb.com/title/tt12246190/) |
-| 31 | My Life as a Courgette | 2016 | film | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/My_Life_as_a_Courgette) |
-| 32 | Mushishi | 2005 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mushishi) · [IMDb](https://www.imdb.com/title/tt0807832/) |
-| 33 | Moribito: Guardian of the Spirit | 2007 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Moribito:_Guardian_of_the_Spirit) · [IMDb](https://www.imdb.com/title/tt1029248/) |
-| 34 | Moolaadé | 2004 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Moolaad%C3%A9) |
-| 35 | March Comes in Like a Lion | 2016 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/March_Comes_In_like_a_Lion) |
-| 36 | Lilo & Stitch (2002) | 2002 | film | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lilo_%26_Stitch) · [IMDb](https://www.imdb.com/title/tt0275847/) |
-| 37 | Ikiru | 1952 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ikiru) |
-| 38 | Hotel Rwanda | 2004 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hotel_Rwanda) |
-| 39 | Everything Everywhere All at Once | 2022 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) · [IMDb](https://www.imdb.com/title/tt6710474/) |
-| 40 | Enemy Mine | 1985 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Enemy_Mine_(film)) · [IMDb](https://www.imdb.com/title/tt0089092/) |
-| 41 | Doctor Who | 1963 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Doctor_Who) · [IMDb](https://www.imdb.com/title/tt0436992/) |
-| 42 | Call the Midwife | 2012 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Call_the_Midwife) |
-| 43 | Bajrangi Bhaijaan | 2015 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Bajrangi_Bhaijaan) |
-| 44 | Avatar: The Last Airbender (2005) | 2005 | series | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) |
-| 45 | A Small Light | 2023 | miniseries | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/A_Small_Light) |
-| 46 | Station Eleven | 2021 | miniseries | — | 95.0 | 5 | 5 | 4 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)) · [IMDb](https://www.imdb.com/title/tt10574236/) |
-| 47 | Violet Evergarden | 2018 | series | `Anime` `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Violet_Evergarden) |
-| 48 | Ustad Hotel | 2012 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ustad_Hotel) |
-| 49 | The Wild Robot | 2024 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Wild_Robot) · [IMDb](https://www.imdb.com/title/tt29623480/) |
-| 50 | The Search | 1948 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Search_(1948_film)) |
-| 51 | The Quiet Girl | 2022 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Quiet_Girl) |
-| 52 | The Old Oak | 2023 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Old_Oak) |
-| 53 | The Kindness of Strangers | 2019 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Kindness_of_Strangers_(film)) |
-| 54 | The Kid with a Bike | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Kid_with_a_Bike) |
-| 55 | The Gravedigger's Wife | 2021 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Gravedigger%27s_Wife) |
-| 56 | The Eternal Memory | 2023 | documentary | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Eternal_Memory) |
-| 57 | Taare Zameen Par | 2007 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Taare_Zameen_Par) |
-| 58 | Sweet Bean | 2015 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Bean) |
-| 59 | Supa Modo | 2018 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Supa_Modo) |
-| 60 | Still Human | 2018 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Still_Human) |
-| 61 | Short Term 12 | 2013 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Short_Term_12) |
-| 62 | Reply 1988 | 2015 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Reply_1988) |
-| 63 | Pride | 2014 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Pride_(2014_film)) |
-| 64 | Nimona | 2023 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Nimona_(film)) · [IMDb](https://www.imdb.com/title/tt19500164/) |
-| 65 | Navillera | 2021 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Navillera_(TV_series)) |
+| 4 | Sense8 | 2015 | series | — | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sense8) · [IMDb](https://www.imdb.com/title/tt2431438/) |
+| 5 | Steven Universe | 2013 | series | `Animation` | 100.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Steven_Universe) · [IMDb](https://www.imdb.com/title/tt3061046/) |
+| 6 | My Mister | 2018 | series | `Korean` | 99.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/My_Mister) |
+| 7 | Natsume's Book of Friends | 2008 | series | `Anime` `Animation` | 99.0 | 5 | 5 | 5 | 5 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends) · [IMDb](https://www.imdb.com/title/tt1352421/) |
+| 8 | Charmed (2018) | 2018 | series | — | 98.0 | 5 | 5 | 4 | 5 | 5 | 5 | [IMDb](https://www.imdb.com/title/tt6394324/) |
+| 9 | The Good Place | 2016 | series | — | 98.0 | 5 | 5 | 5 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Place) · [IMDb](https://www.imdb.com/title/tt4955642/) |
+| 10 | A Small Light | 2023 | miniseries | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/A_Small_Light) |
+| 11 | Avatar: The Last Airbender (2005) | 2005 | series | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) |
+| 12 | Bajrangi Bhaijaan | 2015 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Bajrangi_Bhaijaan) |
+| 13 | Call the Midwife | 2012 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Call_the_Midwife) |
+| 14 | Doctor Who | 1963 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Doctor_Who) · [IMDb](https://www.imdb.com/title/tt0436992/) |
+| 15 | Enemy Mine | 1985 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Enemy_Mine_(film)) · [IMDb](https://www.imdb.com/title/tt0089092/) |
+| 16 | Everything Everywhere All at Once | 2022 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) · [IMDb](https://www.imdb.com/title/tt6710474/) |
+| 17 | Hotel Rwanda | 2004 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hotel_Rwanda) |
+| 18 | Ikiru | 1952 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ikiru) |
+| 19 | Lilo & Stitch (2002) | 2002 | film | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lilo_%26_Stitch) · [IMDb](https://www.imdb.com/title/tt0275847/) |
+| 20 | March Comes in Like a Lion | 2016 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/March_Comes_In_like_a_Lion) |
+| 21 | Moolaadé | 2004 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Moolaad%C3%A9) |
+| 22 | Moribito: Guardian of the Spirit | 2007 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Moribito:_Guardian_of_the_Spirit) · [IMDb](https://www.imdb.com/title/tt1029248/) |
+| 23 | Mushishi | 2005 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mushishi) · [IMDb](https://www.imdb.com/title/tt0807832/) |
+| 24 | My Life as a Courgette | 2016 | film | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/My_Life_as_a_Courgette) |
+| 25 | Mystic Pop-up Bar | 2020 | series | `Korean` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar) · [IMDb](https://www.imdb.com/title/tt12246190/) |
+| 26 | Nausicaä of the Valley of the Wind | 1984 | film | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)) · [IMDb](https://www.imdb.com/title/tt0087544/) |
+| 27 | Of Gods and Men | 2010 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Of_Gods_and_Men_(film)) |
+| 28 | One Life | 2023 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/One_Life_(2023_film)) |
+| 29 | Quantum Leap (1989) | 1989 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)) |
+| 30 | Radical | 2023 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Radical_(film)) |
+| 31 | Schindler's List | 1993 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Schindler%27s_List) |
+| 32 | Somali and the Forest Spirit | 2020 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit) · [IMDb](https://www.imdb.com/title/tt11428586/) |
+| 33 | Somebody Somewhere | 2022 | series | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Somebody_Somewhere_(TV_series)) |
+| 34 | Tangerines | 2013 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Tangerines_(film)) |
+| 35 | The Cave (2019) | 2019 | documentary | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Cave_(2019_Syrian_film)) |
+| 36 | The Dark Horse | 2014 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Dark_Horse_(2014_film)) |
+| 37 | The Innocents (2016) | 2016 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Innocents_(2016_film)) |
+| 38 | The Iron Giant | 1999 | film | `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Iron_Giant) |
+| 39 | The Kid | 1921 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Kid_(1921_film)) |
+| 40 | The White Helmets | 2016 | short documentary | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_White_Helmets_(film)) |
+| 41 | The Zookeeper's Wife | 2017 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Zookeeper%27s_Wife_(film)) |
+| 42 | Tokyo Godfathers | 2003 | film | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Tokyo_Godfathers) |
+| 43 | Tomorrow | 2022 | series | `Korean` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Tomorrow_(South_Korean_TV_series)) |
+| 44 | Trigun (1998) | 1998 | series | `Anime` `Animation` | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Trigun) |
+| 45 | Where Is the Friend's House? | 1987 | film | — | 96.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Where_Is_the_Friend%27s_House?) |
+| 46 | A Simple Life | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/A_Simple_Life) |
+| 47 | After Life (1998) | 1998 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/After_Life_(film)) |
+| 48 | Ballad of a Soldier | 1959 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ballad_of_a_Soldier) |
+| 49 | Baran | 2001 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Baran_(film)) |
+| 50 | City Lights | 1931 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/City_Lights) |
+| 51 | Daily Dose of Sunshine | 2023 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Daily_Dose_of_Sunshine) |
+| 52 | Departures | 2008 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Departures_(2008_film)) |
+| 53 | E.T. the Extra-Terrestrial | 1982 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial) |
+| 54 | I, Daniel Blake | 2016 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/I,_Daniel_Blake) |
+| 55 | In the Flesh | 2013 | series | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/In_the_Flesh_(TV_series)) · [IMDb](https://www.imdb.com/title/tt2480514/) |
+| 56 | Kirikou and the Sorceress | 1998 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Kirikou_and_the_Sorceress) |
+| 57 | Lage Raho Munna Bhai | 2006 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai) |
+| 58 | Lars and the Real Girl | 2007 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lars_and_the_Real_Girl) |
+| 59 | Le Havre | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Le_Havre_(film)) |
+| 60 | Lunana: A Yak in the Classroom | 2019 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lunana:_A_Yak_in_the_Classroom) |
+| 61 | Mary and Max | 2009 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mary_and_Max) |
+| 62 | Miracle in Milan | 1951 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Miracle_in_Milan) |
+| 63 | Mob Psycho 100 | 2016 | series | `Anime` `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mob_Psycho_100) · [IMDb](https://www.imdb.com/title/tt5897304/) |
+| 64 | Monsieur Lazhar | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Monsieur_Lazhar) |
+| 65 | Move to Heaven | 2021 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Move_to_Heaven) |
 | 66 | Munna Bhai M.B.B.S. | 2003 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Munna_Bhai_M.B.B.S.) |
-| 67 | Move to Heaven | 2021 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Move_to_Heaven) |
-| 68 | Monsieur Lazhar | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Monsieur_Lazhar) |
-| 69 | Mob Psycho 100 | 2016 | series | `Anime` `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mob_Psycho_100) · [IMDb](https://www.imdb.com/title/tt5897304/) |
-| 70 | Miracle in Milan | 1951 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Miracle_in_Milan) |
-| 71 | Mary and Max | 2009 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Mary_and_Max) |
-| 72 | Lunana: A Yak in the Classroom | 2019 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lunana:_A_Yak_in_the_Classroom) |
-| 73 | Le Havre | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Le_Havre_(film)) |
-| 74 | Lars and the Real Girl | 2007 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lars_and_the_Real_Girl) |
-| 75 | Lage Raho Munna Bhai | 2006 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Lage_Raho_Munna_Bhai) |
-| 76 | Kirikou and the Sorceress | 1998 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Kirikou_and_the_Sorceress) |
-| 77 | In the Flesh | 2013 | series | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/In_the_Flesh_(TV_series)) · [IMDb](https://www.imdb.com/title/tt2480514/) |
-| 78 | I, Daniel Blake | 2016 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/I,_Daniel_Blake) |
-| 79 | E.T. the Extra-Terrestrial | 1982 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial) |
-| 80 | Departures | 2008 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Departures_(2008_film)) |
-| 81 | Daily Dose of Sunshine | 2023 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Daily_Dose_of_Sunshine) |
-| 82 | City Lights | 1931 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/City_Lights) |
-| 83 | Baran | 2001 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Baran_(film)) |
-| 84 | Ballad of a Soldier | 1959 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ballad_of_a_Soldier) |
-| 85 | After Life (1998) | 1998 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/After_Life_(film)) |
-| 86 | A Simple Life | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/A_Simple_Life) |
-| 87 | Star Trek: The Next Generation | 1987 | series | — | 94.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) · [IMDb](https://www.imdb.com/title/tt0092455/) |
+| 67 | Navillera | 2021 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Navillera_(TV_series)) |
+| 68 | Nimona | 2023 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Nimona_(film)) · [IMDb](https://www.imdb.com/title/tt19500164/) |
+| 69 | Pride | 2014 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Pride_(2014_film)) |
+| 70 | Reply 1988 | 2015 | series | `Korean` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Reply_1988) |
+| 71 | Short Term 12 | 2013 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Short_Term_12) |
+| 72 | Station Eleven | 2021 | miniseries | — | 95.0 | 5 | 5 | 4 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)) · [IMDb](https://www.imdb.com/title/tt10574236/) |
+| 73 | Still Human | 2018 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Still_Human) |
+| 74 | Supa Modo | 2018 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Supa_Modo) |
+| 75 | Sweet Bean | 2015 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Bean) |
+| 76 | Taare Zameen Par | 2007 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Taare_Zameen_Par) |
+| 77 | The Eternal Memory | 2023 | documentary | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Eternal_Memory) |
+| 78 | The Gravedigger's Wife | 2021 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Gravedigger%27s_Wife) |
+| 79 | The Kid with a Bike | 2011 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Kid_with_a_Bike) |
+| 80 | The Kindness of Strangers | 2019 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Kindness_of_Strangers_(film)) |
+| 81 | The Old Oak | 2023 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Old_Oak) |
+| 82 | The Quiet Girl | 2022 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Quiet_Girl) |
+| 83 | The Search | 1948 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Search_(1948_film)) |
+| 84 | The Wild Robot | 2024 | film | `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Wild_Robot) · [IMDb](https://www.imdb.com/title/tt29623480/) |
+| 85 | Ustad Hotel | 2012 | film | — | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ustad_Hotel) |
+| 86 | Violet Evergarden | 2018 | series | `Anime` `Animation` | 95.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Violet_Evergarden) |
+| 87 | Angel | 1999 | series | — | 94.0 | 5 | 5 | 5 | 4 | 4 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Angel_(1999_TV_series)) |
 | 88 | Haibane Renmei | 2002 | series | `Anime` `Animation` | 94.0 | 5 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Haibane_Renmei) · [IMDb](https://www.imdb.com/title/tt0380113/) |
-| 89 | Angel | 1999 | series | — | 94.0 | 5 | 5 | 5 | 4 | 4 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Angel_(1999_TV_series)) |
-| 90 | Song of the Sea | 2014 | film | `Animation` | 93.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Song_of_the_Sea_(2014_film)) |
-| 91 | Rectify | 2013 | series | — | 93.0 | 5 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Rectify) |
+| 89 | Star Trek: The Next Generation | 1987 | series | — | 94.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) · [IMDb](https://www.imdb.com/title/tt0092455/) |
+| 90 | After Yang | 2021 | film | — | 93.0 | 5 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/After_Yang) |
+| 91 | Dear My Friends | 2016 | series | `Korean` | 93.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Dear_My_Friends) |
 | 92 | Petite Maman | 2021 | film | — | 93.0 | 5 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Petite_Maman) |
-| 93 | Dear My Friends | 2016 | series | `Korean` | 93.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Dear_My_Friends) |
-| 94 | After Yang | 2021 | film | — | 93.0 | 5 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/After_Yang) |
-| 95 | The Way Home | 2002 | film | `Korean` | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Way_Home_(2002_film)) |
-| 96 | Ted Lasso | 2020 | series | — | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ted_Lasso) |
-| 97 | Ernest & Celestine | 2012 | film | `Animation` | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ernest_%26_Celestine) |
-| 98 | Good Witch | 2015 | series | — | 91.0 | 5 | 4 | 5 | 4 | 5 | 5 | [IMDb](https://www.imdb.com/title/tt3906732/) |
-| 99 | Welcome to Dongmakgol | 2005 | film | `Korean` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Welcome_to_Dongmakgol) |
-| 100 | Two Days, One Night | 2014 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Two_Days,_One_Night) |
-| 101 | Triage: Dr. James Orbinski's Humanitarian Dilemma | 2007 | documentary | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Triage:_Dr._James_Orbinski%27s_Humanitarian_Dilemma) |
-| 102 | The World Between Us | 2019 | series | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_World_Between_Us_(Taiwanese_TV_series)) |
-| 103 | The Unknown Girl | 2016 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Unknown_Girl) |
-| 104 | The Island (2006) | 2006 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Island_(2006_film)) |
-| 105 | The Human Condition I: No Greater Love | 1959 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Human_Condition_(film_series)) |
-| 106 | The First Grader | 2010 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_First_Grader) |
-| 107 | The Fencer | 2015 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Fencer) |
-| 108 | The Burmese Harp | 1956 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Burmese_Harp_(1956_film)) |
-| 109 | Star Trek: Deep Space Nine | 1993 | series | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine) |
-| 110 | Saint Judy | 2018 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Saint_Judy) |
-| 111 | Pluto | 2023 | miniseries | `Anime` `Animation` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Pluto_(manga)) · [IMDb](https://www.imdb.com/title/tt26737616/) |
-| 112 | Joyeux Noël | 2005 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Joyeux_No%C3%ABl) |
-| 113 | In Darkness | 2011 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/In_Darkness_(2011_film)) |
-| 114 | Hotel Mumbai | 2018 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hotel_Mumbai) |
-| 115 | Central Station | 1998 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Central_Station_(film)) |
-| 116 | Arrival | 2016 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Arrival_(film)) |
-| 117 | A Taxi Driver | 2017 | film | `Korean` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/A_Taxi_Driver) |
-| 118 | 1987: When the Day Comes | 2017 | film | `Korean` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/1987:_When_the_Day_Comes) |
-| 119 | The Station Agent | 2003 | film | — | 90.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Station_Agent) |
-| 120 | Our Little Sister | 2015 | film | — | 90.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Our_Little_Sister) |
-| 121 | Wolfwalkers | 2020 | film | `Animation` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Wolfwalkers) |
-| 122 | Under the Same Moon | 2007 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Under_the_Same_Moon) |
-| 123 | The Visitor | 2007 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Visitor_(2007_feature_film)) |
-| 124 | The Swimmers | 2022 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Swimmers_(2022_film)) |
-| 125 | The Shape of Water | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Shape_of_Water) |
-| 126 | The Other Side of Hope | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Other_Side_of_Hope) |
-| 127 | The Grapes of Wrath | 1940 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Grapes_of_Wrath_(film)) |
-| 128 | The Good Lie | 2014 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Lie) |
-| 129 | The Cuckoo | 2002 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Cuckoo_(film)) |
-| 130 | The Breadwinner | 2017 | film | `Animation` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Breadwinner_(2017_film)) |
-| 131 | The Artifice Girl | 2022 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Artifice_Girl) |
-| 132 | Peranbu | 2018 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Peranbu) |
-| 133 | Okja | 2017 | film | `Korean` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Okja) |
-| 134 | Leave No Trace | 2018 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Leave_No_Trace_(film)) |
-| 135 | I Can Speak | 2017 | film | `Korean` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/I_Can_Speak) |
-| 136 | Félicité | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/F%C3%A9licit%C3%A9_(2017_film)) |
-| 137 | Dersu Uzala | 1975 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Dersu_Uzala_(1975_film)) |
-| 138 | Cargo | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Cargo_(2017_film)) |
-| 139 | Hilda | 2018 | series | `Animation` | 89.0 | 5 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hilda_(TV_series)) · [IMDb](https://www.imdb.com/title/tt6385540/) |
-| 140 | Hospital Playlist | 2020 | series | `Korean` | 89.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hospital_Playlist) |
-| 141 | The Ascent | 1977 | film | — | 89.0 | 4 | 5 | 3 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Ascent_(1977_film)) |
-| 142 | Pan's Labyrinth | 2006 | film | — | 89.0 | 4 | 5 | 3 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Pan%27s_Labyrinth) |
-| 143 | The Son (2002) | 2002 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Son_(2002_film)) |
-| 144 | The Peanut Butter Falcon | 2019 | film | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Peanut_Butter_Falcon) |
-| 145 | The Owl House | 2020 | series | `Animation` | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Owl_House) · [IMDb](https://www.imdb.com/title/tt8050756/) |
-| 146 | The Orville | 2017 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Orville) · [IMDb](https://www.imdb.com/title/tt5691552/) |
-| 147 | The OA | 2016 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_OA) |
-| 148 | The Devil's Backbone | 2001 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Devil%27s_Backbone) |
-| 149 | The Boy and the Beast | 2015 | film | `Anime` `Animation` | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Boy_and_the_Beast) |
-| 150 | Star Trek: Voyager | 1995 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Voyager) · [IMDb](https://www.imdb.com/title/tt0112178/) |
-| 151 | Space Sweepers | 2021 | film | `Korean` | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Space_Sweepers) · [IMDb](https://www.imdb.com/title/tt12838766/) |
-| 152 | Sometimes in April | 2005 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Sometimes_in_April) |
-| 153 | Something Necessary | 2013 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Something_Necessary) |
-| 154 | Shoplifters | 2018 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Shoplifters_(film)) |
-| 155 | Shooting Dogs | 2005 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Shooting_Dogs) |
-| 156 | Quo Vadis, Aida? | 2020 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Quo_Vadis,_Aida?) |
-| 157 | Hunt for the Wilderpeople | 2016 | film | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hunt_for_the_Wilderpeople) |
-| 158 | Go Ahead | 2020 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Go_Ahead_(TV_series)) |
-| 159 | Babylon 5 | 1993 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Babylon_5) |
-| 160 | Moon | 2009 | film | — | 88.0 | 4 | 5 | 3 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Moon_(2009_film)) |
-| 161 | Wings of Desire | 1987 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Wings_of_Desire) |
-| 162 | When Life Gives You Tangerines | 2025 | series | `Korean` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/When_Life_Gives_You_Tangerines) |
-| 163 | WALL-E | 2008 | film | `Animation` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/WALL-E) |
-| 164 | Tótem | 2023 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/T%C3%B3tem_(film)) |
-| 165 | The Shop on Main Street | 1965 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Shop_on_Main_Street) |
-| 166 | The Red Band Society (Catalonia) | 2011 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Polseres_vermelles) |
-| 167 | The Other Son | 2012 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Other_Son_(2012_film)) |
-| 168 | The Man Without a Past | 2002 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Man_Without_a_Past) |
-| 169 | The Legend of Hei | 2019 | film | `Animation` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Legend_of_Hei) |
-| 170 | The Killing Fields | 1984 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Killing_Fields_(film)) |
-| 171 | The Holdovers | 2023 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Holdovers) |
-| 172 | The Girl with All the Gifts | 2016 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Girl_with_All_the_Gifts_(film)) |
-| 173 | The Brother from Another Planet | 1984 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Brother_from_Another_Planet) |
-| 174 | The African Doctor | 2016 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_African_Doctor) |
-| 175 | Sweet Tooth | 2021 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Tooth_(TV_series)) · [IMDb](https://www.imdb.com/title/tt12809988/) |
-| 176 | Summerland | 2020 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Summerland_(2020_film)) |
-| 177 | Starman | 1984 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Starman_(1984_film)) |
-| 178 | Severance | 2022 | series | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Severance_(TV_series)) |
-| 179 | Sell Your Haunted House | 2021 | series | `Korean` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sell_Your_Haunted_House) |
-| 180 | Reservation Dogs | 2021 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Reservation_Dogs) |
-| 181 | Peace by Chocolate | 2021 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Peace_by_Chocolate_(film)) |
-| 182 | Our Blues | 2022 | series | `Korean` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Our_Blues) |
-| 183 | Meet Yourself | 2023 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Meet_Yourself) |
-| 184 | Kati Kati | 2016 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Kati_Kati) |
-| 185 | Ilo Ilo | 2013 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Ilo_Ilo) |
-| 186 | Humans | 2015 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Humans_(TV_series)) · [IMDb](https://www.imdb.com/title/tt4122068/) |
-| 187 | Children of Heaven | 1997 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Children_of_Heaven_(1997_film)) |
-| 188 | Beauty and the Beast (1987) | 1987 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1987_TV_series)) |
-| 189 | Batteries Not Included | 1987 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Batteries_Not_Included) · [IMDb](https://www.imdb.com/title/tt0092494/) |
-| 190 | Anne with an E | 2017 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Anne_with_an_E) |
-| 191 | She-Ra and the Princesses of Power | 2018 | series | `Animation` | 87.0 | 4 | 5 | 5 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power) · [IMDb](https://www.imdb.com/title/tt7745956/) |
-| 192 | Ranking of Kings | 2021 | series | `Anime` `Animation` | 87.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Ranking_of_Kings) · [IMDb](https://www.imdb.com/title/tt13409432/) |
-| 193 | Princess Mononoke | 1997 | film | `Anime` `Animation` | 87.0 | 4 | 5 | 3 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Princess_Mononoke) |
-| 194 | Farscape | 1999 | series | — | 87.0 | 4 | 5 | 4 | 4 | 4 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Farscape) · [IMDb](https://www.imdb.com/title/tt0187636/) |
-| 195 | Doom Patrol | 2019 | series | — | 87.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)) · [IMDb](https://www.imdb.com/title/tt8416494/) |
-| 196 | Incendies | 2010 | film | — | 86.0 | 4 | 5 | 2 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Incendies) |
-| 197 | This Is Us | 2016 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/This_Is_Us) |
-| 198 | The Leftovers | 2014 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Leftovers_(TV_series)) |
-| 199 | The Color of Paradise | 1999 | film | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Color_of_Paradise) |
-| 200 | Sort Of | 2021 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Sort_Of_(TV_series)) |
-| 201 | Russian Doll | 2019 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Russian_Doll_(TV_series)) |
-| 202 | One Mississippi | 2015 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/One_Mississippi_(TV_series)) |
-| 203 | Mum | 2016 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Mum_(TV_series)) |
-| 204 | Marjorie Prime | 2017 | film | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Marjorie_Prime) |
-| 205 | Maniac | 2018 | miniseries | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Maniac_(miniseries)) · [IMDb](https://www.imdb.com/title/tt5580146/) |
-| 206 | Broker | 2022 | film | `Korean` | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Broker_(2022_film)) |
-| 207 | The Uncanny Counter | 2020 | series | `Korean` | 86.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Uncanny_Counter) · [IMDb](https://www.imdb.com/title/tt13273826/) |
-| 208 | Midnight Diner | 2009 | series | — | 85.0 | 5 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Midnight_Diner_(Japanese_TV_series)) |
-| 209 | Aria | 2005 | series | `Anime` `Animation` | 85.0 | 5 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Aria_(manga)) |
-| 210 | The Green Mile | 1999 | film | — | 85.0 | 4 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Green_Mile_(film)) |
-| 211 | Machine Gun Preacher | 2011 | film | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Machine_Gun_Preacher) |
-| 212 | Lost | 2004 | series | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lost_(TV_series)) |
-| 213 | Fringe | 2008 | series | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Fringe_(TV_series)) · [IMDb](https://www.imdb.com/title/tt1119644/) |
-| 214 | Being Human (UK) | 2008 | series | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Being_Human_(British_TV_series)) · [IMDb](https://www.imdb.com/title/tt1349938/) |
-| 215 | The Rocket | 2013 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Rocket_(2013_film)) |
-| 216 | The Host (2013) | 2013 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Host_(2013_film)) |
-| 217 | The Beautiful Game | 2024 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Beautiful_Game_(2024_film)) |
-| 218 | The Band's Visit | 2007 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Band%27s_Visit) |
-| 219 | Soul Boy | 2010 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Soul_Boy) |
-| 220 | Sanctuary | 2008 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sanctuary_(Canadian_TV_series)) · [IMDb](https://www.imdb.com/title/tt0965394/) |
-| 221 | Real Humans | 2012 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Real_Humans) · [IMDb](https://www.imdb.com/title/tt2180271/) |
-| 222 | Joan of Arcadia | 2003 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Joan_of_Arcadia) · [IMDb](https://www.imdb.com/title/tt0367345/) |
-| 223 | Castle in the Sky | 1986 | film | `Anime` `Animation` | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Castle_in_the_Sky) |
-| 224 | All Creatures Great and Small (2020) | 2020 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/All_Creatures_Great_and_Small_(2020_TV_series)) |
-| 225 | Alien Nation | 1989 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Alien_Nation_(TV_series)) · [IMDb](https://www.imdb.com/title/tt0096531/) |
-| 226 | Make Way for Tomorrow | 1937 | film | — | 84.0 | 4 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Make_Way_for_Tomorrow) |
-| 227 | Wonderfalls | 2004 | series | — | 84.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Wonderfalls) |
-| 228 | The Second Best Hospital in the Galaxy | 2024 | series | `Animation` | 84.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Best_Hospital_in_the_Galaxy) · [IMDb](https://www.imdb.com/title/tt11828386/) |
-| 229 | The Sarah Jane Adventures | 2007 | series | — | 84.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Sarah_Jane_Adventures) · [IMDb](https://www.imdb.com/title/tt0862620/) |
-| 230 | The Makanai: Cooking for the Maiko House | 2023 | series | — | 83.0 | 5 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Makanai:_Cooking_for_the_Maiko_House) |
-| 231 | Wave Makers | 2023 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Wave_Makers) |
-| 232 | Warm Bodies | 2013 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Warm_Bodies_(film)) |
-| 233 | Upload | 2020 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Upload_(TV_series)) |
-| 234 | The Straight Story | 1999 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Straight_Story) |
-| 235 | The Storyteller | 1987 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_StoryTeller_(TV_series)) |
-| 236 | The Song of Sparrows | 2008 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Song_of_Sparrows) |
-| 237 | The Secret of Roan Inish | 1994 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Secret_of_Roan_Inish) |
-| 238 | The Second Mother | 2015 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Mother_(2015_film)) |
-| 239 | The Sapphires | 2012 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Sapphires_(film)) |
-| 240 | The Lunchbox | 2013 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Lunchbox) |
-| 241 | The Intouchables | 2011 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Intouchables) |
-| 242 | The Eighth Day | 1996 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Eighth_Day_(1996_film)) |
-| 243 | The Eccentric Family | 2013 | series | `Anime` `Animation` | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Eccentric_Family) · [IMDb](https://www.imdb.com/title/tt2909936/) |
-| 244 | The A Word | 2016 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_A_Word) |
-| 245 | Robot & Frank | 2012 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Robot_%26_Frank) |
-| 246 | Please Like Me | 2013 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Please_Like_Me) |
-| 247 | Lady Dynamite | 2016 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lady_Dynamite) |
-| 248 | Extraordinary | 2023 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Extraordinary_(TV_series)) · [IMDb](https://www.imdb.com/title/tt14531842/) |
-| 249 | Counterpart | 2017 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Counterpart_(TV_series)) |
-| 250 | A Matter of Life and Death | 1946 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/A_Matter_of_Life_and_Death_(1946_film)) |
-| 251 | Schitt's Creek | 2015 | series | — | 83.0 | 4 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Schitt%27s_Creek) |
-| 252 | Wynonna Earp | 2016 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Wynonna_Earp_(TV_series)) · [IMDb](https://www.imdb.com/title/tt4878326/) |
-| 253 | The Angels' Share | 2012 | film | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Angels%27_Share) |
-| 254 | Spring | 2014 | film | — | 82.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Spring_(2014_film)) |
-| 255 | Our Flag Means Death | 2022 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Our_Flag_Means_Death) |
-| 256 | Lucifer | 2016 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lucifer_(TV_series)) |
-| 257 | Lost Girl | 2010 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lost_Girl) · [IMDb](https://www.imdb.com/title/tt1429449/) |
-| 258 | Killjoys | 2015 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Killjoys) · [IMDb](https://www.imdb.com/title/tt3952222/) |
-| 259 | His Dark Materials | 2019 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/His_Dark_Materials_(TV_series)) |
-| 260 | Dark Matter (2015) | 2015 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Dark_Matter_(2015_TV_series)) · [IMDb](https://www.imdb.com/title/tt4159076/) |
-| 261 | Buffy the Vampire Slayer | 1997 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer) · [IMDb](https://www.imdb.com/title/tt0118276/) |
-| 262 | The White Balloon | 1995 | film | — | 82.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_White_Balloon) |
-| 263 | Las Acacias | 2011 | film | — | 82.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Las_Acacias_(film)) |
-| 264 | Travelers | 2016 | series | — | 81.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Travelers_(TV_series)) |
-| 265 | The Sandman | 2022 | series | — | 81.0 | 4 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Sandman_(TV_series)) · [IMDb](https://www.imdb.com/title/tt1751634/) |
-| 266 | Outlander | 2014 | series | — | 81.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Outlander_(TV_series)) |
-| 267 | Legacies | 2018 | series | — | 81.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Legacies_(TV_series)) · [IMDb](https://www.imdb.com/title/tt8103070/) |
-| 268 | DC's Legends of Tomorrow | 2016 | series | — | 81.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Tomorrow) · [IMDb](https://www.imdb.com/title/tt4532368/) |
-| 269 | Warehouse 13 | 2009 | series | — | 80.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Warehouse_13) · [IMDb](https://www.imdb.com/title/tt1132290/) |
-| 270 | Pushing Daisies | 2007 | series | — | 80.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Pushing_Daisies) |
-| 271 | Eureka | 2006 | series | — | 80.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Eureka_(2006_TV_series)) |
-| 272 | Red Dog | 2011 | film | — | 80.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Red_Dog_(film)) |
-| 273 | Panchayat | 2020 | series | — | 80.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Panchayat_(TV_series)) |
-| 274 | Gullak | 2019 | series | — | 80.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Gullak) |
-| 275 | The Repair Shop | 2017 | series | — | 80.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Repair_Shop) |
-| 276 | Black Earth Rising | 2018 | miniseries | — | 80.0 | 3 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Black_Earth_Rising) |
-| 277 | Detectorists | 2014 | series | — | 79.0 | 4 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Detectorists) |
-| 278 | Barakamon | 2014 | series | `Anime` `Animation` | 79.0 | 4 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Barakamon) |
-| 279 | The Counterfeiters | 2007 | film | — | 79.0 | 3 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Counterfeiters_(2007_film)) |
-| 280 | Scavengers Reign | 2023 | series | `Animation` | 77.0 | 3 | 5 | 3 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Scavengers_Reign) |
-| 281 | The Umbrella Academy | 2019 | series | — | 75.0 | 3 | 5 | 3 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Umbrella_Academy_(TV_series)) |
+| 93 | Rectify | 2013 | series | — | 93.0 | 5 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Rectify) |
+| 94 | Song of the Sea | 2014 | film | `Animation` | 93.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Song_of_the_Sea_(2014_film)) |
+| 95 | Zoey's Extraordinary Playlist | 2020 | series | — | 93.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 96 | Ernest & Celestine | 2012 | film | `Animation` | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ernest_%26_Celestine) |
+| 97 | Ted Lasso | 2020 | series | — | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Ted_Lasso) |
+| 98 | The Collector (2004) | 2004 | series | — | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 99 | The Way Home | 2002 | film | `Korean` | 92.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Way_Home_(2002_film)) |
+| 100 | Twice in a Lifetime (1999) | 1999 | series | — | 92.0 | 5 | 4 | 5 | 4 | 5 | 5 | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 101 | 1987: When the Day Comes | 2017 | film | `Korean` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/1987:_When_the_Day_Comes) |
+| 102 | A Taxi Driver | 2017 | film | `Korean` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/A_Taxi_Driver) |
+| 103 | Arrival | 2016 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Arrival_(film)) |
+| 104 | Central Station | 1998 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Central_Station_(film)) |
+| 105 | Father Brown | 2013 | series | — | 91.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 106 | Good Witch | 2015 | series | — | 91.0 | 5 | 4 | 5 | 4 | 5 | 5 | [IMDb](https://www.imdb.com/title/tt3906732/) |
+| 107 | Hotel Mumbai | 2018 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hotel_Mumbai) |
+| 108 | In Darkness | 2011 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/In_Darkness_(2011_film)) |
+| 109 | Joyeux Noël | 2005 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Joyeux_No%C3%ABl) |
+| 110 | Pluto | 2023 | miniseries | `Anime` `Animation` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Pluto_(manga)) · [IMDb](https://www.imdb.com/title/tt26737616/) |
+| 111 | Saint Judy | 2018 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Saint_Judy) |
+| 112 | Star Trek: Deep Space Nine | 1993 | series | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine) |
+| 113 | The Burmese Harp | 1956 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Burmese_Harp_(1956_film)) |
+| 114 | The Fencer | 2015 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Fencer) |
+| 115 | The First Grader | 2010 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_First_Grader) |
+| 116 | The Human Condition I: No Greater Love | 1959 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Human_Condition_(film_series)) |
+| 117 | The Island (2006) | 2006 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Island_(2006_film)) |
+| 118 | The Listener | 2009 | series | — | 91.0 | 5 | 4 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Listener_(TV_series)) · [Scripts](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=the-listener) |
+| 119 | The Unknown Girl | 2016 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Unknown_Girl) |
+| 120 | The World Between Us | 2019 | series | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_World_Between_Us_(Taiwanese_TV_series)) |
+| 121 | Triage: Dr. James Orbinski's Humanitarian Dilemma | 2007 | documentary | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Triage:_Dr._James_Orbinski%27s_Humanitarian_Dilemma) |
+| 122 | Two Days, One Night | 2014 | film | — | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Two_Days,_One_Night) |
+| 123 | Welcome to Dongmakgol | 2005 | film | `Korean` | 91.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Welcome_to_Dongmakgol) |
+| 124 | Cargo | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Cargo_(2017_film)) |
+| 125 | Dersu Uzala | 1975 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Dersu_Uzala_(1975_film)) |
+| 126 | Félicité | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/F%C3%A9licit%C3%A9_(2017_film)) |
+| 127 | I Can Speak | 2017 | film | `Korean` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/I_Can_Speak) |
+| 128 | Leave No Trace | 2018 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Leave_No_Trace_(film)) |
+| 129 | Okja | 2017 | film | `Korean` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Okja) |
+| 130 | Our Little Sister | 2015 | film | — | 90.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Our_Little_Sister) |
+| 131 | Peranbu | 2018 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Peranbu) |
+| 132 | The Artifice Girl | 2022 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Artifice_Girl) |
+| 133 | The Breadwinner | 2017 | film | `Animation` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Breadwinner_(2017_film)) |
+| 134 | The Cuckoo | 2002 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Cuckoo_(film)) |
+| 135 | The Good Lie | 2014 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Lie) |
+| 136 | The Grapes of Wrath | 1940 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Grapes_of_Wrath_(film)) |
+| 137 | The Other Side of Hope | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Other_Side_of_Hope) |
+| 138 | The Shape of Water | 2017 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Shape_of_Water) |
+| 139 | The Station Agent | 2003 | film | — | 90.0 | 5 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Station_Agent) |
+| 140 | The Swimmers | 2022 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Swimmers_(2022_film)) |
+| 141 | The Visitor | 2007 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Visitor_(2007_feature_film)) |
+| 142 | Under the Same Moon | 2007 | film | — | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Under_the_Same_Moon) |
+| 143 | Wolfwalkers | 2020 | film | `Animation` | 90.0 | 4 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Wolfwalkers) |
+| 144 | Babylon 5 | 1993 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Babylon_5) |
+| 145 | Go Ahead | 2020 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Go_Ahead_(TV_series)) |
+| 146 | Hilda | 2018 | series | `Animation` | 89.0 | 5 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hilda_(TV_series)) · [IMDb](https://www.imdb.com/title/tt6385540/) |
+| 147 | Hospital Playlist | 2020 | series | `Korean` | 89.0 | 5 | 5 | 5 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hospital_Playlist) |
+| 148 | Hunt for the Wilderpeople | 2016 | film | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Hunt_for_the_Wilderpeople) |
+| 149 | Journeyman (2007) | 2007 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 150 | Pan's Labyrinth | 2006 | film | — | 89.0 | 4 | 5 | 3 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Pan%27s_Labyrinth) |
+| 151 | Quo Vadis, Aida? | 2020 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Quo_Vadis,_Aida?) |
+| 152 | Shooting Dogs | 2005 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Shooting_Dogs) |
+| 153 | Shoplifters | 2018 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Shoplifters_(film)) |
+| 154 | Something Necessary | 2013 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Something_Necessary) |
+| 155 | Sometimes in April | 2005 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Sometimes_in_April) |
+| 156 | Space Sweepers | 2021 | film | `Korean` | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Space_Sweepers) · [IMDb](https://www.imdb.com/title/tt12838766/) |
+| 157 | Star Trek: Voyager | 1995 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Voyager) · [IMDb](https://www.imdb.com/title/tt0112178/) |
+| 158 | The Ascent | 1977 | film | — | 89.0 | 4 | 5 | 3 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Ascent_(1977_film)) |
+| 159 | The Boy and the Beast | 2015 | film | `Anime` `Animation` | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Boy_and_the_Beast) |
+| 160 | The Devil's Backbone | 2001 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Devil%27s_Backbone) |
+| 161 | The OA | 2016 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_OA) |
+| 162 | The Orville | 2017 | series | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Orville) · [IMDb](https://www.imdb.com/title/tt5691552/) |
+| 163 | The Owl House | 2020 | series | `Animation` | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Owl_House) · [IMDb](https://www.imdb.com/title/tt8050756/) |
+| 164 | The Peanut Butter Falcon | 2019 | film | — | 89.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Peanut_Butter_Falcon) |
+| 165 | The Son (2002) | 2002 | film | — | 89.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Son_(2002_film)) |
+| 166 | Anne with an E | 2017 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Anne_with_an_E) |
+| 167 | Batteries Not Included | 1987 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Batteries_Not_Included) · [IMDb](https://www.imdb.com/title/tt0092494/) |
+| 168 | Beauty and the Beast (1987) | 1987 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1987_TV_series)) |
+| 169 | Children of Heaven | 1997 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Children_of_Heaven_(1997_film)) |
+| 170 | Humans | 2015 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Humans_(TV_series)) · [IMDb](https://www.imdb.com/title/tt4122068/) |
+| 171 | Ilo Ilo | 2013 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Ilo_Ilo) |
+| 172 | Kati Kati | 2016 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Kati_Kati) |
+| 173 | Meet Yourself | 2023 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Meet_Yourself) |
+| 174 | Moon | 2009 | film | — | 88.0 | 4 | 5 | 3 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Moon_(2009_film)) |
+| 175 | Our Blues | 2022 | series | `Korean` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Our_Blues) |
+| 176 | Peace by Chocolate | 2021 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Peace_by_Chocolate_(film)) |
+| 177 | Reservation Dogs | 2021 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Reservation_Dogs) |
+| 178 | Sell Your Haunted House | 2021 | series | `Korean` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sell_Your_Haunted_House) |
+| 179 | Severance | 2022 | series | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Severance_(TV_series)) |
+| 180 | Starman | 1984 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Starman_(1984_film)) |
+| 181 | Summerland | 2020 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Summerland_(2020_film)) |
+| 182 | Sweet Tooth | 2021 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Tooth_(TV_series)) · [IMDb](https://www.imdb.com/title/tt12809988/) |
+| 183 | The African Doctor | 2016 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_African_Doctor) |
+| 184 | The Brother from Another Planet | 1984 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Brother_from_Another_Planet) |
+| 185 | The Girl with All the Gifts | 2016 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Girl_with_All_the_Gifts_(film)) |
+| 186 | The Holdovers | 2023 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Holdovers) |
+| 187 | The Killing Fields | 1984 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Killing_Fields_(film)) |
+| 188 | The Legend of Hei | 2019 | film | `Animation` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Legend_of_Hei) |
+| 189 | The Man Without a Past | 2002 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Man_Without_a_Past) |
+| 190 | The Other Son | 2012 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Other_Son_(2012_film)) |
+| 191 | The Red Band Society (Catalonia) | 2011 | series | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Polseres_vermelles) |
+| 192 | The Shop on Main Street | 1965 | film | — | 88.0 | 4 | 5 | 5 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Shop_on_Main_Street) |
+| 193 | Tótem | 2023 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/T%C3%B3tem_(film)) |
+| 194 | WALL-E | 2008 | film | `Animation` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/WALL-E) |
+| 195 | When Life Gives You Tangerines | 2025 | series | `Korean` | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/When_Life_Gives_You_Tangerines) |
+| 196 | Wings of Desire | 1987 | film | — | 88.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Wings_of_Desire) |
+| 197 | Doom Patrol | 2019 | series | — | 87.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)) · [IMDb](https://www.imdb.com/title/tt8416494/) |
+| 198 | Farscape | 1999 | series | — | 87.0 | 4 | 5 | 4 | 4 | 4 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Farscape) · [IMDb](https://www.imdb.com/title/tt0187636/) |
+| 199 | Princess Mononoke | 1997 | film | `Anime` `Animation` | 87.0 | 4 | 5 | 3 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Princess_Mononoke) |
+| 200 | Ranking of Kings | 2021 | series | `Anime` `Animation` | 87.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Ranking_of_Kings) · [IMDb](https://www.imdb.com/title/tt13409432/) |
+| 201 | She-Ra and the Princesses of Power | 2018 | series | `Animation` | 87.0 | 4 | 5 | 5 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power) · [IMDb](https://www.imdb.com/title/tt7745956/) |
+| 202 | Broker | 2022 | film | `Korean` | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Broker_(2022_film)) |
+| 203 | Incendies | 2010 | film | — | 86.0 | 4 | 5 | 2 | 5 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Incendies) |
+| 204 | Maniac | 2018 | miniseries | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Maniac_(miniseries)) · [IMDb](https://www.imdb.com/title/tt5580146/) |
+| 205 | Marjorie Prime | 2017 | film | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Marjorie_Prime) |
+| 206 | Mum | 2016 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Mum_(TV_series)) |
+| 207 | One Mississippi | 2015 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/One_Mississippi_(TV_series)) |
+| 208 | Russian Doll | 2019 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Russian_Doll_(TV_series)) |
+| 209 | Sort Of | 2021 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Sort_Of_(TV_series)) |
+| 210 | The Color of Paradise | 1999 | film | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Color_of_Paradise) |
+| 211 | The Leftovers | 2014 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Leftovers_(TV_series)) |
+| 212 | The Uncanny Counter | 2020 | series | `Korean` | 86.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Uncanny_Counter) · [IMDb](https://www.imdb.com/title/tt13273826/) |
+| 213 | This Is Us | 2016 | series | — | 86.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/This_Is_Us) |
+| 214 | Alien Nation | 1989 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Alien_Nation_(TV_series)) · [IMDb](https://www.imdb.com/title/tt0096531/) |
+| 215 | All Creatures Great and Small (2020) | 2020 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/All_Creatures_Great_and_Small_(2020_TV_series)) |
+| 216 | Aria | 2005 | series | `Anime` `Animation` | 85.0 | 5 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Aria_(manga)) |
+| 217 | Being Human (UK) | 2008 | series | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Being_Human_(British_TV_series)) · [IMDb](https://www.imdb.com/title/tt1349938/) |
+| 218 | Castle in the Sky | 1986 | film | `Anime` `Animation` | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Castle_in_the_Sky) |
+| 219 | Fringe | 2008 | series | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Fringe_(TV_series)) · [IMDb](https://www.imdb.com/title/tt1119644/) |
+| 220 | Joan of Arcadia | 2003 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Joan_of_Arcadia) · [IMDb](https://www.imdb.com/title/tt0367345/) |
+| 221 | Lost | 2004 | series | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lost_(TV_series)) |
+| 222 | Machine Gun Preacher | 2011 | film | — | 85.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Machine_Gun_Preacher) |
+| 223 | Midnight Diner | 2009 | series | — | 85.0 | 5 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Midnight_Diner_(Japanese_TV_series)) |
+| 224 | Real Humans | 2012 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Real_Humans) · [IMDb](https://www.imdb.com/title/tt2180271/) |
+| 225 | Sanctuary | 2008 | series | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Sanctuary_(Canadian_TV_series)) · [IMDb](https://www.imdb.com/title/tt0965394/) |
+| 226 | Soul Boy | 2010 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Soul_Boy) |
+| 227 | The Band's Visit | 2007 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Band%27s_Visit) |
+| 228 | The Beautiful Game | 2024 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Beautiful_Game_(2024_film)) |
+| 229 | The Green Mile | 1999 | film | — | 85.0 | 4 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Green_Mile_(film)) |
+| 230 | The Host (2013) | 2013 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Host_(2013_film)) |
+| 231 | The Rocket | 2013 | film | — | 85.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Rocket_(2013_film)) |
+| 232 | Make Way for Tomorrow | 1937 | film | — | 84.0 | 4 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Make_Way_for_Tomorrow) |
+| 233 | The Sarah Jane Adventures | 2007 | series | — | 84.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Sarah_Jane_Adventures) · [IMDb](https://www.imdb.com/title/tt0862620/) |
+| 234 | The Second Best Hospital in the Galaxy | 2024 | series | `Animation` | 84.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Best_Hospital_in_the_Galaxy) · [IMDb](https://www.imdb.com/title/tt11828386/) |
+| 235 | Wonderfalls | 2004 | series | — | 84.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Wonderfalls) |
+| 236 | A Matter of Life and Death | 1946 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/A_Matter_of_Life_and_Death_(1946_film)) |
+| 237 | Counterpart | 2017 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Counterpart_(TV_series)) |
+| 238 | Extraordinary | 2023 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Extraordinary_(TV_series)) · [IMDb](https://www.imdb.com/title/tt14531842/) |
+| 239 | Lady Dynamite | 2016 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lady_Dynamite) |
+| 240 | Please Like Me | 2013 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Please_Like_Me) |
+| 241 | Robot & Frank | 2012 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Robot_%26_Frank) |
+| 242 | Schitt's Creek | 2015 | series | — | 83.0 | 4 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Schitt%27s_Creek) |
+| 243 | The A Word | 2016 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_A_Word) |
+| 244 | The Eccentric Family | 2013 | series | `Anime` `Animation` | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Eccentric_Family) · [IMDb](https://www.imdb.com/title/tt2909936/) |
+| 245 | The Eighth Day | 1996 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Eighth_Day_(1996_film)) |
+| 246 | The Intouchables | 2011 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Intouchables) |
+| 247 | The Lunchbox | 2013 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Lunchbox) |
+| 248 | The Makanai: Cooking for the Maiko House | 2023 | series | — | 83.0 | 5 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Makanai:_Cooking_for_the_Maiko_House) |
+| 249 | The Sapphires | 2012 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Sapphires_(film)) |
+| 250 | The Second Mother | 2015 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Mother_(2015_film)) |
+| 251 | The Secret of Roan Inish | 1994 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Secret_of_Roan_Inish) |
+| 252 | The Song of Sparrows | 2008 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Song_of_Sparrows) |
+| 253 | The Storyteller | 1987 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_StoryTeller_(TV_series)) |
+| 254 | The Straight Story | 1999 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Straight_Story) |
+| 255 | Upload | 2020 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Upload_(TV_series)) |
+| 256 | Warm Bodies | 2013 | film | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Warm_Bodies_(film)) |
+| 257 | Wave Makers | 2023 | series | — | 83.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Wave_Makers) |
+| 258 | Buffy the Vampire Slayer | 1997 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer) · [IMDb](https://www.imdb.com/title/tt0118276/) |
+| 259 | Dark Matter (2015) | 2015 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Dark_Matter_(2015_TV_series)) · [IMDb](https://www.imdb.com/title/tt4159076/) |
+| 260 | His Dark Materials | 2019 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/His_Dark_Materials_(TV_series)) |
+| 261 | Killjoys | 2015 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Killjoys) · [IMDb](https://www.imdb.com/title/tt3952222/) |
+| 262 | Las Acacias | 2011 | film | — | 82.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/Las_Acacias_(film)) |
+| 263 | Lost Girl | 2010 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lost_Girl) · [IMDb](https://www.imdb.com/title/tt1429449/) |
+| 264 | Lucifer | 2016 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Lucifer_(TV_series)) |
+| 265 | Our Flag Means Death | 2022 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Our_Flag_Means_Death) |
+| 266 | Spring | 2014 | film | — | 82.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Spring_(2014_film)) |
+| 267 | The Angels' Share | 2012 | film | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Angels%27_Share) |
+| 268 | The White Balloon | 1995 | film | — | 82.0 | 4 | 5 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_White_Balloon) |
+| 269 | Wynonna Earp | 2016 | series | — | 82.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Wynonna_Earp_(TV_series)) · [IMDb](https://www.imdb.com/title/tt4878326/) |
+| 270 | DC's Legends of Tomorrow | 2016 | series | — | 81.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Tomorrow) · [IMDb](https://www.imdb.com/title/tt4532368/) |
+| 271 | Legacies | 2018 | series | — | 81.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Legacies_(TV_series)) · [IMDb](https://www.imdb.com/title/tt8103070/) |
+| 272 | Outlander | 2014 | series | — | 81.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Outlander_(TV_series)) |
+| 273 | The Sandman | 2022 | series | — | 81.0 | 4 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Sandman_(TV_series)) · [IMDb](https://www.imdb.com/title/tt1751634/) |
+| 274 | Travelers | 2016 | series | — | 81.0 | 4 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Travelers_(TV_series)) |
+| 275 | Black Earth Rising | 2018 | miniseries | — | 80.0 | 3 | 5 | 3 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Black_Earth_Rising) |
+| 276 | Eureka | 2006 | series | — | 80.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Eureka_(2006_TV_series)) |
+| 277 | Gullak | 2019 | series | — | 80.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Gullak) |
+| 278 | Panchayat | 2020 | series | — | 80.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Panchayat_(TV_series)) |
+| 279 | Pushing Daisies | 2007 | series | — | 80.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Pushing_Daisies) |
+| 280 | Red Dog | 2011 | film | — | 80.0 | 4 | 5 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Red_Dog_(film)) |
+| 281 | The Repair Shop | 2017 | series | — | 80.0 | 4 | 4 | 4 | 4 | 5 | 5 | [Wikipedia](https://en.wikipedia.org/wiki/The_Repair_Shop) |
+| 282 | Warehouse 13 | 2009 | series | — | 80.0 | 4 | 4 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Warehouse_13) · [IMDb](https://www.imdb.com/title/tt1132290/) |
+| 283 | Barakamon | 2014 | series | `Anime` `Animation` | 79.0 | 4 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Barakamon) |
+| 284 | Detectorists | 2014 | series | — | 79.0 | 4 | 4 | 4 | 4 | 5 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Detectorists) |
+| 285 | The Counterfeiters | 2007 | film | — | 79.0 | 3 | 5 | 4 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Counterfeiters_(2007_film)) |
+| 286 | Scavengers Reign | 2023 | series | `Animation` | 77.0 | 3 | 5 | 3 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/Scavengers_Reign) |
+| 287 | The Umbrella Academy | 2019 | series | — | 75.0 | 3 | 5 | 3 | 4 | 4 | 4 | [Wikipedia](https://en.wikipedia.org/wiki/The_Umbrella_Academy_(TV_series)) |
 
 <a id="concept-matches"></a>
 ## Best Matches — Concept Only / Vibeless
 
 This ranking uses the detailed transcript-audit compassion prominence and does not penalize tonal mismatch.
 
-| Rank | Work | Flags | Concept | Vibe-adjusted | Common-center vibe | Nearest verified vibe | Vibe class | References |
-|---:|---|---|---:|---:|---:|---|---|---|
-| 1 | Steven Universe | `Animation` | 98.7 | 93.6 | 82.1 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt3061046/) · [Wikipedia](https://en.wikipedia.org/wiki/Steven_Universe) |
-| 2 | Space Sweepers | `Korean` | 98.0 | 92.9 | 78.6 | Legacies · 89.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12838766/) · [Wikipedia](https://en.wikipedia.org/wiki/Space_Sweepers) |
-| 3 | The Wild Robot | `Animation` | 98.0 | 91.9 | 81.0 | The Good Place · 80.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt29623480/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Wild_Robot) |
-| 4 | Kipo and the Age of Wonderbeasts | `Animation` | 97.5 | 91.8 | 77.3 | The Good Place · 86.5 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt10482560/) · [Wikipedia](https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts) |
-| 5 | Call the Midwife | — | 97.0 | 89.7 | 74.3 | Joan of Arcadia · 78.9 | MODERATE / SELECTIVE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Call_the_Midwife) |
-| 6 | The Owl House | `Animation` | 96.9 | 91.9 | 80.4 | The Good Place · 85.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt8050756/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Owl_House) |
-| 7 | Fruits Basket (2019) | `Anime` `Animation` | 96.6 | 92.4 | 83.4 | Joan of Arcadia · 85.9 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt9304350/) · [Wikipedia](https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)) |
-| 8 | Hilda | `Animation` | 96.6 | 92.5 | 80.3 | The Good Place · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6385540/) · [Wikipedia](https://en.wikipedia.org/wiki/Hilda_(TV_series)) |
-| 9 | Humans | — | 96.6 | 92.0 | 81.1 | Sanctuary · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4122068/) · [Wikipedia](https://en.wikipedia.org/wiki/Humans_(TV_series)) |
-| 10 | Lilo & Stitch (2002) | `Animation` | 96.6 | 92.4 | 84.6 | The Good Place · 84.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0275847/) · [Wikipedia](https://en.wikipedia.org/wiki/Lilo_%26_Stitch) |
-| 11 | Somali and the Forest Spirit | `Anime` `Animation` | 96.6 | 92.6 | 85.6 | Nausicaä of the Valley of the Wind · 84.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11428586/) · [Wikipedia](https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit) |
-| 12 | 4400 (2021) | — | 96.5 | 91.9 | 79.6 | Sanctuary · 88.5 | STRONG NEIGHBORHOOD MATCH | — · — |
-| 13 | In the Flesh | — | 96.0 | 87.8 | 67.3 | Defiance · 79.8 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt2480514/) · [Wikipedia](https://en.wikipedia.org/wiki/In_the_Flesh_(TV_series)) |
-| 14 | Natsume's Book of Friends | `Anime` `Animation` | 96.0 | 90.4 | 78.4 | Joan of Arcadia · 82.0 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1352421/) · [Wikipedia](https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends) |
-| 15 | Pluto | `Anime` `Animation` | 96.0 | 87.9 | 70.7 | Defiance · 76.0 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt26737616/) · [Wikipedia](https://en.wikipedia.org/wiki/Pluto_(manga)) |
-| 16 | New Amsterdam | — | 95.8 | 88.2 | 73.4 | Joan of Arcadia · 75.2 | LOW VIBE MATCH | — · — |
-| 17 | Enemy Mine | — | 95.3 | 91.6 | 83.8 | Sanctuary · 85.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0089092/) · [Wikipedia](https://en.wikipedia.org/wiki/Enemy_Mine_(film)) |
-| 18 | Nimona | `Animation` | 94.7 | 91.3 | 80.6 | Legacies · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt19500164/) · [Wikipedia](https://en.wikipedia.org/wiki/Nimona_(film)) |
-| 19 | Doom Patrol | — | 94.0 | 85.7 | 66.3 | Legacies · 75.3 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt8416494/) · [Wikipedia](https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)) |
-| 20 | Mob Psycho 100 | `Anime` `Animation` | 94.0 | 91.8 | 84.9 | Charmed (2018) · 91.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5897304/) · [Wikipedia](https://en.wikipedia.org/wiki/Mob_Psycho_100) |
-| 21 | She-Ra and the Princesses of Power | `Animation` | 93.7 | 91.2 | 84.2 | Charmed (2018) · 90.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt7745956/) · [Wikipedia](https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power) |
-| 22 | Warehouse 13 | — | 93.5 | 90.7 | 84.4 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1132290/) · [Wikipedia](https://en.wikipedia.org/wiki/Warehouse_13) |
-| 23 | Batteries Not Included | — | 93.3 | 90.9 | 86.1 | Joan of Arcadia · 86.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092494/) · [Wikipedia](https://en.wikipedia.org/wiki/Batteries_Not_Included) |
-| 24 | Real Humans | — | 93.3 | 88.4 | 74.8 | Defiance · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt2180271/) · [Wikipedia](https://en.wikipedia.org/wiki/Real_Humans) |
-| 25 | Everything Everywhere All at Once | — | 92.7 | 89.1 | 77.3 | Legacies · 89.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6710474/) · [Wikipedia](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) |
-| 26 | Ranking of Kings | `Anime` `Animation` | 92.7 | 90.7 | 84.4 | Charmed (2018) · 90.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt13409432/) · [Wikipedia](https://en.wikipedia.org/wiki/Ranking_of_Kings) |
-| 27 | The Uncanny Counter | `Korean` | 92.2 | 89.4 | 79.9 | Legacies · 89.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt13273826/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Uncanny_Counter) |
-| 28 | Wonderfalls | — | 92.2 | 91.5 | 82.7 | Wonderfalls · 100.0 | VERIFIED ANCHOR | — · [Wikipedia](https://en.wikipedia.org/wiki/Wonderfalls) |
-| 29 | Fringe | — | 92.1 | 88.9 | 78.2 | Sanctuary · 89.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1119644/) · [Wikipedia](https://en.wikipedia.org/wiki/Fringe_(TV_series)) |
-| 30 | Station Eleven | — | 92.0 | 87.2 | 77.7 | Joan of Arcadia · 79.2 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt10574236/) · [Wikipedia](https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)) |
-| 31 | Mystic Pop-up Bar | `Korean` | 91.4 | 88.9 | 84.4 | Joan of Arcadia · 84.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12246190/) · [Wikipedia](https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar) |
-| 32 | The Sarah Jane Adventures | — | 91.2 | 88.8 | 82.8 | The Good Place · 86.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0862620/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sarah_Jane_Adventures) |
-| 33 | The Second Best Hospital in the Galaxy | `Animation` | 91.1 | 89.4 | 82.7 | Legacies · 90.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11828386/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Best_Hospital_in_the_Galaxy) |
-| 34 | Almost Human | — | 90.7 | 88.9 | 79.9 | Sanctuary · 93.0 | BROAD VIBE MATCH | — · — |
-| 35 | Sweet Tooth | — | 90.7 | 88.7 | 83.2 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12809988/) · [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Tooth_(TV_series)) |
-| 36 | Haibane Renmei | `Anime` `Animation` | 90.6 | 85.8 | 71.7 | Mushishi · 83.7 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0380113/) · [Wikipedia](https://en.wikipedia.org/wiki/Haibane_Renmei) |
-| 37 | Being Human (UK) | — | 90.4 | 84.1 | 64.8 | Defiance · 82.4 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt1349938/) · [Wikipedia](https://en.wikipedia.org/wiki/Being_Human_(British_TV_series)) |
-| 38 | God Friended Me | — | 90.4 | 87.7 | 81.9 | Joan of Arcadia · 83.7 | MODERATE / SELECTIVE MATCH | — · — |
-| 39 | Leverage / Leverage: Redemption | — | 90.0 | 87.2 | 81.0 | Charmed (2018) · 83.1 | BROAD VIBE MATCH | — · — |
-| 40 | Mushishi | `Anime` `Animation` | 90.0 | 88.3 | 73.9 | Mushishi · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0807832/) · [Wikipedia](https://en.wikipedia.org/wiki/Mushishi) |
-| 41 | Alien Nation | — | 89.9 | 89.1 | 87.4 | Sanctuary · 88.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0096531/) · [Wikipedia](https://en.wikipedia.org/wiki/Alien_Nation_(TV_series)) |
-| 42 | Early Edition | — | 89.9 | 88.9 | 88.6 | Joan of Arcadia · 84.9 | BROAD VIBE MATCH | — · — |
-| 43 | DC's Legends of Tomorrow | — | 89.6 | 87.3 | 79.2 | Legacies · 88.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4532368/) · [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Tomorrow) |
-| 44 | Quantum Leap (1989) | — | 89.5 | 90.0 | 93.3 | Charmed (2018) · 87.8 | BROAD VIBE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)) |
-| 45 | Dark Matter (2015) | — | 89.4 | 87.2 | 77.3 | Sanctuary · 90.7 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4159076/) · [Wikipedia](https://en.wikipedia.org/wiki/Dark_Matter_(2015_TV_series)) |
-| 46 | Joan of Arcadia | — | 89.3 | 90.8 | 88.7 | Joan of Arcadia · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0367345/) · [Wikipedia](https://en.wikipedia.org/wiki/Joan_of_Arcadia) |
-| 47 | Lost Girl | — | 88.3 | 84.9 | 74.4 | Legacies · 84.3 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1429449/) · [Wikipedia](https://en.wikipedia.org/wiki/Lost_Girl) |
-| 48 | Farscape | — | 88.0 | 84.0 | 71.5 | Legacies · 83.4 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0187636/) · [Wikipedia](https://en.wikipedia.org/wiki/Farscape) |
-| 49 | The Good Place | — | 87.9 | 88.4 | 81.5 | The Good Place · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt4955642/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Place) |
-| 50 | Sense8 | — | 87.6 | 85.4 | 79.4 | Charmed (2018) · 83.9 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt2431438/) · [Wikipedia](https://en.wikipedia.org/wiki/Sense8) |
-| 51 | Avatar: The Last Airbender | — | 87.5 | 87.1 | 86.4 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0417299/) · [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) |
-| 52 | Nausicaä of the Valley of the Wind | `Anime` `Animation` | 87.4 | 88.4 | 83.1 | Nausicaä of the Valley of the Wind · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0087544/) · [Wikipedia](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)) |
-| 53 | Good Witch | — | 86.9 | 85.2 | 68.7 | Good Witch · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt3906732/) · [Wikipedia](https://en.wikipedia.org/wiki/Good_Witch_(TV_series)) |
-| 54 | Maniac | — | 86.9 | 83.0 | 75.0 | Joan of Arcadia · 76.5 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt5580146/) · [Wikipedia](https://en.wikipedia.org/wiki/Maniac_(miniseries)) |
-| 55 | Killjoys | — | 86.5 | 83.7 | 73.3 | Defiance · 85.6 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt3952222/) · [Wikipedia](https://en.wikipedia.org/wiki/Killjoys) |
-| 56 | Defiance | — | 86.1 | 85.1 | 70.8 | Defiance · 100.0 | VERIFIED ANCHOR | — · — |
-| 57 | The Equalizer (2021) | — | 85.9 | 80.9 | 65.7 | Defiance · 79.3 | TONAL OUTLIER | — · — |
-| 58 | Resident Alien | — | 85.5 | 85.8 | 83.9 | Legacies · 89.8 | BROAD VIBE MATCH | — · — |
-| 59 | Moribito: Guardian of the Spirit | `Anime` `Animation` | 85.3 | 85.2 | 83.2 | Nausicaä of the Valley of the Wind · 87.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1029248/) · [Wikipedia](https://en.wikipedia.org/wiki/Moribito:_Guardian_of_the_Spirit) |
-| 60 | The Pretender | — | 84.8 | 82.8 | 75.4 | Defiance · 84.1 | MODERATE / SELECTIVE MATCH | — · — |
-| 61 | The Orville | — | 84.6 | 85.4 | 85.3 | Charmed (2018) · 89.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5691552/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Orville) |
-| 62 | iZombie | — | 84.3 | 85.4 | 83.8 | Legacies · 92.6 | BROAD VIBE MATCH | — · — |
-| 63 | Charmed (2018) | — | 84.1 | 87.1 | 87.4 | Charmed (2018) · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt6394324/) · [Wikipedia](https://en.wikipedia.org/wiki/Charmed_(2018_TV_series)) |
-| 64 | The Listener | — | 83.5 | 84.6 | 87.6 | Joan of Arcadia · 85.3 | BROAD VIBE MATCH | — · — |
-| 65 | Star Trek: The Next Generation | — | 83.4 | 84.4 | 86.2 | Nausicaä of the Valley of the Wind · 86.4 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092455/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) |
-| 66 | Doctor Who | — | 82.7 | 83.5 | 83.7 | Charmed (2018) · 86.8 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0436992/) · [Wikipedia](https://en.wikipedia.org/wiki/Doctor_Who) |
-| 67 | Once Upon a Time | — | 82.5 | 85.4 | 87.8 | Charmed (2018) · 94.8 | BROAD VIBE MATCH | — · — |
-| 68 | Sanctuary | — | 81.4 | 84.3 | 82.1 | Sanctuary · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0965394/) · [Wikipedia](https://en.wikipedia.org/wiki/Sanctuary_(Canadian_TV_series)) |
-| 69 | Wynonna Earp | — | 80.7 | 79.8 | 73.0 | Legacies · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4878326/) · [Wikipedia](https://en.wikipedia.org/wiki/Wynonna_Earp_(TV_series)) |
-| 70 | Buffy the Vampire Slayer | — | 80.6 | 82.4 | 80.9 | Legacies · 92.3 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt0118276/) · [Wikipedia](https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer) |
-| 71 | Star Trek: Voyager | — | 80.5 | 82.6 | 87.0 | Nausicaä of the Valley of the Wind · 85.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0112178/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Voyager) |
-| 72 | Legacies | — | 79.6 | 83.8 | 85.5 | Legacies · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt8103070/) · [Wikipedia](https://en.wikipedia.org/wiki/Legacies_(TV_series)) |
-| 73 | The Sandman | — | 79.2 | 77.3 | 72.7 | Sanctuary · 75.5 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1751634/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sandman_(TV_series)) |
-| 74 | The Eccentric Family | `Anime` `Animation` | 78.2 | 80.0 | 82.7 | Joan of Arcadia · 84.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt2909936/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Eccentric_Family) |
-| 75 | Extraordinary | — | 71.5 | 73.9 | 77.1 | Wonderfalls · 79.8 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt14531842/) · [Wikipedia](https://en.wikipedia.org/wiki/Extraordinary_(TV_series)) |
+| Rank | Work | Flags | Concept | Occurrences | A / B / C | Breadth | Breadth strength | Vibe-adjusted | Common-center vibe | Nearest verified vibe | Vibe class | References |
+|---:|---|---|---:|---:|---|---:|---:|---:|---:|---|---|---|
+| 1 | Steven Universe | `Animation` | 98.7 | — | — | — | — | 93.6 | 82.1 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt3061046/) · [Wikipedia](https://en.wikipedia.org/wiki/Steven_Universe) |
+| 2 | Space Sweepers | `Korean` | 98.0 | — | — | — | — | 92.9 | 78.6 | Legacies · 89.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12838766/) · [Wikipedia](https://en.wikipedia.org/wiki/Space_Sweepers) |
+| 3 | The Wild Robot | `Animation` | 98.0 | — | — | — | — | 91.9 | 81.0 | The Good Place · 80.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt29623480/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Wild_Robot) |
+| 4 | Kipo and the Age of Wonderbeasts | `Animation` | 97.5 | — | — | — | — | 91.8 | 77.3 | The Good Place · 86.5 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt10482560/) · [Wikipedia](https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts) |
+| 5 | Call the Midwife | — | 97.0 | — | — | — | — | 89.7 | 74.3 | Joan of Arcadia · 78.9 | MODERATE / SELECTIVE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Call_the_Midwife) |
+| 6 | The Owl House | `Animation` | 96.9 | — | — | — | — | 91.9 | 80.4 | The Good Place · 85.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt8050756/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Owl_House) |
+| 7 | Fruits Basket (2019) | `Anime` `Animation` | 96.6 | — | — | — | — | 92.4 | 83.4 | Joan of Arcadia · 85.9 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt9304350/) · [Wikipedia](https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)) |
+| 8 | Hilda | `Animation` | 96.6 | — | — | — | — | 92.5 | 80.3 | The Good Place · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6385540/) · [Wikipedia](https://en.wikipedia.org/wiki/Hilda_(TV_series)) |
+| 9 | Humans | — | 96.6 | — | — | — | — | 92.0 | 81.1 | Sanctuary · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4122068/) · [Wikipedia](https://en.wikipedia.org/wiki/Humans_(TV_series)) |
+| 10 | Lilo & Stitch (2002) | `Animation` | 96.6 | — | — | — | — | 92.4 | 84.6 | The Good Place · 84.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0275847/) · [Wikipedia](https://en.wikipedia.org/wiki/Lilo_%26_Stitch) |
+| 11 | Somali and the Forest Spirit | `Anime` `Animation` | 96.6 | — | — | — | — | 92.6 | 85.6 | Nausicaä of the Valley of the Wind · 84.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11428586/) · [Wikipedia](https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit) |
+| 12 | 4400 (2021) | — | 96.5 | — | — | — | — | 91.9 | 79.6 | Sanctuary · 88.5 | STRONG NEIGHBORHOOD MATCH | — · — |
+| 13 | In the Flesh | — | 96.0 | — | — | — | — | 87.8 | 67.3 | Defiance · 79.8 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt2480514/) · [Wikipedia](https://en.wikipedia.org/wiki/In_the_Flesh_(TV_series)) |
+| 14 | Natsume's Book of Friends | `Anime` `Animation` | 96.0 | — | — | — | — | 90.4 | 78.4 | Joan of Arcadia · 82.0 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1352421/) · [Wikipedia](https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends) |
+| 15 | Pluto | `Anime` `Animation` | 96.0 | — | — | — | — | 87.9 | 70.7 | Defiance · 76.0 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt26737616/) · [Wikipedia](https://en.wikipedia.org/wiki/Pluto_(manga)) |
+| 16 | New Amsterdam | — | 95.8 | — | — | — | — | 88.2 | 73.4 | Joan of Arcadia · 75.2 | LOW VIBE MATCH | — · — |
+| 17 | Enemy Mine | — | 95.3 | — | — | — | — | 91.6 | 83.8 | Sanctuary · 85.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0089092/) · [Wikipedia](https://en.wikipedia.org/wiki/Enemy_Mine_(film)) |
+| 18 | Nimona | `Animation` | 94.7 | — | — | — | — | 91.3 | 80.6 | Legacies · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt19500164/) · [Wikipedia](https://en.wikipedia.org/wiki/Nimona_(film)) |
+| 19 | The Collector (2004) | — | 94.4 | ~176 | 173 / 165 / 110 | 14/15 | 55% | 89.5 | 76.5 | Charmed (2018) · 85.5 | MODERATE / SELECTIVE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 20 | Doom Patrol | — | 94.0 | — | — | — | — | 85.7 | 66.3 | Legacies · 75.3 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt8416494/) · [Wikipedia](https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)) |
+| 21 | Mob Psycho 100 | `Anime` `Animation` | 94.0 | — | — | — | — | 91.8 | 84.9 | Charmed (2018) · 91.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5897304/) · [Wikipedia](https://en.wikipedia.org/wiki/Mob_Psycho_100) |
+| 22 | She-Ra and the Princesses of Power | `Animation` | 93.7 | — | — | — | — | 91.2 | 84.2 | Charmed (2018) · 90.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt7745956/) · [Wikipedia](https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power) |
+| 23 | Warehouse 13 | — | 93.5 | — | — | — | — | 90.7 | 84.4 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1132290/) · [Wikipedia](https://en.wikipedia.org/wiki/Warehouse_13) |
+| 24 | Batteries Not Included | — | 93.3 | — | — | — | — | 90.9 | 86.1 | Joan of Arcadia · 86.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092494/) · [Wikipedia](https://en.wikipedia.org/wiki/Batteries_Not_Included) |
+| 25 | Real Humans | — | 93.3 | — | — | — | — | 88.4 | 74.8 | Defiance · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt2180271/) · [Wikipedia](https://en.wikipedia.org/wiki/Real_Humans) |
+| 26 | Everything Everywhere All at Once | — | 92.7 | — | — | — | — | 89.1 | 77.3 | Legacies · 89.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6710474/) · [Wikipedia](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) |
+| 27 | Ranking of Kings | `Anime` `Animation` | 92.7 | — | — | — | — | 90.7 | 84.4 | Charmed (2018) · 90.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt13409432/) · [Wikipedia](https://en.wikipedia.org/wiki/Ranking_of_Kings) |
+| 28 | The Uncanny Counter | `Korean` | 92.2 | — | — | — | — | 89.4 | 79.9 | Legacies · 89.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt13273826/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Uncanny_Counter) |
+| 29 | Wonderfalls | — | 92.2 | — | — | — | — | 91.5 | 82.7 | Wonderfalls · 100.0 | VERIFIED ANCHOR | — · [Wikipedia](https://en.wikipedia.org/wiki/Wonderfalls) |
+| 30 | Zoey's Extraordinary Playlist | — | 92.2 | ~121 | 102 / 110 / 87 | 13/15 | 50.2% | 92.5 | 91.2 | Joan of Arcadia · 95.5 | BROAD VIBE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 31 | Fringe | — | 92.1 | — | — | — | — | 88.9 | 78.2 | Sanctuary · 89.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1119644/) · [Wikipedia](https://en.wikipedia.org/wiki/Fringe_(TV_series)) |
+| 32 | Station Eleven | — | 92.0 | — | — | — | — | 87.2 | 77.7 | Joan of Arcadia · 79.2 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt10574236/) · [Wikipedia](https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)) |
+| 33 | Twice in a Lifetime (1999) | — | 92.0 | ~206 | 188 / 192 / 158 | 14/15 | 52.5% | 90.1 | 83.5 | Joan of Arcadia · 90.5 | STRONG NEIGHBORHOOD MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 34 | Mystic Pop-up Bar | `Korean` | 91.4 | — | — | — | — | 88.9 | 84.4 | Joan of Arcadia · 84.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12246190/) · [Wikipedia](https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar) |
+| 35 | The Sarah Jane Adventures | — | 91.2 | — | — | — | — | 88.8 | 82.8 | The Good Place · 86.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0862620/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sarah_Jane_Adventures) |
+| 36 | The Second Best Hospital in the Galaxy | `Animation` | 91.1 | — | — | — | — | 89.4 | 82.7 | Legacies · 90.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11828386/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Best_Hospital_in_the_Galaxy) |
+| 37 | Father Brown | — | 91.0 | ~565 | 45 / 472 / 399 | 14/15 | 51.3% | 90.5 | 88.5 | Good Witch · 91.0 | BROAD VIBE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 38 | Almost Human | — | 90.7 | — | — | — | — | 88.9 | 79.9 | Sanctuary · 93.0 | BROAD VIBE MATCH | — · — |
+| 39 | Sweet Tooth | — | 90.7 | — | — | — | — | 88.7 | 83.2 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12809988/) · [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Tooth_(TV_series)) |
+| 40 | Haibane Renmei | `Anime` `Animation` | 90.6 | — | — | — | — | 85.8 | 71.7 | Mushishi · 83.7 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0380113/) · [Wikipedia](https://en.wikipedia.org/wiki/Haibane_Renmei) |
+| 41 | Being Human (UK) | — | 90.4 | — | — | — | — | 84.1 | 64.8 | Defiance · 82.4 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt1349938/) · [Wikipedia](https://en.wikipedia.org/wiki/Being_Human_(British_TV_series)) |
+| 42 | God Friended Me | — | 90.4 | — | — | — | — | 87.7 | 81.9 | Joan of Arcadia · 83.7 | MODERATE / SELECTIVE MATCH | — · — |
+| 43 | Leverage / Leverage: Redemption | — | 90.0 | — | — | — | — | 87.2 | 81.0 | Charmed (2018) · 83.1 | BROAD VIBE MATCH | — · — |
+| 44 | Mushishi | `Anime` `Animation` | 90.0 | — | — | — | — | 88.3 | 73.9 | Mushishi · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0807832/) · [Wikipedia](https://en.wikipedia.org/wiki/Mushishi) |
+| 45 | Alien Nation | — | 89.9 | — | — | — | — | 89.1 | 87.4 | Sanctuary · 88.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0096531/) · [Wikipedia](https://en.wikipedia.org/wiki/Alien_Nation_(TV_series)) |
+| 46 | Early Edition | — | 89.9 | — | — | — | — | 88.9 | 88.6 | Joan of Arcadia · 84.9 | BROAD VIBE MATCH | — · — |
+| 47 | DC's Legends of Tomorrow | — | 89.6 | — | — | — | — | 87.3 | 79.2 | Legacies · 88.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4532368/) · [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Tomorrow) |
+| 48 | Quantum Leap (1989) | — | 89.5 | — | — | — | — | 90.0 | 93.3 | Charmed (2018) · 87.8 | BROAD VIBE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)) |
+| 49 | Dark Matter (2015) | — | 89.4 | — | — | — | — | 87.2 | 77.3 | Sanctuary · 90.7 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4159076/) · [Wikipedia](https://en.wikipedia.org/wiki/Dark_Matter_(2015_TV_series)) |
+| 50 | Joan of Arcadia | — | 89.3 | — | — | — | — | 90.8 | 88.7 | Joan of Arcadia · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0367345/) · [Wikipedia](https://en.wikipedia.org/wiki/Joan_of_Arcadia) |
+| 51 | Journeyman (2007) | — | 89.2 | ~54 | 50 / 44 / 34 | 13/15 | 41.4% | 89.8 | 88.8 | The Listener · 94.0 | BROAD VIBE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 52 | Lost Girl | — | 88.3 | — | — | — | — | 84.9 | 74.4 | Legacies · 84.3 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1429449/) · [Wikipedia](https://en.wikipedia.org/wiki/Lost_Girl) |
+| 53 | Farscape | — | 88.0 | — | — | — | — | 84.0 | 71.5 | Legacies · 83.4 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0187636/) · [Wikipedia](https://en.wikipedia.org/wiki/Farscape) |
+| 54 | The Good Place | — | 87.9 | — | — | — | — | 88.4 | 81.5 | The Good Place · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt4955642/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Place) |
+| 55 | Sense8 | — | 87.6 | — | — | — | — | 85.4 | 79.4 | Charmed (2018) · 83.9 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt2431438/) · [Wikipedia](https://en.wikipedia.org/wiki/Sense8) |
+| 56 | Avatar: The Last Airbender | — | 87.5 | — | — | — | — | 87.1 | 86.4 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0417299/) · [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) |
+| 57 | Nausicaä of the Valley of the Wind | `Anime` `Animation` | 87.4 | — | — | — | — | 88.4 | 83.1 | Nausicaä of the Valley of the Wind · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0087544/) · [Wikipedia](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)) |
+| 58 | Good Witch | — | 86.9 | — | — | — | — | 85.2 | 68.7 | Good Witch · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt3906732/) · [Wikipedia](https://en.wikipedia.org/wiki/Good_Witch_(TV_series)) |
+| 59 | Maniac | — | 86.9 | — | — | — | — | 83.0 | 75.0 | Joan of Arcadia · 76.5 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt5580146/) · [Wikipedia](https://en.wikipedia.org/wiki/Maniac_(miniseries)) |
+| 60 | Killjoys | — | 86.5 | — | — | — | — | 83.7 | 73.3 | Defiance · 85.6 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt3952222/) · [Wikipedia](https://en.wikipedia.org/wiki/Killjoys) |
+| 61 | Defiance | — | 86.1 | — | — | — | — | 85.1 | 70.8 | Defiance · 100.0 | VERIFIED ANCHOR | — · — |
+| 62 | The Equalizer (2021) | — | 85.9 | — | — | — | — | 80.9 | 65.7 | Defiance · 79.3 | TONAL OUTLIER | — · — |
+| 63 | Resident Alien | — | 85.5 | — | — | — | — | 85.8 | 83.9 | Legacies · 89.8 | BROAD VIBE MATCH | — · — |
+| 64 | Moribito: Guardian of the Spirit | `Anime` `Animation` | 85.3 | — | — | — | — | 85.2 | 83.2 | Nausicaä of the Valley of the Wind · 87.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1029248/) · [Wikipedia](https://en.wikipedia.org/wiki/Moribito:_Guardian_of_the_Spirit) |
+| 65 | The Pretender | — | 84.8 | — | — | — | — | 82.8 | 75.4 | Defiance · 84.1 | MODERATE / SELECTIVE MATCH | — · — |
+| 66 | The Orville | — | 84.6 | — | — | — | — | 85.4 | 85.3 | Charmed (2018) · 89.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5691552/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Orville) |
+| 67 | iZombie | — | 84.3 | — | — | — | — | 85.4 | 83.8 | Legacies · 92.6 | BROAD VIBE MATCH | — · — |
+| 68 | Charmed (2018) | — | 84.1 | — | — | — | — | 87.1 | 87.4 | Charmed (2018) · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt6394324/) · [Wikipedia](https://en.wikipedia.org/wiki/Charmed_(2018_TV_series)) |
+| 69 | The Listener | — | 83.5 | ~278 | 250 / 230 / 175 | 14/15 | 42.5% | 86.8 | 87.6 | The Listener · 100.0 | VERIFIED ANCHOR | [Wikipedia](https://en.wikipedia.org/wiki/The_Listener_(TV_series)) · [Scripts](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=the-listener) |
+| 70 | Star Trek: The Next Generation | — | 83.4 | — | — | — | — | 84.4 | 86.2 | Nausicaä of the Valley of the Wind · 86.4 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092455/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) |
+| 71 | Doctor Who | — | 82.7 | — | — | — | — | 83.5 | 83.7 | Charmed (2018) · 86.8 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0436992/) · [Wikipedia](https://en.wikipedia.org/wiki/Doctor_Who) |
+| 72 | Once Upon a Time | — | 82.5 | — | — | — | — | 85.4 | 87.8 | Charmed (2018) · 94.8 | BROAD VIBE MATCH | — · — |
+| 73 | Sanctuary | — | 81.4 | — | — | — | — | 84.3 | 82.1 | Sanctuary · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0965394/) · [Wikipedia](https://en.wikipedia.org/wiki/Sanctuary_(Canadian_TV_series)) |
+| 74 | Wynonna Earp | — | 80.7 | — | — | — | — | 79.8 | 73.0 | Legacies · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4878326/) · [Wikipedia](https://en.wikipedia.org/wiki/Wynonna_Earp_(TV_series)) |
+| 75 | Buffy the Vampire Slayer | — | 80.6 | — | — | — | — | 82.4 | 80.9 | Legacies · 92.3 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt0118276/) · [Wikipedia](https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer) |
+| 76 | Star Trek: Voyager | — | 80.5 | — | — | — | — | 82.6 | 87.0 | Nausicaä of the Valley of the Wind · 85.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0112178/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Voyager) |
+| 77 | Legacies | — | 79.6 | — | — | — | — | 83.8 | 85.5 | Legacies · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt8103070/) · [Wikipedia](https://en.wikipedia.org/wiki/Legacies_(TV_series)) |
+| 78 | The Sandman | — | 79.2 | — | — | — | — | 77.3 | 72.7 | Sanctuary · 75.5 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1751634/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sandman_(TV_series)) |
+| 79 | The Eccentric Family | `Anime` `Animation` | 78.2 | — | — | — | — | 80.0 | 82.7 | Joan of Arcadia · 84.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt2909936/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Eccentric_Family) |
+| 80 | Extraordinary | — | 71.5 | — | — | — | — | 73.9 | 77.1 | Wonderfalls · 79.8 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt14531842/) · [Wikipedia](https://en.wikipedia.org/wiki/Extraordinary_(TV_series)) |
 
 <a id="vibe-matches"></a>
 ## Best Matches — Vibe Adjusted
 
 Vibe-adjusted score keeps the compassion score intact but reorders titles using the verified vibe model.
 
-| Rank | Work | Flags | Vibe-adjusted | Concept | Common-center vibe | Nearest verified vibe | Vibe class | References |
-|---:|---|---|---:|---:|---:|---|---|---|
-| 1 | Steven Universe | `Animation` | 93.6 | 98.7 | 82.1 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt3061046/) · [Wikipedia](https://en.wikipedia.org/wiki/Steven_Universe) |
-| 2 | Space Sweepers | `Korean` | 92.9 | 98.0 | 78.6 | Legacies · 89.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12838766/) · [Wikipedia](https://en.wikipedia.org/wiki/Space_Sweepers) |
-| 3 | Somali and the Forest Spirit | `Anime` `Animation` | 92.6 | 96.6 | 85.6 | Nausicaä of the Valley of the Wind · 84.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11428586/) · [Wikipedia](https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit) |
-| 4 | Hilda | `Animation` | 92.5 | 96.6 | 80.3 | The Good Place · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6385540/) · [Wikipedia](https://en.wikipedia.org/wiki/Hilda_(TV_series)) |
-| 5 | Fruits Basket (2019) | `Anime` `Animation` | 92.4 | 96.6 | 83.4 | Joan of Arcadia · 85.9 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt9304350/) · [Wikipedia](https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)) |
-| 6 | Lilo & Stitch (2002) | `Animation` | 92.4 | 96.6 | 84.6 | The Good Place · 84.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0275847/) · [Wikipedia](https://en.wikipedia.org/wiki/Lilo_%26_Stitch) |
-| 7 | Humans | — | 92.0 | 96.6 | 81.1 | Sanctuary · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4122068/) · [Wikipedia](https://en.wikipedia.org/wiki/Humans_(TV_series)) |
-| 8 | 4400 (2021) | — | 91.9 | 96.5 | 79.6 | Sanctuary · 88.5 | STRONG NEIGHBORHOOD MATCH | — · — |
-| 9 | The Owl House | `Animation` | 91.9 | 96.9 | 80.4 | The Good Place · 85.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt8050756/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Owl_House) |
-| 10 | The Wild Robot | `Animation` | 91.9 | 98.0 | 81.0 | The Good Place · 80.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt29623480/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Wild_Robot) |
-| 11 | Kipo and the Age of Wonderbeasts | `Animation` | 91.8 | 97.5 | 77.3 | The Good Place · 86.5 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt10482560/) · [Wikipedia](https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts) |
-| 12 | Mob Psycho 100 | `Anime` `Animation` | 91.8 | 94.0 | 84.9 | Charmed (2018) · 91.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5897304/) · [Wikipedia](https://en.wikipedia.org/wiki/Mob_Psycho_100) |
-| 13 | Enemy Mine | — | 91.6 | 95.3 | 83.8 | Sanctuary · 85.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0089092/) · [Wikipedia](https://en.wikipedia.org/wiki/Enemy_Mine_(film)) |
-| 14 | Wonderfalls | — | 91.5 | 92.2 | 82.7 | Wonderfalls · 100.0 | VERIFIED ANCHOR | — · [Wikipedia](https://en.wikipedia.org/wiki/Wonderfalls) |
-| 15 | Nimona | `Animation` | 91.3 | 94.7 | 80.6 | Legacies · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt19500164/) · [Wikipedia](https://en.wikipedia.org/wiki/Nimona_(film)) |
-| 16 | She-Ra and the Princesses of Power | `Animation` | 91.2 | 93.7 | 84.2 | Charmed (2018) · 90.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt7745956/) · [Wikipedia](https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power) |
-| 17 | Batteries Not Included | — | 90.9 | 93.3 | 86.1 | Joan of Arcadia · 86.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092494/) · [Wikipedia](https://en.wikipedia.org/wiki/Batteries_Not_Included) |
-| 18 | Joan of Arcadia | — | 90.8 | 89.3 | 88.7 | Joan of Arcadia · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0367345/) · [Wikipedia](https://en.wikipedia.org/wiki/Joan_of_Arcadia) |
-| 19 | Ranking of Kings | `Anime` `Animation` | 90.7 | 92.7 | 84.4 | Charmed (2018) · 90.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt13409432/) · [Wikipedia](https://en.wikipedia.org/wiki/Ranking_of_Kings) |
-| 20 | Warehouse 13 | — | 90.7 | 93.5 | 84.4 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1132290/) · [Wikipedia](https://en.wikipedia.org/wiki/Warehouse_13) |
-| 21 | Natsume's Book of Friends | `Anime` `Animation` | 90.4 | 96.0 | 78.4 | Joan of Arcadia · 82.0 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1352421/) · [Wikipedia](https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends) |
-| 22 | Quantum Leap (1989) | — | 90.0 | 89.5 | 93.3 | Charmed (2018) · 87.8 | BROAD VIBE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)) |
-| 23 | Call the Midwife | — | 89.7 | 97.0 | 74.3 | Joan of Arcadia · 78.9 | MODERATE / SELECTIVE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Call_the_Midwife) |
-| 24 | The Second Best Hospital in the Galaxy | `Animation` | 89.4 | 91.1 | 82.7 | Legacies · 90.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11828386/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Best_Hospital_in_the_Galaxy) |
-| 25 | The Uncanny Counter | `Korean` | 89.4 | 92.2 | 79.9 | Legacies · 89.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt13273826/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Uncanny_Counter) |
-| 26 | Alien Nation | — | 89.1 | 89.9 | 87.4 | Sanctuary · 88.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0096531/) · [Wikipedia](https://en.wikipedia.org/wiki/Alien_Nation_(TV_series)) |
-| 27 | Everything Everywhere All at Once | — | 89.1 | 92.7 | 77.3 | Legacies · 89.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6710474/) · [Wikipedia](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) |
-| 28 | Almost Human | — | 88.9 | 90.7 | 79.9 | Sanctuary · 93.0 | BROAD VIBE MATCH | — · — |
-| 29 | Early Edition | — | 88.9 | 89.9 | 88.6 | Joan of Arcadia · 84.9 | BROAD VIBE MATCH | — · — |
-| 30 | Fringe | — | 88.9 | 92.1 | 78.2 | Sanctuary · 89.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1119644/) · [Wikipedia](https://en.wikipedia.org/wiki/Fringe_(TV_series)) |
-| 31 | Mystic Pop-up Bar | `Korean` | 88.9 | 91.4 | 84.4 | Joan of Arcadia · 84.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12246190/) · [Wikipedia](https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar) |
-| 32 | The Sarah Jane Adventures | — | 88.8 | 91.2 | 82.8 | The Good Place · 86.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0862620/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sarah_Jane_Adventures) |
-| 33 | Sweet Tooth | — | 88.7 | 90.7 | 83.2 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12809988/) · [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Tooth_(TV_series)) |
-| 34 | Nausicaä of the Valley of the Wind | `Anime` `Animation` | 88.4 | 87.4 | 83.1 | Nausicaä of the Valley of the Wind · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0087544/) · [Wikipedia](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)) |
-| 35 | Real Humans | — | 88.4 | 93.3 | 74.8 | Defiance · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt2180271/) · [Wikipedia](https://en.wikipedia.org/wiki/Real_Humans) |
-| 36 | The Good Place | — | 88.4 | 87.9 | 81.5 | The Good Place · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt4955642/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Place) |
-| 37 | Mushishi | `Anime` `Animation` | 88.3 | 90.0 | 73.9 | Mushishi · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0807832/) · [Wikipedia](https://en.wikipedia.org/wiki/Mushishi) |
-| 38 | New Amsterdam | — | 88.2 | 95.8 | 73.4 | Joan of Arcadia · 75.2 | LOW VIBE MATCH | — · — |
-| 39 | Pluto | `Anime` `Animation` | 87.9 | 96.0 | 70.7 | Defiance · 76.0 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt26737616/) · [Wikipedia](https://en.wikipedia.org/wiki/Pluto_(manga)) |
-| 40 | In the Flesh | — | 87.8 | 96.0 | 67.3 | Defiance · 79.8 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt2480514/) · [Wikipedia](https://en.wikipedia.org/wiki/In_the_Flesh_(TV_series)) |
-| 41 | God Friended Me | — | 87.7 | 90.4 | 81.9 | Joan of Arcadia · 83.7 | MODERATE / SELECTIVE MATCH | — · — |
-| 42 | DC's Legends of Tomorrow | — | 87.3 | 89.6 | 79.2 | Legacies · 88.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4532368/) · [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Tomorrow) |
-| 43 | Dark Matter (2015) | — | 87.2 | 89.4 | 77.3 | Sanctuary · 90.7 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4159076/) · [Wikipedia](https://en.wikipedia.org/wiki/Dark_Matter_(2015_TV_series)) |
-| 44 | Leverage / Leverage: Redemption | — | 87.2 | 90.0 | 81.0 | Charmed (2018) · 83.1 | BROAD VIBE MATCH | — · — |
-| 45 | Station Eleven | — | 87.2 | 92.0 | 77.7 | Joan of Arcadia · 79.2 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt10574236/) · [Wikipedia](https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)) |
-| 46 | Avatar: The Last Airbender | — | 87.1 | 87.5 | 86.4 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0417299/) · [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) |
-| 47 | Charmed (2018) | — | 87.1 | 84.1 | 87.4 | Charmed (2018) · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt6394324/) · [Wikipedia](https://en.wikipedia.org/wiki/Charmed_(2018_TV_series)) |
-| 48 | Haibane Renmei | `Anime` `Animation` | 85.8 | 90.6 | 71.7 | Mushishi · 83.7 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0380113/) · [Wikipedia](https://en.wikipedia.org/wiki/Haibane_Renmei) |
-| 49 | Resident Alien | — | 85.8 | 85.5 | 83.9 | Legacies · 89.8 | BROAD VIBE MATCH | — · — |
-| 50 | Doom Patrol | — | 85.7 | 94.0 | 66.3 | Legacies · 75.3 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt8416494/) · [Wikipedia](https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)) |
-| 51 | Once Upon a Time | — | 85.4 | 82.5 | 87.8 | Charmed (2018) · 94.8 | BROAD VIBE MATCH | — · — |
-| 52 | Sense8 | — | 85.4 | 87.6 | 79.4 | Charmed (2018) · 83.9 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt2431438/) · [Wikipedia](https://en.wikipedia.org/wiki/Sense8) |
-| 53 | The Orville | — | 85.4 | 84.6 | 85.3 | Charmed (2018) · 89.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5691552/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Orville) |
-| 54 | iZombie | — | 85.4 | 84.3 | 83.8 | Legacies · 92.6 | BROAD VIBE MATCH | — · — |
-| 55 | Good Witch | — | 85.2 | 86.9 | 68.7 | Good Witch · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt3906732/) · [Wikipedia](https://en.wikipedia.org/wiki/Good_Witch_(TV_series)) |
-| 56 | Moribito: Guardian of the Spirit | `Anime` `Animation` | 85.2 | 85.3 | 83.2 | Nausicaä of the Valley of the Wind · 87.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1029248/) · [Wikipedia](https://en.wikipedia.org/wiki/Moribito:_Guardian_of_the_Spirit) |
-| 57 | Defiance | — | 85.1 | 86.1 | 70.8 | Defiance · 100.0 | VERIFIED ANCHOR | — · — |
-| 58 | Lost Girl | — | 84.9 | 88.3 | 74.4 | Legacies · 84.3 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1429449/) · [Wikipedia](https://en.wikipedia.org/wiki/Lost_Girl) |
-| 59 | The Listener | — | 84.6 | 83.5 | 87.6 | Joan of Arcadia · 85.3 | BROAD VIBE MATCH | — · — |
-| 60 | Star Trek: The Next Generation | — | 84.4 | 83.4 | 86.2 | Nausicaä of the Valley of the Wind · 86.4 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092455/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) |
-| 61 | Sanctuary | — | 84.3 | 81.4 | 82.1 | Sanctuary · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0965394/) · [Wikipedia](https://en.wikipedia.org/wiki/Sanctuary_(Canadian_TV_series)) |
-| 62 | Being Human (UK) | — | 84.1 | 90.4 | 64.8 | Defiance · 82.4 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt1349938/) · [Wikipedia](https://en.wikipedia.org/wiki/Being_Human_(British_TV_series)) |
-| 63 | Farscape | — | 84.0 | 88.0 | 71.5 | Legacies · 83.4 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0187636/) · [Wikipedia](https://en.wikipedia.org/wiki/Farscape) |
-| 64 | Legacies | — | 83.8 | 79.6 | 85.5 | Legacies · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt8103070/) · [Wikipedia](https://en.wikipedia.org/wiki/Legacies_(TV_series)) |
-| 65 | Killjoys | — | 83.7 | 86.5 | 73.3 | Defiance · 85.6 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt3952222/) · [Wikipedia](https://en.wikipedia.org/wiki/Killjoys) |
-| 66 | Doctor Who | — | 83.5 | 82.7 | 83.7 | Charmed (2018) · 86.8 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0436992/) · [Wikipedia](https://en.wikipedia.org/wiki/Doctor_Who) |
-| 67 | Maniac | — | 83.0 | 86.9 | 75.0 | Joan of Arcadia · 76.5 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt5580146/) · [Wikipedia](https://en.wikipedia.org/wiki/Maniac_(miniseries)) |
-| 68 | The Pretender | — | 82.8 | 84.8 | 75.4 | Defiance · 84.1 | MODERATE / SELECTIVE MATCH | — · — |
-| 69 | Star Trek: Voyager | — | 82.6 | 80.5 | 87.0 | Nausicaä of the Valley of the Wind · 85.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0112178/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Voyager) |
-| 70 | Buffy the Vampire Slayer | — | 82.4 | 80.6 | 80.9 | Legacies · 92.3 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt0118276/) · [Wikipedia](https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer) |
-| 71 | The Equalizer (2021) | — | 80.9 | 85.9 | 65.7 | Defiance · 79.3 | TONAL OUTLIER | — · — |
-| 72 | The Eccentric Family | `Anime` `Animation` | 80.0 | 78.2 | 82.7 | Joan of Arcadia · 84.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt2909936/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Eccentric_Family) |
-| 73 | Wynonna Earp | — | 79.8 | 80.7 | 73.0 | Legacies · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4878326/) · [Wikipedia](https://en.wikipedia.org/wiki/Wynonna_Earp_(TV_series)) |
-| 74 | The Sandman | — | 77.3 | 79.2 | 72.7 | Sanctuary · 75.5 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1751634/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sandman_(TV_series)) |
-| 75 | Extraordinary | — | 73.9 | 71.5 | 77.1 | Wonderfalls · 79.8 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt14531842/) · [Wikipedia](https://en.wikipedia.org/wiki/Extraordinary_(TV_series)) |
+| Rank | Work | Flags | Vibe-adjusted | Concept | Occurrences | A / B / C | Breadth | Breadth strength | Common-center vibe | Nearest verified vibe | Vibe class | References |
+|---:|---|---|---:|---:|---:|---|---:|---:|---:|---|---|---|
+| 1 | Steven Universe | `Animation` | 93.6 | 98.7 | — | — | — | — | 82.1 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt3061046/) · [Wikipedia](https://en.wikipedia.org/wiki/Steven_Universe) |
+| 2 | Space Sweepers | `Korean` | 92.9 | 98.0 | — | — | — | — | 78.6 | Legacies · 89.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12838766/) · [Wikipedia](https://en.wikipedia.org/wiki/Space_Sweepers) |
+| 3 | Somali and the Forest Spirit | `Anime` `Animation` | 92.6 | 96.6 | — | — | — | — | 85.6 | Nausicaä of the Valley of the Wind · 84.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11428586/) · [Wikipedia](https://en.wikipedia.org/wiki/Somali_and_the_Forest_Spirit) |
+| 4 | Hilda | `Animation` | 92.5 | 96.6 | — | — | — | — | 80.3 | The Good Place · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6385540/) · [Wikipedia](https://en.wikipedia.org/wiki/Hilda_(TV_series)) |
+| 5 | Zoey's Extraordinary Playlist | — | 92.5 | 92.2 | ~121 | 102 / 110 / 87 | 13/15 | 50.2% | 91.2 | Joan of Arcadia · 95.5 | BROAD VIBE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 6 | Fruits Basket (2019) | `Anime` `Animation` | 92.4 | 96.6 | — | — | — | — | 83.4 | Joan of Arcadia · 85.9 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt9304350/) · [Wikipedia](https://en.wikipedia.org/wiki/Fruits_Basket_(2019_TV_series)) |
+| 7 | Lilo & Stitch (2002) | `Animation` | 92.4 | 96.6 | — | — | — | — | 84.6 | The Good Place · 84.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0275847/) · [Wikipedia](https://en.wikipedia.org/wiki/Lilo_%26_Stitch) |
+| 8 | Humans | — | 92.0 | 96.6 | — | — | — | — | 81.1 | Sanctuary · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4122068/) · [Wikipedia](https://en.wikipedia.org/wiki/Humans_(TV_series)) |
+| 9 | 4400 (2021) | — | 91.9 | 96.5 | — | — | — | — | 79.6 | Sanctuary · 88.5 | STRONG NEIGHBORHOOD MATCH | — · — |
+| 10 | The Owl House | `Animation` | 91.9 | 96.9 | — | — | — | — | 80.4 | The Good Place · 85.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt8050756/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Owl_House) |
+| 11 | The Wild Robot | `Animation` | 91.9 | 98.0 | — | — | — | — | 81.0 | The Good Place · 80.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt29623480/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Wild_Robot) |
+| 12 | Kipo and the Age of Wonderbeasts | `Animation` | 91.8 | 97.5 | — | — | — | — | 77.3 | The Good Place · 86.5 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt10482560/) · [Wikipedia](https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts) |
+| 13 | Mob Psycho 100 | `Anime` `Animation` | 91.8 | 94.0 | — | — | — | — | 84.9 | Charmed (2018) · 91.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5897304/) · [Wikipedia](https://en.wikipedia.org/wiki/Mob_Psycho_100) |
+| 14 | Enemy Mine | — | 91.6 | 95.3 | — | — | — | — | 83.8 | Sanctuary · 85.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0089092/) · [Wikipedia](https://en.wikipedia.org/wiki/Enemy_Mine_(film)) |
+| 15 | Wonderfalls | — | 91.5 | 92.2 | — | — | — | — | 82.7 | Wonderfalls · 100.0 | VERIFIED ANCHOR | — · [Wikipedia](https://en.wikipedia.org/wiki/Wonderfalls) |
+| 16 | Nimona | `Animation` | 91.3 | 94.7 | — | — | — | — | 80.6 | Legacies · 90.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt19500164/) · [Wikipedia](https://en.wikipedia.org/wiki/Nimona_(film)) |
+| 17 | She-Ra and the Princesses of Power | `Animation` | 91.2 | 93.7 | — | — | — | — | 84.2 | Charmed (2018) · 90.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt7745956/) · [Wikipedia](https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power) |
+| 18 | Batteries Not Included | — | 90.9 | 93.3 | — | — | — | — | 86.1 | Joan of Arcadia · 86.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092494/) · [Wikipedia](https://en.wikipedia.org/wiki/Batteries_Not_Included) |
+| 19 | Joan of Arcadia | — | 90.8 | 89.3 | — | — | — | — | 88.7 | Joan of Arcadia · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0367345/) · [Wikipedia](https://en.wikipedia.org/wiki/Joan_of_Arcadia) |
+| 20 | Ranking of Kings | `Anime` `Animation` | 90.7 | 92.7 | — | — | — | — | 84.4 | Charmed (2018) · 90.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt13409432/) · [Wikipedia](https://en.wikipedia.org/wiki/Ranking_of_Kings) |
+| 21 | Warehouse 13 | — | 90.7 | 93.5 | — | — | — | — | 84.4 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1132290/) · [Wikipedia](https://en.wikipedia.org/wiki/Warehouse_13) |
+| 22 | Father Brown | — | 90.5 | 91.0 | ~565 | 45 / 472 / 399 | 14/15 | 51.3% | 88.5 | Good Witch · 91.0 | BROAD VIBE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 23 | Natsume's Book of Friends | `Anime` `Animation` | 90.4 | 96.0 | — | — | — | — | 78.4 | Joan of Arcadia · 82.0 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1352421/) · [Wikipedia](https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends) |
+| 24 | Twice in a Lifetime (1999) | — | 90.1 | 92.0 | ~206 | 188 / 192 / 158 | 14/15 | 52.5% | 83.5 | Joan of Arcadia · 90.5 | STRONG NEIGHBORHOOD MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 25 | Quantum Leap (1989) | — | 90.0 | 89.5 | — | — | — | — | 93.3 | Charmed (2018) · 87.8 | BROAD VIBE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Quantum_Leap_(1989_TV_series)) |
+| 26 | Journeyman (2007) | — | 89.8 | 89.2 | ~54 | 50 / 44 / 34 | 13/15 | 41.4% | 88.8 | The Listener · 94.0 | BROAD VIBE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 27 | Call the Midwife | — | 89.7 | 97.0 | — | — | — | — | 74.3 | Joan of Arcadia · 78.9 | MODERATE / SELECTIVE MATCH | — · [Wikipedia](https://en.wikipedia.org/wiki/Call_the_Midwife) |
+| 28 | The Collector (2004) | — | 89.5 | 94.4 | ~176 | 173 / 165 / 110 | 14/15 | 55% | 76.5 | Charmed (2018) · 85.5 | MODERATE / SELECTIVE MATCH | [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md) |
+| 29 | The Second Best Hospital in the Galaxy | `Animation` | 89.4 | 91.1 | — | — | — | — | 82.7 | Legacies · 90.9 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt11828386/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Second_Best_Hospital_in_the_Galaxy) |
+| 30 | The Uncanny Counter | `Korean` | 89.4 | 92.2 | — | — | — | — | 79.9 | Legacies · 89.8 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt13273826/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Uncanny_Counter) |
+| 31 | Alien Nation | — | 89.1 | 89.9 | — | — | — | — | 87.4 | Sanctuary · 88.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0096531/) · [Wikipedia](https://en.wikipedia.org/wiki/Alien_Nation_(TV_series)) |
+| 32 | Everything Everywhere All at Once | — | 89.1 | 92.7 | — | — | — | — | 77.3 | Legacies · 89.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt6710474/) · [Wikipedia](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) |
+| 33 | Almost Human | — | 88.9 | 90.7 | — | — | — | — | 79.9 | Sanctuary · 93.0 | BROAD VIBE MATCH | — · — |
+| 34 | Early Edition | — | 88.9 | 89.9 | — | — | — | — | 88.6 | Joan of Arcadia · 84.9 | BROAD VIBE MATCH | — · — |
+| 35 | Fringe | — | 88.9 | 92.1 | — | — | — | — | 78.2 | Sanctuary · 89.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1119644/) · [Wikipedia](https://en.wikipedia.org/wiki/Fringe_(TV_series)) |
+| 36 | Mystic Pop-up Bar | `Korean` | 88.9 | 91.4 | — | — | — | — | 84.4 | Joan of Arcadia · 84.0 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12246190/) · [Wikipedia](https://en.wikipedia.org/wiki/Mystic_Pop-up_Bar) |
+| 37 | The Sarah Jane Adventures | — | 88.8 | 91.2 | — | — | — | — | 82.8 | The Good Place · 86.2 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0862620/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sarah_Jane_Adventures) |
+| 38 | Sweet Tooth | — | 88.7 | 90.7 | — | — | — | — | 83.2 | Charmed (2018) · 87.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt12809988/) · [Wikipedia](https://en.wikipedia.org/wiki/Sweet_Tooth_(TV_series)) |
+| 39 | Nausicaä of the Valley of the Wind | `Anime` `Animation` | 88.4 | 87.4 | — | — | — | — | 83.1 | Nausicaä of the Valley of the Wind · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0087544/) · [Wikipedia](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)) |
+| 40 | Real Humans | — | 88.4 | 93.3 | — | — | — | — | 74.8 | Defiance · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt2180271/) · [Wikipedia](https://en.wikipedia.org/wiki/Real_Humans) |
+| 41 | The Good Place | — | 88.4 | 87.9 | — | — | — | — | 81.5 | The Good Place · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt4955642/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Good_Place) |
+| 42 | Mushishi | `Anime` `Animation` | 88.3 | 90.0 | — | — | — | — | 73.9 | Mushishi · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0807832/) · [Wikipedia](https://en.wikipedia.org/wiki/Mushishi) |
+| 43 | New Amsterdam | — | 88.2 | 95.8 | — | — | — | — | 73.4 | Joan of Arcadia · 75.2 | LOW VIBE MATCH | — · — |
+| 44 | Pluto | `Anime` `Animation` | 87.9 | 96.0 | — | — | — | — | 70.7 | Defiance · 76.0 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt26737616/) · [Wikipedia](https://en.wikipedia.org/wiki/Pluto_(manga)) |
+| 45 | In the Flesh | — | 87.8 | 96.0 | — | — | — | — | 67.3 | Defiance · 79.8 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt2480514/) · [Wikipedia](https://en.wikipedia.org/wiki/In_the_Flesh_(TV_series)) |
+| 46 | God Friended Me | — | 87.7 | 90.4 | — | — | — | — | 81.9 | Joan of Arcadia · 83.7 | MODERATE / SELECTIVE MATCH | — · — |
+| 47 | DC's Legends of Tomorrow | — | 87.3 | 89.6 | — | — | — | — | 79.2 | Legacies · 88.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt4532368/) · [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Tomorrow) |
+| 48 | Dark Matter (2015) | — | 87.2 | 89.4 | — | — | — | — | 77.3 | Sanctuary · 90.7 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4159076/) · [Wikipedia](https://en.wikipedia.org/wiki/Dark_Matter_(2015_TV_series)) |
+| 49 | Leverage / Leverage: Redemption | — | 87.2 | 90.0 | — | — | — | — | 81.0 | Charmed (2018) · 83.1 | BROAD VIBE MATCH | — · — |
+| 50 | Station Eleven | — | 87.2 | 92.0 | — | — | — | — | 77.7 | Joan of Arcadia · 79.2 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt10574236/) · [Wikipedia](https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)) |
+| 51 | Avatar: The Last Airbender | — | 87.1 | 87.5 | — | — | — | — | 86.4 | Charmed (2018) · 86.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0417299/) · [Wikipedia](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) |
+| 52 | Charmed (2018) | — | 87.1 | 84.1 | — | — | — | — | 87.4 | Charmed (2018) · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt6394324/) · [Wikipedia](https://en.wikipedia.org/wiki/Charmed_(2018_TV_series)) |
+| 53 | The Listener | — | 86.8 | 83.5 | ~278 | 250 / 230 / 175 | 14/15 | 42.5% | 87.6 | The Listener · 100.0 | VERIFIED ANCHOR | [Wikipedia](https://en.wikipedia.org/wiki/The_Listener_(TV_series)) · [Scripts](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=the-listener) |
+| 54 | Haibane Renmei | `Anime` `Animation` | 85.8 | 90.6 | — | — | — | — | 71.7 | Mushishi · 83.7 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0380113/) · [Wikipedia](https://en.wikipedia.org/wiki/Haibane_Renmei) |
+| 55 | Resident Alien | — | 85.8 | 85.5 | — | — | — | — | 83.9 | Legacies · 89.8 | BROAD VIBE MATCH | — · — |
+| 56 | Doom Patrol | — | 85.7 | 94.0 | — | — | — | — | 66.3 | Legacies · 75.3 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt8416494/) · [Wikipedia](https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)) |
+| 57 | iZombie | — | 85.4 | 84.3 | — | — | — | — | 83.8 | Legacies · 92.6 | BROAD VIBE MATCH | — · — |
+| 58 | Once Upon a Time | — | 85.4 | 82.5 | — | — | — | — | 87.8 | Charmed (2018) · 94.8 | BROAD VIBE MATCH | — · — |
+| 59 | Sense8 | — | 85.4 | 87.6 | — | — | — | — | 79.4 | Charmed (2018) · 83.9 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt2431438/) · [Wikipedia](https://en.wikipedia.org/wiki/Sense8) |
+| 60 | The Orville | — | 85.4 | 84.6 | — | — | — | — | 85.3 | Charmed (2018) · 89.3 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt5691552/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Orville) |
+| 61 | Good Witch | — | 85.2 | 86.9 | — | — | — | — | 68.7 | Good Witch · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt3906732/) · [Wikipedia](https://en.wikipedia.org/wiki/Good_Witch_(TV_series)) |
+| 62 | Moribito: Guardian of the Spirit | `Anime` `Animation` | 85.2 | 85.3 | — | — | — | — | 83.2 | Nausicaä of the Valley of the Wind · 87.6 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1029248/) · [Wikipedia](https://en.wikipedia.org/wiki/Moribito:_Guardian_of_the_Spirit) |
+| 63 | Defiance | — | 85.1 | 86.1 | — | — | — | — | 70.8 | Defiance · 100.0 | VERIFIED ANCHOR | — · — |
+| 64 | Lost Girl | — | 84.9 | 88.3 | — | — | — | — | 74.4 | Legacies · 84.3 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt1429449/) · [Wikipedia](https://en.wikipedia.org/wiki/Lost_Girl) |
+| 65 | Star Trek: The Next Generation | — | 84.4 | 83.4 | — | — | — | — | 86.2 | Nausicaä of the Valley of the Wind · 86.4 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0092455/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) |
+| 66 | Sanctuary | — | 84.3 | 81.4 | — | — | — | — | 82.1 | Sanctuary · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt0965394/) · [Wikipedia](https://en.wikipedia.org/wiki/Sanctuary_(Canadian_TV_series)) |
+| 67 | Being Human (UK) | — | 84.1 | 90.4 | — | — | — | — | 64.8 | Defiance · 82.4 | TONAL OUTLIER | [IMDb](https://www.imdb.com/title/tt1349938/) · [Wikipedia](https://en.wikipedia.org/wiki/Being_Human_(British_TV_series)) |
+| 68 | Farscape | — | 84.0 | 88.0 | — | — | — | — | 71.5 | Legacies · 83.4 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt0187636/) · [Wikipedia](https://en.wikipedia.org/wiki/Farscape) |
+| 69 | Legacies | — | 83.8 | 79.6 | — | — | — | — | 85.5 | Legacies · 100.0 | VERIFIED ANCHOR | [IMDb](https://www.imdb.com/title/tt8103070/) · [Wikipedia](https://en.wikipedia.org/wiki/Legacies_(TV_series)) |
+| 70 | Killjoys | — | 83.7 | 86.5 | — | — | — | — | 73.3 | Defiance · 85.6 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt3952222/) · [Wikipedia](https://en.wikipedia.org/wiki/Killjoys) |
+| 71 | Doctor Who | — | 83.5 | 82.7 | — | — | — | — | 83.7 | Charmed (2018) · 86.8 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0436992/) · [Wikipedia](https://en.wikipedia.org/wiki/Doctor_Who) |
+| 72 | Maniac | — | 83.0 | 86.9 | — | — | — | — | 75.0 | Joan of Arcadia · 76.5 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt5580146/) · [Wikipedia](https://en.wikipedia.org/wiki/Maniac_(miniseries)) |
+| 73 | The Pretender | — | 82.8 | 84.8 | — | — | — | — | 75.4 | Defiance · 84.1 | MODERATE / SELECTIVE MATCH | — · — |
+| 74 | Star Trek: Voyager | — | 82.6 | 80.5 | — | — | — | — | 87.0 | Nausicaä of the Valley of the Wind · 85.7 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt0112178/) · [Wikipedia](https://en.wikipedia.org/wiki/Star_Trek:_Voyager) |
+| 75 | Buffy the Vampire Slayer | — | 82.4 | 80.6 | — | — | — | — | 80.9 | Legacies · 92.3 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt0118276/) · [Wikipedia](https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer) |
+| 76 | The Equalizer (2021) | — | 80.9 | 85.9 | — | — | — | — | 65.7 | Defiance · 79.3 | TONAL OUTLIER | — · — |
+| 77 | The Eccentric Family | `Anime` `Animation` | 80.0 | 78.2 | — | — | — | — | 82.7 | Joan of Arcadia · 84.1 | BROAD VIBE MATCH | [IMDb](https://www.imdb.com/title/tt2909936/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Eccentric_Family) |
+| 78 | Wynonna Earp | — | 79.8 | 80.7 | — | — | — | — | 73.0 | Legacies · 85.1 | STRONG NEIGHBORHOOD MATCH | [IMDb](https://www.imdb.com/title/tt4878326/) · [Wikipedia](https://en.wikipedia.org/wiki/Wynonna_Earp_(TV_series)) |
+| 79 | The Sandman | — | 77.3 | 79.2 | — | — | — | — | 72.7 | Sanctuary · 75.5 | LOW VIBE MATCH | [IMDb](https://www.imdb.com/title/tt1751634/) · [Wikipedia](https://en.wikipedia.org/wiki/The_Sandman_(TV_series)) |
+| 80 | Extraordinary | — | 73.9 | 71.5 | — | — | — | — | 77.1 | Wonderfalls · 79.8 | MODERATE / SELECTIVE MATCH | [IMDb](https://www.imdb.com/title/tt14531842/) · [Wikipedia](https://en.wikipedia.org/wiki/Extraordinary_(TV_series)) |
+
+<a id="detailed-audits"></a>
+<a id="breadth-matches"></a>
+## Best Matches — Breadth
+
+Breadth is a separate ranking from raw occurrence frequency. It counts meaningful recurring coverage across 15 compassion categories. **Breadth strength** is only a tie-breaker for sustained representation across the categories that are present.
+
+| Rank | Work | Breadth | Strength | Total occurrences | Evidence basis |
+|---:|---|---:|---:|---:|---|
+| 1 | The Collector (2004) | 14/15 | 55% | ~176 | Explicit transcript/subtitle allocation |
+| 2 | Twice in a Lifetime (1999) | 14/15 | 52.5% | ~206 | Explicit transcript/subtitle allocation |
+| 3 | Father Brown | 14/15 | 51.3% | ~565 | Explicit transcript/subtitle allocation |
+| 4 | The Listener | 14/15 | 42.5% | ~278 | Explicit transcript/subtitle allocation |
+| 5 | Avatar: The Last Airbender | 14/15 | 14.5% | ~115 | Modeled from preserved detailed audit |
+| 6 | Zoey's Extraordinary Playlist | 13/15 | 50.2% | ~121 | Explicit transcript/subtitle allocation |
+| 7 | Journeyman (2007) | 13/15 | 41.4% | ~54 | Explicit transcript/subtitle allocation |
+| 8 | Legacies | 13/15 | 17.7% | ~205 | Modeled from preserved detailed audit |
+| 9 | Sweet Tooth | 13/15 | 15.3% | ~93 | Modeled from preserved detailed audit |
+| 10 | Buffy the Vampire Slayer | 12/15 | 15.9% | ~484 | Modeled from preserved detailed audit |
+| 11 | The Owl House | 12/15 | 15.6% | ~108 | Modeled from preserved detailed audit |
+| 12 | Charmed (2018) | 12/15 | 14.9% | ~248 | Modeled from preserved detailed audit |
+| 13 | Hilda | 12/15 | 14.8% | ~98 | Modeled from preserved detailed audit |
+| 14 | Steven Universe | 12/15 | 14.6% | ~355 | Modeled from preserved detailed audit |
+| 15 | Pluto | 11/15 | 16.2% | ~42 | Modeled from preserved detailed audit |
+| 16 | DC's Legends of Tomorrow | 11/15 | 16% | ~433 | Modeled from preserved detailed audit |
+| 17 | Wynonna Earp | 11/15 | 15.3% | ~169 | Modeled from preserved detailed audit |
+| 18 | Lost Girl | 11/15 | 15.2% | ~318 | Modeled from preserved detailed audit |
+| 19 | Kipo and the Age of Wonderbeasts | 11/15 | 15.1% | ~82 | Modeled from preserved detailed audit |
+| 20 | She-Ra and the Princesses of Power | 11/15 | 14.7% | ~133 | Modeled from preserved detailed audit |
+| 21 | The Second Best Hospital in the Galaxy | 11/15 | 14.7% | ~47 | Modeled from preserved detailed audit |
+| 22 | Killjoys | 11/15 | 14.5% | ~183 | Modeled from preserved detailed audit |
+| 23 | Doctor Who | 11/15 | 13.9% | ~1927 | Modeled from preserved detailed audit |
+| 24 | Sense8 | 10/15 | 16.5% | ~94 | Modeled from preserved detailed audit |
+| 25 | Dark Matter (2015) | 10/15 | 16.4% | ~153 | Modeled from preserved detailed audit |
+| 26 | Moribito: Guardian of the Spirit | 10/15 | 16.3% | ~46 | Modeled from preserved detailed audit |
+| 27 | Space Sweepers | 10/15 | 15.7% | ~14 | Modeled from preserved detailed audit |
+| 28 | Farscape | 10/15 | 15.5% | ~299 | Modeled from preserved detailed audit |
+| 29 | Mystic Pop-up Bar | 10/15 | 15.1% | ~67 | Modeled from preserved detailed audit |
+| 30 | Being Human (UK) | 10/15 | 14.6% | ~164 | Modeled from preserved detailed audit |
+| 31 | Star Trek: The Next Generation | 10/15 | 13.7% | ~534 | Modeled from preserved detailed audit |
+| 32 | Doom Patrol | 9/15 | 17.4% | ~207 | Modeled from preserved detailed audit |
+| 33 | Alien Nation | 9/15 | 17.2% | ~93 | Modeled from preserved detailed audit |
+| 34 | The Orville | 9/15 | 16.7% | ~112 | Modeled from preserved detailed audit |
+| 35 | Warehouse 13 | 9/15 | 16.3% | ~312 | Modeled from preserved detailed audit |
+| 36 | Sanctuary | 9/15 | 15.6% | ~174 | Modeled from preserved detailed audit |
+| 37 | Fruits Basket (2019) | 9/15 | 15.5% | ~208 | Modeled from preserved detailed audit |
+| 38 | In the Flesh | 9/15 | 14.5% | ~56 | Modeled from preserved detailed audit |
+| 39 | Mushishi | 9/15 | 14.1% | ~56 | Modeled from preserved detailed audit |
+| 40 | Ranking of Kings | 9/15 | 13.3% | ~88 | Modeled from preserved detailed audit |
+| 41 | Mob Psycho 100 | 9/15 | 12.8% | ~103 | Modeled from preserved detailed audit |
+| 42 | The Uncanny Counter | 8/15 | 18.5% | ~155 | Modeled from preserved detailed audit |
+| 43 | Somali and the Forest Spirit | 8/15 | 18% | ~34 | Modeled from preserved detailed audit |
+| 44 | The Wild Robot | 8/15 | 17.5% | ~15 | Modeled from preserved detailed audit |
+| 45 | Extraordinary | 8/15 | 14.6% | ~48 | Modeled from preserved detailed audit |
+| 46 | Natsume's Book of Friends | 8/15 | 13.3% | ~230 | Modeled from preserved detailed audit |
+| 47 | The Sandman | 8/15 | 13.1% | ~66 | Modeled from preserved detailed audit |
+| 48 | Lilo & Stitch (2002) | 7/15 | 20.9% | ~13 | Modeled from preserved detailed audit |
+| 49 | The Sarah Jane Adventures | 7/15 | 17.7% | ~151 | Modeled from preserved detailed audit |
+| 50 | Humans | 7/15 | 17.6% | ~125 | Modeled from preserved detailed audit |
+| 51 | Station Eleven | 7/15 | 17.6% | ~52 | Modeled from preserved detailed audit |
+| 52 | The Eccentric Family | 7/15 | 17.5% | ~44 | Modeled from preserved detailed audit |
+| 53 | Haibane Renmei | 7/15 | 16.2% | ~30 | Modeled from preserved detailed audit |
+| 54 | Fringe | 7/15 | 16.1% | ~351 | Modeled from preserved detailed audit |
+| 55 | The Good Place | 7/15 | 16.1% | ~138 | Modeled from preserved detailed audit |
+| 56 | Joan of Arcadia | 7/15 | 15.7% | ~224 | Modeled from preserved detailed audit |
+| 57 | Star Trek: Voyager | 7/15 | 14.2% | ~486 | Modeled from preserved detailed audit |
+| 58 | Good Witch | 6/15 | 22.7% | ~451 | Modeled from preserved detailed audit |
+| 59 | Nimona | 6/15 | 19.7% | ~11 | Modeled from preserved detailed audit |
+| 60 | Enemy Mine | 6/15 | 18.2% | ~11 | Modeled from preserved detailed audit |
+| 61 | Maniac | 6/15 | 17.6% | ~34 | Modeled from preserved detailed audit |
+| 62 | Everything Everywhere All at Once | 6/15 | 16.7% | ~15 | Modeled from preserved detailed audit |
+| 63 | Batteries Not Included | 5/15 | 21.5% | ~13 | Modeled from preserved detailed audit |
+| 64 | Real Humans | 5/15 | 18.3% | ~119 | Modeled from preserved detailed audit |
+| 65 | Nausicaä of the Valley of the Wind | 3/15 | 22.2% | ~9 | Modeled from preserved detailed audit |
+
+<a id="category-matrix"></a>
+## Category Occurrence Matrix — Detailed Dashboard Audits
+
+These are overlapping modeled occurrence estimates. A scene can count in multiple categories.
+
+| Work | Total | Breadth | Help | Empathy | Mercy | Personhood | Redemption | Family | Grief | Sacrifice | Structural | Autonomy | Everyday | Outsider | Anti-prejudice | Ecological | Reconciliation |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| The Collector (2004) | ~176 | 14/15 | 155 | 122 | 110 | 93 | 168 | 62 | 82 | 95 | 45 | 86 | 38 | 128 | 54 | 1 | 117 |
+| Twice in a Lifetime (1999) | ~206 | 14/15 | 178 | 166 | 119 | 83 | 188 | 94 | 112 | 73 | 56 | 84 | 75 | 71 | 68 | 4 | 147 |
+| Father Brown | ~565 | 14/15 | 403 | 429 | 388 | 260 | 402 | 240 | 311 | 175 | 162 | 204 | 290 | 245 | 190 | 8 | 361 |
+| The Listener | ~278 | 14/15 | 235 | 220 | 105 | 112 | 98 | 120 | 130 | 105 | 75 | 88 | 135 | 80 | 55 | 0 | 95 |
+| Avatar: The Last Airbender | ~115 | 14/15 | 23 | 13 | 26 | 13 | 20 | 16 | 18 | 13 | 13 | 13 | 13 | 18 | 0 | 13 | 22 |
+| Zoey's Extraordinary Playlist | ~121 | 13/15 | 96 | 105 | 30 | 48 | 55 | 64 | 82 | 35 | 5 | 56 | 72 | 52 | 28 | 0 | 69 |
+| Journeyman (2007) | ~54 | 13/15 | 49 | 38 | 14 | 17 | 22 | 25 | 31 | 21 | 5 | 19 | 18 | 4 | 2 | 0 | 26 |
+| Legacies | ~205 | 13/15 | 53 | 23 | 0 | 36 | 36 | 55 | 49 | 36 | 23 | 23 | 32 | 47 | 28 | 0 | 32 |
+| Sweet Tooth | ~93 | 13/15 | 26 | 10 | 0 | 15 | 10 | 19 | 16 | 10 | 10 | 13 | 13 | 10 | 18 | 15 | 0 |
+| Buffy the Vampire Slayer | ~484 | 12/15 | 105 | 53 | 0 | 92 | 76 | 126 | 66 | 76 | 0 | 66 | 66 | 92 | 0 | 53 | 53 |
+| The Owl House | ~108 | 12/15 | 15 | 17 | 0 | 15 | 17 | 27 | 22 | 12 | 23 | 15 | 0 | 15 | 12 | 0 | 12 |
+| Charmed (2018) | ~248 | 12/15 | 57 | 0 | 27 | 34 | 34 | 43 | 39 | 27 | 27 | 43 | 0 | 51 | 27 | 0 | 34 |
+| Hilda | ~98 | 12/15 | 19 | 19 | 0 | 0 | 11 | 15 | 13 | 0 | 17 | 13 | 11 | 19 | 11 | 13 | 13 |
+| Steven Universe | ~355 | 12/15 | 39 | 49 | 56 | 49 | 56 | 56 | 49 | 39 | 68 | 49 | 0 | 72 | 39 | 0 | 0 |
+| Pluto | ~42 | 11/15 | 8 | 5 | 0 | 6 | 5 | 6 | 12 | 0 | 6 | 5 | 5 | 11 | 6 | 0 | 0 |
+| DC's Legends of Tomorrow | ~433 | 11/15 | 76 | 0 | 0 | 0 | 88 | 76 | 76 | 59 | 68 | 88 | 48 | 76 | 48 | 0 | 59 |
+| Wynonna Earp | ~169 | 11/15 | 47 | 19 | 19 | 27 | 19 | 41 | 23 | 0 | 0 | 0 | 0 | 32 | 19 | 19 | 19 |
+| Lost Girl | ~318 | 11/15 | 73 | 0 | 0 | 50 | 35 | 76 | 44 | 35 | 35 | 50 | 0 | 50 | 35 | 50 | 0 |
+| Kipo and the Age of Wonderbeasts | ~82 | 11/15 | 17 | 14 | 0 | 11 | 11 | 13 | 14 | 11 | 0 | 0 | 9 | 9 | 11 | 0 | 16 |
+| She-Ra and the Princesses of Power | ~133 | 11/15 | 41 | 18 | 0 | 18 | 21 | 18 | 15 | 15 | 0 | 18 | 15 | 15 | 0 | 0 | 21 |
+| The Second Best Hospital in the Galaxy | ~47 | 11/15 | 10 | 8 | 0 | 5 | 6 | 0 | 5 | 5 | 8 | 5 | 0 | 8 | 10 | 6 | 0 |
+| Killjoys | ~183 | 11/15 | 44 | 20 | 0 | 20 | 20 | 44 | 29 | 25 | 20 | 25 | 25 | 20 | 0 | 0 | 0 |
+| Doctor Who | ~1927 | 11/15 | 394 | 212 | 418 | 212 | 0 | 0 | 304 | 212 | 212 | 212 | 337 | 212 | 0 | 0 | 212 |
+| Sense8 | ~94 | 10/15 | 19 | 18 | 0 | 13 | 0 | 26 | 18 | 13 | 15 | 13 | 0 | 10 | 10 | 0 | 0 |
+| Dark Matter (2015) | ~153 | 10/15 | 33 | 21 | 0 | 29 | 24 | 27 | 27 | 17 | 21 | 21 | 0 | 31 | 0 | 0 | 0 |
+| Moribito: Guardian of the Spirit | ~46 | 10/15 | 15 | 6 | 0 | 0 | 5 | 7 | 6 | 6 | 7 | 6 | 9 | 8 | 0 | 0 | 0 |
+| Space Sweepers | ~14 | 10/15 | 2 | 0 | 0 | 2 | 2 | 2 | 3 | 2 | 2 | 0 | 2 | 3 | 0 | 2 | 0 |
+| Farscape | ~299 | 10/15 | 47 | 47 | 0 | 33 | 33 | 68 | 41 | 41 | 0 | 52 | 0 | 61 | 41 | 0 | 0 |
+| Mystic Pop-up Bar | ~67 | 10/15 | 16 | 13 | 0 | 0 | 0 | 9 | 15 | 9 | 7 | 7 | 11 | 7 | 0 | 0 | 7 |
+| Being Human (UK) | ~164 | 10/15 | 31 | 18 | 0 | 18 | 18 | 22 | 18 | 0 | 0 | 18 | 31 | 44 | 0 | 0 | 22 |
+| Star Trek: The Next Generation | ~534 | 10/15 | 59 | 84 | 59 | 116 | 59 | 0 | 59 | 0 | 116 | 59 | 0 | 59 | 59 | 0 | 0 |
+| Doom Patrol | ~207 | 9/15 | 52 | 28 | 0 | 28 | 0 | 33 | 36 | 0 | 33 | 33 | 0 | 45 | 0 | 0 | 36 |
+| Alien Nation | ~93 | 9/15 | 10 | 0 | 0 | 13 | 0 | 22 | 13 | 0 | 15 | 0 | 16 | 24 | 21 | 0 | 10 |
+| The Orville | ~112 | 9/15 | 23 | 12 | 0 | 23 | 0 | 15 | 12 | 23 | 24 | 18 | 0 | 18 | 0 | 0 | 0 |
+| Warehouse 13 | ~312 | 9/15 | 87 | 34 | 0 | 0 | 43 | 55 | 75 | 43 | 0 | 43 | 0 | 34 | 0 | 0 | 43 |
+| Sanctuary | ~174 | 9/15 | 38 | 27 | 0 | 30 | 0 | 0 | 19 | 19 | 30 | 0 | 24 | 33 | 24 | 0 | 0 |
+| Fruits Basket (2019) | ~208 | 9/15 | 40 | 23 | 0 | 0 | 0 | 48 | 40 | 23 | 33 | 0 | 28 | 28 | 0 | 0 | 28 |
+| In the Flesh | ~56 | 9/15 | 11 | 6 | 6 | 9 | 0 | 10 | 8 | 6 | 0 | 0 | 0 | 0 | 11 | 0 | 6 |
+| Mushishi | ~56 | 9/15 | 9 | 10 | 0 | 0 | 0 | 6 | 8 | 6 | 6 | 6 | 0 | 10 | 0 | 10 | 0 |
+| Ranking of Kings | ~88 | 9/15 | 18 | 10 | 10 | 10 | 0 | 12 | 0 | 10 | 0 | 10 | 10 | 0 | 0 | 0 | 15 |
+| Mob Psycho 100 | ~103 | 9/15 | 21 | 11 | 11 | 11 | 14 | 0 | 11 | 0 | 0 | 0 | 18 | 11 | 0 | 0 | 11 |
+| The Uncanny Counter | ~155 | 8/15 | 43 | 21 | 0 | 0 | 0 | 32 | 27 | 17 | 0 | 24 | 32 | 34 | 0 | 0 | 0 |
+| Somali and the Forest Spirit | ~34 | 8/15 | 9 | 6 | 0 | 0 | 0 | 4 | 5 | 5 | 0 | 0 | 0 | 9 | 6 | 0 | 5 |
+| The Wild Robot | ~15 | 8/15 | 4 | 0 | 0 | 2 | 0 | 3 | 0 | 2 | 2 | 0 | 3 | 3 | 0 | 2 | 0 |
+| Extraordinary | ~48 | 8/15 | 8 | 5 | 0 | 5 | 0 | 10 | 9 | 0 | 0 | 9 | 5 | 0 | 5 | 0 | 0 |
+| Natsume's Book of Friends | ~230 | 8/15 | 47 | 25 | 0 | 0 | 0 | 36 | 25 | 31 | 0 | 25 | 0 | 31 | 0 | 0 | 25 |
+| The Sandman | ~66 | 8/15 | 9 | 10 | 9 | 7 | 0 | 7 | 7 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
+| Lilo & Stitch (2002) | ~13 | 7/15 | 3 | 2 | 0 | 2 | 0 | 4 | 3 | 2 | 1 | 0 | 0 | 3 | 0 | 0 | 0 |
+| The Sarah Jane Adventures | ~151 | 7/15 | 36 | 0 | 0 | 29 | 0 | 29 | 0 | 0 | 0 | 24 | 21 | 31 | 0 | 0 | 17 |
+| Humans | ~125 | 7/15 | 17 | 0 | 0 | 24 | 0 | 24 | 0 | 20 | 27 | 20 | 0 | 0 | 22 | 0 | 0 |
+| Station Eleven | ~52 | 7/15 | 15 | 7 | 0 | 7 | 0 | 12 | 11 | 6 | 0 | 0 | 6 | 0 | 0 | 0 | 0 |
+| The Eccentric Family | ~44 | 7/15 | 10 | 0 | 0 | 0 | 0 | 14 | 10 | 0 | 0 | 5 | 5 | 5 | 0 | 0 | 5 |
+| Haibane Renmei | ~30 | 7/15 | 9 | 0 | 0 | 0 | 0 | 3 | 6 | 3 | 4 | 0 | 6 | 0 | 0 | 0 | 3 |
+| Fringe | ~351 | 7/15 | 61 | 48 | 0 | 0 | 0 | 55 | 55 | 48 | 0 | 48 | 0 | 0 | 0 | 0 | 80 |
+| The Good Place | ~138 | 7/15 | 30 | 0 | 15 | 0 | 24 | 22 | 0 | 15 | 35 | 15 | 0 | 0 | 0 | 0 | 0 |
+| Joan of Arcadia | ~224 | 7/15 | 46 | 35 | 0 | 25 | 0 | 31 | 35 | 0 | 0 | 31 | 43 | 0 | 0 | 0 | 0 |
+| Star Trek: Voyager | ~486 | 7/15 | 0 | 0 | 53 | 67 | 67 | 0 | 85 | 0 | 67 | 77 | 67 | 0 | 0 | 0 | 0 |
+| Good Witch | ~451 | 6/15 | 145 | 62 | 0 | 0 | 0 | 126 | 0 | 0 | 0 | 98 | 79 | 0 | 0 | 0 | 103 |
+| Nimona | ~11 | 6/15 | 2 | 1 | 0 | 2 | 0 | 0 | 0 | 2 | 2 | 0 | 1 | 3 | 2 | 0 | 1 |
+| Enemy Mine | ~11 | 6/15 | 2 | 2 | 0 | 0 | 0 | 2 | 1 | 2 | 1 | 0 | 2 | 1 | 2 | 1 | 1 |
+| Maniac | ~34 | 6/15 | 6 | 6 | 0 | 0 | 0 | 5 | 9 | 0 | 5 | 5 | 0 | 0 | 0 | 0 | 0 |
+| Everything Everywhere All at Once | ~15 | 6/15 | 2 | 3 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 2 | 3 | 0 | 0 | 0 | 2 |
+| Batteries Not Included | ~13 | 5/15 | 4 | 1 | 0 | 1 | 0 | 3 | 1 | 0 | 1 | 0 | 2 | 3 | 0 | 0 | 2 |
+| Real Humans | ~119 | 5/15 | 31 | 0 | 0 | 24 | 0 | 19 | 0 | 0 | 19 | 0 | 0 | 0 | 16 | 0 | 0 |
+| Nausicaä of the Valley of the Wind | ~9 | 3/15 | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 2 | 1 |
 
 <a id="detailed-audits"></a>
 ## Detailed Audits
@@ -3764,6 +3942,78 @@ Wynonna Earp is less consistently anti-monster-essentialist than Charmed or Lega
 
 ---
 
+
+
+---
+
+## 2026-10-06 Listener + New Five Audit Cards
+
+### The Listener
+
+**Concept/prominence:** 83.5  
+**Vibe-adjusted:** 86.8  
+**Vibe class:** VERIFIED ANCHOR  
+**Occurrences:** ~278 · **Breadth:** 14/15 · **Breadth strength:** 42.5%  
+**References:** [Wikipedia](https://en.wikipedia.org/wiki/The_Listener_(TV_series)) · [Scripts](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=the-listener)
+
+Telepathic paramedic/investigator Toby Logan repeatedly turns inaccessible inner distress into practical intervention. User verification now makes it a full anchor; its prior audit metrics remain unchanged, including the unresolved privacy/consent problem created by telepathy.
+
+### Zoey's Extraordinary Playlist
+
+**Concept/prominence:** 92.2  
+**Vibe-adjusted:** 92.5  
+**Vibe class:** BROAD VIBE MATCH  
+**Occurrences:** ~121 · **Breadth:** 13/15 · **Breadth strength:** 50.2%  
+**References:** [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md)
+
+Heart songs expose hidden feelings and repeatedly create an obligation to listen, help, or sometimes stop over-helping. It is the clearest new structural extension of The Listener, with warmer/quirkier grief-heavy texture.
+
+### Twice in a Lifetime (1999)
+
+**Concept/prominence:** 92.0  
+**Vibe-adjusted:** 90.1  
+**Vibe class:** STRONG NEIGHBORHOOD MATCH  
+**Occurrences:** ~206 · **Breadth:** 14/15 · **Breadth strength:** 52.5%  
+**References:** [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md)
+
+A second-chance anthology in which deceased people revisit pivotal mistakes. Repair normally requires perspective-taking and a concrete change in how another person is treated, producing unusually broad compassion coverage.
+
+### The Collector (2004)
+
+**Concept/prominence:** 94.4  
+**Vibe-adjusted:** 89.5  
+**Vibe class:** MODERATE / SELECTIVE MATCH  
+**Occurrences:** ~176 · **Breadth:** 14/15 · **Breadth strength:** 55%  
+**References:** [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md)
+
+Morgan Pym negotiates the right to help damned clients seek redemption during their final 48 hours. Redemption, restitution and costly altruism are the literal episode engine; the much darker theological texture lowers vibe fit without lowering concept fit.
+
+### Father Brown
+
+**Concept/prominence:** 91.0  
+**Vibe-adjusted:** 90.5  
+**Vibe class:** BROAD VIBE MATCH  
+**Occurrences:** ~565 · **Breadth:** 14/15 · **Breadth strength:** 51.3%  
+**References:** [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md)
+
+The murder mystery is only part of Father Brown's objective: he repeatedly pursues mercy, reintegration, protection of the wrongly accused and the possibility of repentance after severe wrongdoing.
+
+### Journeyman (2007)
+
+**Concept/prominence:** 89.2  
+**Vibe-adjusted:** 89.8  
+**Vibe class:** BROAD VIBE MATCH  
+**Occurrences:** ~54 · **Breadth:** 13/15 · **Breadth strength:** 41.4%  
+**References:** [Audit](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md)
+
+Dan Vasser's involuntary time travel repeatedly places him in lives he is apparently meant to change. The short run treats the ability increasingly as a calling, while keeping family cost and timeline-autonomy problems visible.
+
+Full evidence, contradictions, category allocations and transcript/subtitle sources are in [the 2026-10-06 audit batch](compassion-transcript-audit-listener-new5-breadth-2026-10-06.md).
+
+
 ## Data note
+
+**Current source corpus:** 118 completed transcript/subtitle audits + 3 explicit partials. This dashboard's Detailed Audits section is a rendered subset; source artifacts remain authoritative.
+
 
 Occurrence and screen-time values are modeled estimates derived from transcript/subtitle/screenplay audits, not stopwatch measurements. Theme minutes overlap and should not be summed as mutually exclusive time.
