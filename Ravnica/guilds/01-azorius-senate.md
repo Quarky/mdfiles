@@ -1,20 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Azorius Senate]
+---
 # Azorius Senate — White/Blue
 
 ## Identity
-The Azorius believe civilization depends on durable law, procedure, precedent, and institutions. They create, interpret, and enforce law. Their strength is that rules can protect people from arbitrary power; their failure mode is mistaking process for justice.
-
-## Internal texture
-The Senate is not one personality. Legislators, arresters, judges, clerks, lawmages, advocates, and administrators can disagree while sharing faith in institutional order. The traditional structure includes legislative, enforcement, and judicial functions.
+The guild centers on law, courts, procedure and regulation. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** precise, formal, definition-conscious.  
-**Wants:** jurisdiction, evidence, compliance, predictable outcomes.  
-**Fears:** precedent-breaking improvisation, mob rule, uncontrolled magic.  
-**Offers:** warrants, records, legal standing, detention authority, bureaucratic access.  
-**Complications:** delays, conflicting statutes, emergency powers, politically selective enforcement.
+**Voice:** precise and formal.  
+**Wants:** jurisdiction, evidence and predictable outcomes.  
+**Offers:** warrants, records and legal authority.  
+**Failure mode:** process becoming more important than justice.
 
-## Good Azorius NPC
-Give them a rule they sincerely believe protects people and a case where following it causes visible harm. Their drama is deciding whether law can bend without becoming arbitrary.
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Boros disputes over methods; Izzet safety regulation; Orzhov contract law; Dimir counterintelligence; Simic medical standards.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]

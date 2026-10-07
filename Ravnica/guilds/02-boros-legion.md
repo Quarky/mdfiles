@@ -1,17 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Boros Legion]
+---
 # Boros Legion — Red/White
 
 ## Identity
-The Boros combine passionate conviction with organized service. They are soldiers, guards, angels, investigators, and street-level protectors. Their best members put themselves between danger and civilians; their worst become certain that righteous force excuses everything.
+The guild centers on military service, policing and protection. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** direct, urgent, duty-centered.  
-**Wants:** protect people, stop immediate threats, identify the responsible party.  
-**Fears:** hesitation that costs lives, corruption, betrayal within the ranks.  
-**Offers:** armed response, evacuation, battlefield command, public legitimacy.  
-**Complications:** escalation, zeal, collateral damage, conflict with slower legal process.
+**Voice:** direct and duty-centered.  
+**Wants:** protect civilians and stop immediate threats.  
+**Offers:** armed response, evacuation and command.  
+**Failure mode:** zeal, escalation and collateral damage.
 
-## Scene principle
-A Boros officer should often be right about the danger and potentially wrong about the solution.
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Azorius jurisdiction; Selesnyan civilian aid; Rakdos crowd control; Gruul border violence; Dimir intelligence that cannot be publicly sourced.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]

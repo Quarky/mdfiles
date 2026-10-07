@@ -1,17 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Orzhov Syndicate]
+---
 # Orzhov Syndicate — White/Black
 
 ## Identity
-The Orzhov combine church, finance, hierarchy, contract, and organized crime. They turn obligation into structure and structure into wealth. Their institutions can provide stability and credit while ensuring that every favor has a price.
+The guild centers on finance, religion, hierarchy and contract. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** courteous, ceremonial, transactional.  
-**Wants:** enforceable obligation, status, revenue, continuity.  
-**Fears:** unenforceable promises, loss of hierarchy, debtors escaping the system.  
-**Offers:** loans, legal representation, property access, influence, funerary/spiritual services.  
-**Complications:** predatory terms, inherited obligations, extortion, spirits bound to debts.
+**Voice:** courteous and transactional.  
+**Wants:** enforceable obligation, status and revenue.  
+**Offers:** loans, legal leverage and influence.  
+**Failure mode:** predatory terms and debts that outlive debtors.
 
-## Scene principle
-The most frightening Orzhov NPC does not need to threaten violence. They can calmly explain why the victim already agreed to everything.
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Azorius contract disputes; Rakdos venues and labor; Dimir financial secrets; Golgari disagreements over death; Boros corruption investigations.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]

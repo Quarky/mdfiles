@@ -1,17 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Selesnya Conclave]
+---
 # Selesnya Conclave — Green/White
 
 ## Identity
-Selesnya seeks harmony among people, community, and the living world. Its enclaves offer belonging, cultivation, healing, and collective purpose. Its danger is that harmony can become pressure to suppress dissent or individuality.
+The guild centers on community, cultivation and harmony with life. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** calm, inclusive, communal.  
-**Wants:** cohesion, healthy communities, living spaces, reconciliation.  
-**Fears:** isolation, exploitation, needless division, spiritual disconnection.  
-**Offers:** sanctuary, food, healing, community labor, nature magic, mediation.  
-**Complications:** consensus pressure, paternalism, suspicion of disruptive individualism.
+**Voice:** calm and communal.  
+**Wants:** cohesion, health and reconciliation.  
+**Offers:** sanctuary, food, healing and mediation.  
+**Failure mode:** harmony becoming pressure to conform.
 
-## Scene principle
-Make Selesnya genuinely attractive. The philosophical tension matters only if community actually provides things the city lacks.
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Golgari ecology; Gruul wildness; Boros defense; Simic living systems; Orzhov competition over dependency and belonging.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]

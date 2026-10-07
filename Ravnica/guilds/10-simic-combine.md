@@ -1,17 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Simic Combine]
+---
 # Simic Combine — Green/Blue
 
 ## Identity
-The Simic study, preserve, and redesign life so it can survive a radically urban plane. Their biomancy joins scientific curiosity to adaptation. Their danger is treating living beings as solvable design problems.
+The guild centers on medicine, biology and adaptation. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** clinical curiosity mixed with biological metaphor.  
-**Wants:** samples, adaptation, survival, controlled observation.  
-**Fears:** extinction, rigid systems, irreversible ecological failure.  
-**Offers:** medicine, grafts, biological analysis, aquatic expertise, adaptive creatures.  
-**Complications:** experimental ethics, mutation, unintended ecosystems, disagreement over consent.
+**Voice:** clinical and curious.  
+**Wants:** survival, samples and controlled observation.  
+**Offers:** medicine, grafts and biological expertise.  
+**Failure mode:** living beings becoming design problems.
 
-## Scene principle
-Give the Simic a real medical or ecological success before presenting the ethical price. “They make monsters” is much less interesting than “their treatment works—what did it change?”
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Izzet methodology rivalry; Golgari ecology; Selesnya natural philosophy; Azorius regulation; Gruul hostility toward engineered nature.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]

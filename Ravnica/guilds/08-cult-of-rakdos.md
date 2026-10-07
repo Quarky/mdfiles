@@ -1,17 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Cult of Rakdos]
+---
 # Cult of Rakdos — Black/Red
 
 ## Identity
-Rakdos is spectacle, appetite, labor, satire, danger, and refusal of respectable restraint. The guild provides entertainment and performs hard industrial work as well as cultivating deliberately transgressive performance.
+The guild centers on spectacle, labor, satire and transgression. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** theatrical, irreverent, emotionally immediate.  
-**Wants:** reaction, freedom, sensation, an audience, a memorable night.  
-**Fears:** boredom, imposed respectability, being controlled without being seen.  
-**Offers:** performers, labor crews, venues, access to subcultures, fearless specialists.  
-**Complications:** cruelty, escalation, unsafe spectacle, demonic influence.
+**Voice:** theatrical and irreverent.  
+**Wants:** freedom, reaction and an audience.  
+**Offers:** performers, labor crews and subculture access.  
+**Failure mode:** cruelty and escalation.
 
-## Scene principle
-Do not make every Rakdos scene a murder circus. Satire is politically useful. A performer can expose hypocrisy by turning an Azorius decree or Orzhov sermon into a joke everyone remembers.
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Azorius permits; Orzhov financing; Boros public safety; Izzet stage technology; Dimir information gathering in crowds.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]

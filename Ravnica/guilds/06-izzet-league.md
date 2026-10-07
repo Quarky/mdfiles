@@ -1,17 +1,21 @@
+---
+tags: [ravnica, guild]
+aliases: [Izzet League]
+---
 # Izzet League — Blue/Red
 
 ## Identity
-The Izzet are engineers, elementalists, inventors, and maintainers of much of Ravnica's magical infrastructure. Curiosity and inspiration drive them faster than caution.
+The guild centers on engineering, infrastructure and experimental magic. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
 
 ## At the table
-**Voice:** technical enthusiasm, rapid hypotheses, delight at unexpected results.  
-**Wants:** data, access, functioning infrastructure, permission to try one more thing.  
-**Fears:** stagnation, unexplained failure, regulators shutting down the experiment.  
-**Offers:** devices, repairs, transport systems, elemental expertise, spectacular prototypes.  
-**Complications:** cascading failures, unsafe testing, rival laboratories, solutions that create new problems.
+**Voice:** technical and enthusiastic.  
+**Wants:** data, access and experimentation.  
+**Offers:** devices, repairs and elemental expertise.  
+**Failure mode:** solutions cascading into new problems.
 
-## Campaign connection
-The Glass Run's orientation prism and teleportation/spatial research are excellent models: Izzet technology should solve a real technical problem while becoming valuable enough for other factions to steal, regulate, weaponize, or sabotage.
+## GM principle
+Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
 
-## Cross-guild hooks
-Azorius permits; Gruul infrastructure attacks; Simic research rivalry; Dimir industrial espionage; Rakdos appetite for spectacular machinery.
+## Related
+- [[../guild-relations|Guild Relations]]
+- [[../setting-overview|Setting Overview]]
