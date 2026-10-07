@@ -1,0 +1,120 @@
+name: Recompile Ravnica V2 voice reader
+
+on:
+  push:
+    branches:
+      - docs/ravnica-v2-deep-lore
+    paths:
+      - .github/workflows/ravnica-v2-voice.yml
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: docs/ravnica-v2-deep-lore
+          fetch-depth: 0
+
+      - name: Recompile voice edition
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path("Ravnica-v2")
+          out = root / "Voice-Reader" / "Ravnica-v2-Complete-Voice-Reader.md"
+          paths = [p for p in root.rglob("*.md") if "Voice-Reader" not in p.parts]
+
+          def rank(p):
+              rel=p.as_posix()
+              if rel=="Ravnica-v2/README.md": return (0,rel)
+              if rel=="Ravnica-v2/Ravnica - V2 Home.md": return (1,rel)
+              if rel=="Ravnica-v2/Deep-Lore-Index.md": return (2,rel)
+              m=re.match(r"Ravnica-v2/(\d\d)-",rel)
+              return (10+int(m.group(1)),rel) if m else (99,rel)
+
+          paths.sort(key=rank)
+
+          intro=f"""---
+          share: true
+          project: Ravnica-v2
+          aliases:
+            - Ravnica V2 Complete Voice Reader
+            - Ravnica Voice Reader
+          tags:
+            - ravnica
+            - voice-reader
+            - living-world
+            - source-first
+          compiled_from: "{len(paths)} modular Ravnica-v2 notes"
+          ---
+
+          # Ravnica V2 — Complete Living-World Voice Reader
+
+          This is the single-file reading edition of the modular Ravnica V2 Obsidian project.
+
+          It includes the GM immersion rules, city life, sensory environment, civic systems, canonical and synthesized location material, all ten guild dossiers, interaction engines, ready scenes, campaign integration, original-trilogy and War of the Spark overlays, player immersion material, and source/provenance notes.
+
+          The default present is the period in which **Jace Beleren is the Living Guildpact**.
+
+          ## Source discipline
+
+          **CANON** is directly established by official material.
+
+          **CANON-SUPPORTED INFERENCE** follows strongly from an established place or institution.
+
+          **TABLE SYNTHESIS** fills gaps needed for play.
+
+          **CAMPAIGN CANON** belongs to MTGFoundry material such as The Glass Run.
+
+          **ORIGINAL FICTION** demonstrates how the setting behaves without pretending to be published story.
+
+          The governing rule is: **published source first; synthesis fills gaps.**
+          """
+          intro="\n".join(line[10:] if line.startswith("          ") else line for line in intro.splitlines()).strip()+"\n"
+          parts=[intro]
+
+          for p in paths:
+              s=p.read_text(encoding="utf-8")
+              s=re.sub(r"\A---\s*\n.*?\n---\s*\n","",s,flags=re.S)
+              s=re.sub(r"!\[\[([^\]]+)\]\]",r"\1",s)
+              s=re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]",r"\2",s)
+              s=re.sub(r"\[\[([^\]]+)\]\]",r"\1",s)
+              parts.append("\n\n---\n\n## Source Note: "+p.relative_to(root).as_posix()+"\n\n"+s.strip()+"\n")
+
+          parts.append("\n\n---\n\n# End of Complete Voice Reader\n\nThis file is compiled from the modular Ravnica-v2 notes.\n")
+          body="".join(parts)
+          out.parent.mkdir(parents=True,exist_ok=True)
+          out.write_text(body,encoding="utf-8")
+
+          assert len(paths) >= 73
+          assert len(body) >= 340000
+          for needle in [
+              "Original Ravnica Trilogy Era",
+              "War of the Spark",
+              "One Hundred Things a Ravnican Knows",
+              "Canonical Guild Structures and Roles",
+              "Expanded Source Map",
+              "Complete single-file edition"
+          ]:
+              assert needle in body, needle
+          print(f"Compiled {len(paths)} source notes into {len(body)} characters")
+          PY
+
+      - name: Verify frozen V1 and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --quiet HEAD -- Ravnica
+          rm -f .github/workflows/ravnica-v2-voice.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A Ravnica-v2/Voice-Reader .github/workflows/ravnica-v2-voice.yml
+          git commit -m "Ravnica v2: refresh complete voice reader after index updates"
+          git push origin HEAD:docs/ravnica-v2-deep-lore
