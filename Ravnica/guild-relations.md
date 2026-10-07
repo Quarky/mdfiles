@@ -1,7 +1,7 @@
 # Guild Relations
 
 Ravnican guild relationships are **issue-specific**, not a fixed friend/enemy chart. Two guilds can cooperate on one civic problem while sabotaging each other elsewhere.
-
+test
 | Pairing | Natural cooperation | Natural conflict |
 |---|---|---|
 | Azorius–Boros | public safety, enforcement | procedure vs immediate justice |
