@@ -1,17 +1,48 @@
-# Gruul Clans — Red/Green
+---
+share: true
+title: "Gruul Clans - Red/Green"
+tags: [ravnica, guild, faction, living-world]
+---
 
-## Identity
-The Gruul are the remnants of a guild whose place in the civic order was eroded as the city expanded. Their clans reject the premise that endless urbanization is progress. They preserve wildness, rage against encroachment, and often answer dispossession with destruction.
+# Gruul Clans - Red/Green
 
-## At the table
-**Voice:** concrete, physical, suspicious of abstract authority.  
-**Wants:** territory, freedom, strength, living space beyond civic control.  
-**Fears:** domestication, displacement, dependence on city systems.  
-**Offers:** wilderness survival, rubblebelt routes, beasts, clan protection, direct action.  
-**Complications:** raids, clan rivalry, apocalyptic belief, destruction that harms the powerless too.
+## Main-era leader
+**Borborygmos**
 
-## Scene principle
-A Gruul antagonist becomes more Ravnican when the players can identify what was built over, fenced off, or taken.
+## Civic function
+wild autonomy, Old Ways, resistance to urban enclosure.
 
-## Cross-guild hooks
-Izzet construction; Boros patrols; Selesnya competing visions of nature; Simic engineered life; Azorius property law.
+## How it actually works
+independent clans including Burning Tree, Ghor, Scab, Slizt, Gravel Hide, Zhur-Taa, minor clans, trogs.
+
+## Roles you can immediately play
+warrior, hunter, beast-friend, anarch, Old Ways druid, champion, chieftain, trog.
+
+## Major places
+Red Wastes, Skarrg, rubblebelts, Husk, Oakchar.
+
+## Why ordinary people join
+autonomy, resistance to enclosure, survival, tradition.
+
+## Characteristic danger
+destruction of uninvolved people, domination by strength.
+
+## Internal politics
+clan rivalry; prophecy; family survival vs proving strength; Old Ways vs glory.
+
+## NPC voice
+Who gave you the right to call this empty? / You built a wall and called us trespassers. / Prove it.
+
+## Immediate NPC recipe
+Role + sincere belief + guild grievance + personal need + line they will not cross.
+
+## Reaction sequence
+Local worker notices; middle rank decides whether to report; internal faction asks who gains status; official response begins; opportunist moves faster than policy; ordinary residents bear the cost.
+
+## Six ready archetypes
+- loyalist who embodies the best case;
+- opportunist using membership for status/security;
+- reformer convinced the guild betrayed itself;
+- exhausted professional finishing a shift;
+- ambitious middle rank competing with rival;
+- anomaly who fits philosophy but not stereotype.

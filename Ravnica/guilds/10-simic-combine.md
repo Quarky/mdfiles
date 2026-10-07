@@ -1,17 +1,48 @@
-# Simic Combine — Green/Blue
+---
+share: true
+title: "Simic Combine - Green/Blue"
+tags: [ravnica, guild, faction, living-world]
+---
 
-## Identity
-The Simic study, preserve, and redesign life so it can survive a radically urban plane. Their biomancy joins scientific curiosity to adaptation. Their danger is treating living beings as solvable design problems.
+# Simic Combine - Green/Blue
 
-## At the table
-**Voice:** clinical curiosity mixed with biological metaphor.  
-**Wants:** samples, adaptation, survival, controlled observation.  
-**Fears:** extinction, rigid systems, irreversible ecological failure.  
-**Offers:** medicine, grafts, biological analysis, aquatic expertise, adaptive creatures.  
-**Complications:** experimental ethics, mutation, unintended ecosystems, disagreement over consent.
+## Main-era leader
+**Prime Speaker Zegana**
 
-## Scene principle
-Give the Simic a real medical or ecological success before presenting the ethical price. “They make monsters” is much less interesting than “their treatment works—what did it change?”
+## Civic function
+public health, life science, biomancy, adaptation, environmental design.
 
-## Cross-guild hooks
-Izzet methodology rivalry; Golgari ecology; Selesnya natural philosophy; Azorius regulation; Gruul hostility toward engineered nature.
+## How it actually works
+nine zonots led by Speakers; clades/projects; Holdfast and Upwelling; Utopian vs Adaptationist currents.
+
+## Roles you can immediately play
+researcher, biomancer, terraformer, guardian, deepsage, clade member, project lead, Speaker.
+
+## Major places
+Zonot Seven, Zameck, canals, aquatic labs, undersea routes.
+
+## Why ordinary people join
+medicine, adaptation, ecological understanding.
+
+## Characteristic danger
+consent failures, militarized biology, people as research platforms.
+
+## Internal politics
+Utopians vs Adaptationists; Guardian consent; clade rivalry; deepsage vs urgent field research.
+
+## NPC voice
+It survived; that does not mean success. / Consent is part of the system. / Who chooses direction and speed?
+
+## Immediate NPC recipe
+Role + sincere belief + guild grievance + personal need + line they will not cross.
+
+## Reaction sequence
+Local worker notices; middle rank decides whether to report; internal faction asks who gains status; official response begins; opportunist moves faster than policy; ordinary residents bear the cost.
+
+## Six ready archetypes
+- loyalist who embodies the best case;
+- opportunist using membership for status/security;
+- reformer convinced the guild betrayed itself;
+- exhausted professional finishing a shift;
+- ambitious middle rank competing with rival;
+- anomaly who fits philosophy but not stereotype.

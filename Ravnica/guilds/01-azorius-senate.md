@@ -1,20 +1,48 @@
-# Azorius Senate — White/Blue
+---
+share: true
+title: "Azorius Senate - White/Blue"
+tags: [ravnica, guild, faction, living-world]
+---
 
-## Identity
-The Azorius believe civilization depends on durable law, procedure, precedent, and institutions. They create, interpret, and enforce law. Their strength is that rules can protect people from arbitrary power; their failure mode is mistaking process for justice.
+# Azorius Senate - White/Blue
 
-## Internal texture
-The Senate is not one personality. Legislators, arresters, judges, clerks, lawmages, advocates, and administrators can disagree while sharing faith in institutional order. The traditional structure includes legislative, enforcement, and judicial functions.
+## Main-era leader
+**Isperia**
 
-## At the table
-**Voice:** precise, formal, definition-conscious.  
-**Wants:** jurisdiction, evidence, compliance, predictable outcomes.  
-**Fears:** precedent-breaking improvisation, mob rule, uncontrolled magic.  
-**Offers:** warrants, records, legal standing, detention authority, bureaucratic access.  
-**Complications:** delays, conflicting statutes, emergency powers, politically selective enforcement.
+## Civic function
+government, legislation, courts, regulation, investigation, law enforcement.
 
-## Good Azorius NPC
-Give them a rule they sincerely believe protects people and a case where following it causes visible harm. Their drama is deciding whether law can bend without becoming arbitrary.
+## How it actually works
+Sova judiciary; Jelenn legislation; Lyev enforcement; column leaders form Triumvirate.
 
-## Cross-guild hooks
-Boros disputes over methods; Izzet safety regulation; Orzhov contract law; Dimir counterintelligence; Simic medical standards.
+## Roles you can immediately play
+arrester, officer, imperator, lawmage, precognitive mage, justiciar, elocutor, scribe, emissary, judge, senator, minister, arbiter.
+
+## Major places
+New Prahv, plaza security, prisons, records halls.
+
+## Why ordinary people join
+predictability, due process, standards, continuity.
+
+## Characteristic danger
+paralysis, coercion, emergency powers, legality mistaken for morality.
+
+## Internal politics
+Sova due-process advocates vs Lyev prevention; precognition vs civil liberty; officials frustrated by Jace absences.
+
+## NPC voice
+State the claim precisely. / Under what authority? / Emergency procedure exists because emergencies recur.
+
+## Immediate NPC recipe
+Role + sincere belief + guild grievance + personal need + line they will not cross.
+
+## Reaction sequence
+Local worker notices; middle rank decides whether to report; internal faction asks who gains status; official response begins; opportunist moves faster than policy; ordinary residents bear the cost.
+
+## Six ready archetypes
+- loyalist who embodies the best case;
+- opportunist using membership for status/security;
+- reformer convinced the guild betrayed itself;
+- exhausted professional finishing a shift;
+- ambitious middle rank competing with rival;
+- anomaly who fits philosophy but not stereotype.

@@ -1,17 +1,48 @@
-# Izzet League — Blue/Red
+---
+share: true
+title: "Izzet League - Blue/Red"
+tags: [ravnica, guild, faction, living-world]
+---
 
-## Identity
-The Izzet are engineers, elementalists, inventors, and maintainers of much of Ravnica's magical infrastructure. Curiosity and inspiration drive them faster than caution.
+# Izzet League - Blue/Red
 
-## At the table
-**Voice:** technical enthusiasm, rapid hypotheses, delight at unexpected results.  
-**Wants:** data, access, functioning infrastructure, permission to try one more thing.  
-**Fears:** stagnation, unexplained failure, regulators shutting down the experiment.  
-**Offers:** devices, repairs, transport systems, elemental expertise, spectacular prototypes.  
-**Complications:** cascading failures, unsafe testing, rival laboratories, solutions that create new problems.
+## Main-era leader
+**Niv-Mizzet**
 
-## Campaign connection
-The Glass Run's orientation prism and teleportation/spatial research are excellent models: Izzet technology should solve a real technical problem while becoming valuable enough for other factions to steal, regulate, weaponize, or sabotage.
+## Civic function
+public works, engineering, elemental science, experimental invention.
 
-## Cross-guild hooks
-Azorius permits; Gruul infrastructure attacks; Simic research rivalry; Dimir industrial espionage; Rakdos appetite for spectacular machinery.
+## How it actually works
+semi-autonomous laboratories compete for resources and Niv attention; traditions include pyrology, storms, metallurgy, gravity, plasma, orientation.
+
+## Roles you can immediately play
+attendant, researcher, mage, chemister, engineer, lab director, Izmundi, Izmagnus.
+
+## Major places
+Nivix, Blistercoils, Mizzium Foundry, Augustin workshops, Boilerpits.
+
+## Why ordinary people join
+curiosity, engineering competence, infrastructure.
+
+## Characteristic danger
+unsafe experiments, vanity, competition, collateral risk as data.
+
+## Internal politics
+maintenance vs glamorous research; lab rivalry; safety; directors interpreting cryptic priorities.
+
+## NPC voice
+Not an explosion: rapid pressure release. / I need twenty minutes and permission. / The failure disproves two assumptions.
+
+## Immediate NPC recipe
+Role + sincere belief + guild grievance + personal need + line they will not cross.
+
+## Reaction sequence
+Local worker notices; middle rank decides whether to report; internal faction asks who gains status; official response begins; opportunist moves faster than policy; ordinary residents bear the cost.
+
+## Six ready archetypes
+- loyalist who embodies the best case;
+- opportunist using membership for status/security;
+- reformer convinced the guild betrayed itself;
+- exhausted professional finishing a shift;
+- ambitious middle rank competing with rival;
+- anomaly who fits philosophy but not stereotype.
