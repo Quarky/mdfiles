@@ -14,6 +14,7 @@ status: "deep-lore campaign bible"
 ## City and society
 - [[01-Setting/City-World-Deep-Lore]]
 - [[01-Setting/Sensory-Palette-and-Daily-Rhythm]]
+- [[01-Setting/Sights-Sounds-Smells-and-Social-Signals]]
 - [[01-Setting/Civic-Life-Economy-Housing-and-Transit]]
 - [[01-Setting/Law-Justice-Debt-and-Authority]]
 - [[01-Setting/Magic-Infrastructure-and-Urban-Hazards]]
@@ -39,8 +40,18 @@ status: "deep-lore campaign bible"
 - [[02-Locations/Precinct-5-Scholars-Labs-and-Zonot-Seven]]
 - [[02-Locations/Precinct-6-Industry-Deadbridge-and-Smelt]]
 
+### Named-place deep dives
+- [[02-Locations/Named-Places/Precinct-1-Named-Places]]
+- [[02-Locations/Named-Places/Precinct-2-Named-Places]]
+- [[02-Locations/Named-Places/Precinct-3-Named-Places]]
+- [[02-Locations/Named-Places/Precinct-4-Named-Places]]
+- [[02-Locations/Named-Places/Precinct-5-Named-Places]]
+- [[02-Locations/Named-Places/Precinct-6-Named-Places]]
+- [[02-Locations/The-Ten-Guildhalls-Experiential-Atlas]]
+
 ## Guilds
 - [[03-Guilds/Guild-Index]]
+- [[03-Guilds/Ten-Guilds-A-Day-in-Ordinary-Life]]
 - [[03-Guilds/Azorius-Senate-Deep-Dossier]]
 - [[03-Guilds/Boros-Legion-Deep-Dossier]]
 - [[03-Guilds/House-Dimir-Deep-Dossier]]
@@ -54,6 +65,7 @@ status: "deep-lore campaign bible"
 
 ## Interaction tools
 - [[04-Interactions/Guild-Interaction-Matrix]]
+- [[04-Interactions/Interguild-Social-Stereotypes-Respect-and-Misreadings]]
 - [[04-Interactions/Conflict-Reaction-and-Escalation-Engine]]
 - [[04-Interactions/Dialogue-Voice-and-Social-Pressure]]
 - [[04-Interactions/Guildless-Citizens-and-Neutral-Spaces]]
