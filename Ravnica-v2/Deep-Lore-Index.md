@@ -7,11 +7,18 @@ status: "deep-lore campaign bible"
 
 # Ravnica V2 — Deep-Lore Index
 
+## Complete single-file edition
+
+- [[Voice-Reader/Ravnica-v2-Complete-Voice-Reader|Ravnica V2 Complete Living-World Voice Reader]]
+
 ## GM operation
+
 - [[00-GM/Immersion-Standard]]
 - [[00-GM/Scene-Hydration-Checklist]]
 
 ## City and society
+
+- [[01-Setting/Living-Guildpact-Day-to-Day-from-Official-Fiction]]
 - [[01-Setting/City-World-Deep-Lore]]
 - [[01-Setting/Sensory-Palette-and-Daily-Rhythm]]
 - [[01-Setting/Sights-Sounds-Smells-and-Social-Signals]]
@@ -30,9 +37,12 @@ status: "deep-lore campaign bible"
 - [[01-Setting/Medicine-Health-Disability-and-the-Body]]
 
 ## Places
+
+- [[02-Locations/Canonical-Named-Locations-Deep-Atlas]]
 - [[02-Locations/Tenth-District-Living-Gazetteer]]
 - [[02-Locations/Transguild-Promenade-and-Trade-Ways]]
 - [[02-Locations/Undercity-Verticality-and-Buried-City]]
+- [[02-Locations/The-Ten-Guildhalls-Experiential-Atlas]]
 - [[02-Locations/Precinct-1-Guildpact-and-Ceremony]]
 - [[02-Locations/Precinct-2-Civic-and-Residential]]
 - [[02-Locations/Precinct-3-Greenbelts-and-Communal-Space]]
@@ -41,15 +51,17 @@ status: "deep-lore campaign bible"
 - [[02-Locations/Precinct-6-Industry-Deadbridge-and-Smelt]]
 
 ### Named-place deep dives
+
 - [[02-Locations/Named-Places/Precinct-1-Named-Places]]
 - [[02-Locations/Named-Places/Precinct-2-Named-Places]]
 - [[02-Locations/Named-Places/Precinct-3-Named-Places]]
 - [[02-Locations/Named-Places/Precinct-4-Named-Places]]
 - [[02-Locations/Named-Places/Precinct-5-Named-Places]]
 - [[02-Locations/Named-Places/Precinct-6-Named-Places]]
-- [[02-Locations/The-Ten-Guildhalls-Experiential-Atlas]]
 
 ## Guilds
+
+- [[03-Guilds/Canonical-Guild-Structures-and-Roles-Atlas]]
 - [[03-Guilds/Guild-Index]]
 - [[03-Guilds/Ten-Guilds-A-Day-in-Ordinary-Life]]
 - [[03-Guilds/Azorius-Senate-Deep-Dossier]]
@@ -64,6 +76,7 @@ status: "deep-lore campaign bible"
 - [[03-Guilds/Simic-Combine-Deep-Dossier]]
 
 ## Interaction tools
+
 - [[04-Interactions/Guild-Interaction-Matrix]]
 - [[04-Interactions/Interguild-Social-Stereotypes-Respect-and-Misreadings]]
 - [[04-Interactions/Conflict-Reaction-and-Escalation-Engine]]
@@ -73,15 +86,30 @@ status: "deep-lore campaign bible"
 - [[04-Interactions/Interguild-Case-Studies]]
 
 ## Ready scenes
+
 - [[05-Scenes/Street-Scenes-Vol-1]]
 - [[05-Scenes/Street-Scenes-Vol-2]]
 - [[05-Scenes/Institutional-Scenes-Vol-1]]
 - [[05-Scenes/Night-and-Undercity-Scenes]]
 
 ## Campaign integration
+
 - [[06-Campaign/Glass-Run-Deep-Integration]]
 
+## Alternate era overlays
+
+- [[07-Eras/Original-Ravnica-Trilogy/Deep-Era-Overlay]]
+- [[07-Eras/War-of-the-Spark/Deep-Era-Overlay]]
+
+## Player immersion
+
+- [[08-Player/Living-in-Ravnica-Player-Reader]]
+- [[08-Player/One-Hundred-Things-a-Ravnican-Knows]]
+- [[08-Player/An-Ordinary-Week-in-the-Tenth-District]]
+
 ## Sources and canon boundaries
+
+- [[99-Sources/Expanded-Source-Map]]
 - [[99-Sources/Canon-and-Synthesis-Policy]]
 - [[99-Sources/Primary-Source-Map]]
 - [[99-Sources/Official-Public-Fiction-Reading-Map]]
