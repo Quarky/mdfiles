@@ -1,21 +1,48 @@
 ---
-tags: [ravnica, guild]
-aliases: [Boros Legion]
+share: true
+title: "Boros Legion - Red/White"
+tags: [ravnica, guild, faction, living-world]
 ---
-# Boros Legion — Red/White
 
-## Identity
-The guild centers on military service, policing and protection. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
+# Boros Legion - Red/White
 
-## At the table
-**Voice:** direct and duty-centered.  
-**Wants:** protect civilians and stop immediate threats.  
-**Offers:** armed response, evacuation and command.  
-**Failure mode:** zeal, escalation and collateral damage.
+## Main-era leader
+**Aurelia**
 
-## GM principle
-Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
+## Civic function
+standing army, protection, justice, emergency force.
 
-## Related
-- [[../guild-relations|Guild Relations]]
-- [[../setting-overview|Setting Overview]]
+## How it actually works
+angels at strategic/symbolic top; garrisons and specialist corps translate strategy to streets.
+
+## Roles you can immediately play
+legionnaire, swiftblade, embermage, medic, firefist, wojek, garrison officer, commander, angel.
+
+## Major places
+Sunhome, Horizon Academy, garrisons, Kamen Fortress.
+
+## Why ordinary people join
+courage, solidarity, protection.
+
+## Characteristic danger
+zeal, escalation, militarization.
+
+## Internal politics
+street rescue vs strategy; soldiers vs angelic politics; justice vs literal compliance; Dimir paranoia.
+
+## NPC voice
+Move the civilians first. / Justice is a duty, not a mood. / I will answer for disobeying after everyone is alive.
+
+## Immediate NPC recipe
+Role + sincere belief + guild grievance + personal need + line they will not cross.
+
+## Reaction sequence
+Local worker notices; middle rank decides whether to report; internal faction asks who gains status; official response begins; opportunist moves faster than policy; ordinary residents bear the cost.
+
+## Six ready archetypes
+- loyalist who embodies the best case;
+- opportunist using membership for status/security;
+- reformer convinced the guild betrayed itself;
+- exhausted professional finishing a shift;
+- ambitious middle rank competing with rival;
+- anomaly who fits philosophy but not stereotype.

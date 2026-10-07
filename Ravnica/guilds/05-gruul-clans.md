@@ -1,21 +1,48 @@
 ---
-tags: [ravnica, guild]
-aliases: [Gruul Clans]
+share: true
+title: "Gruul Clans - Red/Green"
+tags: [ravnica, guild, faction, living-world]
 ---
-# Gruul Clans — Red/Green
 
-## Identity
-The guild centers on wild autonomy and resistance to urban encroachment. Its philosophy answers a real Ravnican need, which is why ordinary people can sincerely choose it.
+# Gruul Clans - Red/Green
 
-## At the table
-**Voice:** physical and suspicious of abstract authority.  
-**Wants:** territory, freedom and living space.  
-**Offers:** rubblebelt routes, beasts and direct action.  
-**Failure mode:** destruction harming the same powerless people they defend.
+## Main-era leader
+**Borborygmos**
 
-## GM principle
-Show what this guild contributes before showing its excess. That keeps faction conflict ideological and social rather than reducing the guild to a costume or monster type.
+## Civic function
+wild autonomy, Old Ways, resistance to urban enclosure.
 
-## Related
-- [[../guild-relations|Guild Relations]]
-- [[../setting-overview|Setting Overview]]
+## How it actually works
+independent clans including Burning Tree, Ghor, Scab, Slizt, Gravel Hide, Zhur-Taa, minor clans, trogs.
+
+## Roles you can immediately play
+warrior, hunter, beast-friend, anarch, Old Ways druid, champion, chieftain, trog.
+
+## Major places
+Red Wastes, Skarrg, rubblebelts, Husk, Oakchar.
+
+## Why ordinary people join
+autonomy, resistance to enclosure, survival, tradition.
+
+## Characteristic danger
+destruction of uninvolved people, domination by strength.
+
+## Internal politics
+clan rivalry; prophecy; family survival vs proving strength; Old Ways vs glory.
+
+## NPC voice
+Who gave you the right to call this empty? / You built a wall and called us trespassers. / Prove it.
+
+## Immediate NPC recipe
+Role + sincere belief + guild grievance + personal need + line they will not cross.
+
+## Reaction sequence
+Local worker notices; middle rank decides whether to report; internal faction asks who gains status; official response begins; opportunist moves faster than policy; ordinary residents bear the cost.
+
+## Six ready archetypes
+- loyalist who embodies the best case;
+- opportunist using membership for status/security;
+- reformer convinced the guild betrayed itself;
+- exhausted professional finishing a shift;
+- ambitious middle rank competing with rival;
+- anomaly who fits philosophy but not stereotype.
