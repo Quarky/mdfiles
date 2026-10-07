@@ -24,8 +24,9 @@ This registry is the GitHub landing index for active/recent projects in the acco
 | Shard Moon | `Projects/Shard-Moon` |
 | Foundry remote browser / Pinggy / Kasm | `Projects/Foundry-Remote-Browser` |
 | Shared project audio library | `Quarky/sharedprojectaudio`; manifests in `Quarky/audioprojects` |
+| Foundry Git Manager | `Quarky/nonaudioprojects/FoundryGitManager` |
 | Foundry v14 dependency bundle | `Quarky/v14dependencies` |
-| Adventure Markdown tooling | `Quarky/adventuremarkdown` |
+| Adventure Markdown tooling | `Projects/Adventure-Markdown`; intended source repo `Quarky/adventuremarkdown` |
 | Note refactor tooling | `Quarky/noterefactorplusadditions` |
 
 This file should be updated whenever a new project becomes active or a project gains a more specific canonical repository.
