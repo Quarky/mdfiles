@@ -16,23 +16,23 @@ compiled_from: "73 modular Ravnica-v2 notes"
 
 This is the single-file reading edition of the modular Ravnica V2 Obsidian project.
 
-It is intentionally comprehensive. It includes the GM immersion rules, daily life, sensory environment, civic systems, named-location atlases, all ten guild deep dossiers, interaction engines, scene material, campaign integration, alternate-era overlays, player immersion material, and source/provenance notes.
+It includes the GM immersion rules, city life, sensory environment, civic systems, canonical and synthesized location material, all ten guild dossiers, interaction engines, ready scenes, campaign integration, original-trilogy and War of the Spark overlays, player immersion material, and source/provenance notes.
 
-The default present is the era in which **Jace Beleren is the Living Guildpact**. Earlier original-trilogy material and later War of the Spark material appear in clearly marked era sections.
+The default present is the period in which **Jace Beleren is the Living Guildpact**.
 
-## Source discipline used throughout
+## Source discipline
 
-**CANON** means directly established by published or official material.
+**CANON** is directly established by official material.
 
-**CANON-SUPPORTED INFERENCE** means a practical consequence strongly implied by a canonical institution or place.
+**CANON-SUPPORTED INFERENCE** follows strongly from an established place or institution.
 
-**TABLE SYNTHESIS** means new material written to make Ravnica playable where sources are silent.
+**TABLE SYNTHESIS** fills gaps needed for play.
 
-**CAMPAIGN CANON** means material specific to MTGFoundry adventures such as The Glass Run.
+**CAMPAIGN CANON** belongs to MTGFoundry material such as The Glass Run.
 
-**ORIGINAL FICTION** means new scenes and vignettes written to demonstrate setting behavior rather than reproduce copyrighted stories.
+**ORIGINAL FICTION** demonstrates how the setting behaves without pretending to be published story.
 
-The guiding rule of V2 is: **published source first; synthesis fills gaps.**
+The governing rule is: **published source first; synthesis fills gaps.**
 
 
 ---
@@ -43,7 +43,30 @@ The guiding rule of V2 is: **published source first; synthesis fills gaps.**
 
 This is a **new parallel version**. The existing `Ravnica/` tree is intentionally frozen and is not edited by this project.
 
-V2 exists because a usable Ravnica guide cannot stop at guild slogans and one-line location summaries. The GM needs enough cultural, sensory, political, economic, architectural, and interpersonal context to improvise a street, a clerk, a riot, a guild dispute, a restaurant, a tenement, a checkpoint, a lab, or a funeral without the city becoming generic fantasy with guild logos pasted on top.
+V2 exists because a usable Ravnica guide cannot stop at guild slogans and one-line location summaries. The GM and players need enough cultural, sensory, political, economic, architectural, historical, and interpersonal context to inhabit the plane rather than merely recognize its faction symbols.
+
+## Read or listen to the entire project
+
+For @Voice Reader or a long-form read-through, use:
+
+- Ravnica V2 Complete Living-World Voice Reader
+
+It is compiled from every modular V2 Markdown note and keeps the default Living Guildpact era, alternate eras, player material, scene tools, and source notes in one file.
+
+## Source-first rule
+
+Use published Ravnica material before generating new lore.
+
+Priority sources in this project include:
+
+- *Guildmasters' Guide to Ravnica*;
+- official Planeswalker's Guides;
+- official Living Guildpact stories including *The Gorgon and the Guildpact*, *Project Lightning Bug*, *Catching Up*, and *Jace's Origin: Absent Minds*;
+- official original-trilogy retrospective material;
+- official *War of the Spark: Ravnica* stories;
+- campaign material such as *The Glass Run* only where campaign canon is intended.
+
+V2 labels the boundary between **canon**, **canon-supported inference**, **table synthesis**, **campaign canon**, and **original fiction**. Generated content fills gaps; it does not silently overwrite published lore.
 
 ## V2 operating standard
 
@@ -52,32 +75,33 @@ Every major setting note should answer five questions:
 1. **What does this place or institution do on an ordinary day?**
 2. **What does it look, sound, smell, and feel like from street level?**
 3. **Who depends on it, who resents it, and who profits from it?**
-4. **How do at least three guilds touch the same problem differently?**
+4. **How do multiple guilds touch the same problem differently?**
 5. **What changes if the PCs linger, interfere, make a promise, break a rule, or attract attention?**
 
 ## Default era
 
-The baseline is the period in which **Jace Beleren is the Living Guildpact** and the guilds operate in a precarious peace. Jace's absence matters because the city has not lost the idea of the Guildpact; it has lost reliable access to the person who embodies it. This makes local precedent, leverage, paperwork, favors, guild custom, and intimidation matter every day.
+The baseline is the period in which **Jace Beleren is the Living Guildpact** and the guilds operate in a precarious peace. Jace's absence matters because the city has not lost the idea of the Guildpact; it has lost reliable access to the person who embodies it.
 
-Later and earlier eras should be overlaid deliberately rather than silently mixed into this baseline.
+Earlier and later political states are overlays, not blended into a timeless present:
+
+- Original Ravnica / Guildpact / Dissension
+- War of the Spark
 
 ## Navigation
 
 - Ravnica - V2 Home
+- Deep-Lore-Index
 - Immersion Standard
+- Living Guildpact Daily Life from Official Fiction
 - City-World Deep Lore
-- Sensory Palette and Daily Rhythm
-- Civic Life, Economy, Housing and Transit
-- Law, Justice, Debt and Authority
-- Magic Infrastructure and Urban Hazards
-- People, Identity, Class and Belonging
-- Tenth District Living Gazetteer
-- Guild Deep Dossiers
+- Canonical Named Locations Deep Atlas
+- Canonical Guild Structures and Roles
 - Guild Interaction Matrix
-- Street Scenes
-- Canon and Synthesis Policy
+- Living in Ravnica Player Reader
+- One Hundred Things a Ravnican Knows
+- Expanded Source Map
 
-The goal is not merely to know facts about Ravnica. The goal is to be able to **run Ravnica as a functioning city-world**.
+The goal is not merely to know facts about Ravnica. The goal is to be able to **run and inhabit Ravnica as a functioning city-world**.
 
 
 ---
@@ -86,30 +110,48 @@ The goal is not merely to know facts about Ravnica. The goal is to be able to **
 
 # Ravnica — V2 Home
 
-> This version is the deep-lore, scene-ready reference. The older `Ravnica/` folder remains unchanged.
+> This is the source-first, scene-ready deep-lore reference. The older `Ravnica/` folder remains unchanged.
+
+## Full-project reader
+
+For @Voice Reader or continuous reading:
+
+**Ravnica V2 Complete Living-World Voice Reader**
+
+That one note contains the entire modular V2 body in reading order.
 
 ## Start here
 
 | Need at the table | Open |
 |---|---|
+| Understand the project and canon policy | 99-Sources/Expanded-Source-Map |
+| Learn how official fiction makes the city behave | 01-Setting/Living-Guildpact-Day-to-Day-from-Official-Fiction |
 | Describe the city in thirty seconds | 01-Setting/City-World-Deep-Lore |
-| Add sights, sounds, smell, weather, crowd texture | 01-Setting/Sensory-Palette-and-Daily-Rhythm |
+| Add sights, sounds, smells, weather, crowd texture | 01-Setting/Sights-Sounds-Smells-and-Social-Signals |
 | Improvise ordinary life | 01-Setting/Civic-Life-Economy-Housing-and-Transit |
 | Run police, courts, contracts, debt, or jurisdiction | 01-Setting/Law-Justice-Debt-and-Authority |
-| Explain pipes, heat, lifts, mizzium, weirds, magical hazards | 01-Setting/Magic-Infrastructure-and-Urban-Hazards |
-| Make a citizen feel like a Ravnican instead of a fantasy extra | 01-Setting/People-Identity-Class-and-Belonging |
-| Pick a district or precinct tone | 02-Locations/Tenth-District-Living-Gazetteer |
-| Play a guild member from the inside | 03-Guilds/Guild-Index |
+| Explain pipes, heat, lifts, mizzium, weirds, and civic magic | 01-Setting/Magic-Infrastructure-and-Urban-Hazards |
+| Find a published/named place before inventing one | 02-Locations/Canonical-Named-Locations-Deep-Atlas |
+| Pick a Tenth District precinct and local tone | 02-Locations/Tenth-District-Living-Gazetteer |
+| Play a guild member from inside their institution | 03-Guilds/Canonical-Guild-Structures-and-Roles-Atlas |
+| Deep-roleplay one guild | 03-Guilds/Guild-Index |
 | Decide how guilds react to the same event | 04-Interactions/Guild-Interaction-Matrix |
 | Drop in a ready scene | 05-Scenes/Street-Scenes-Vol-1 |
+| Give players lived Ravnican knowledge | 08-Player/Living-in-Ravnica-Player-Reader |
+| Switch to original-trilogy Ravnica | 07-Eras/Original-Ravnica-Trilogy/Deep-Era-Overlay |
+| Switch to War of the Spark | 07-Eras/War-of-the-Spark/Deep-Era-Overlay |
 
 ## The shortest correct mental model
 
-Ravnica is not "ten factions sharing a city." It is a city whose **law, food, plumbing, debt, medicine, military force, waste, entertainment, research, religion, parks, labor, information, and social identity are historically entangled with ten rival guilds**.
+Ravnica is not "ten factions sharing a city." It is a city whose **law, food, plumbing, debt, medicine, military force, waste, entertainment, research, religion, parks, labor, information, transit, and social identity are historically entangled with ten rival guilds**.
 
-Most residents do not wake up thinking about color philosophy. They wake up wondering whether the lift works, whether the landlord raised the rent, whether the Boros cordon means danger, whether an Azorius notice invalidated a permit, whether the Golgari delivery arrived, whether an Orzhov collector is waiting downstairs, and whether tonight's Rakdos show is worth the risk.
+Most residents do not wake up thinking about color philosophy. They wake up wondering whether the lift works, whether the landlord raised the rent, whether a Boros cordon means danger, whether an Azorius notice invalidated a permit, whether the Golgari delivery arrived, whether an Orzhov collector is waiting downstairs, and whether tonight's Rakdos show is worth the risk.
 
 The guilds become real when they are felt through those ordinary pressures.
+
+## Canon before invention
+
+Before inventing a location, guild job, faction, or political relationship, check the source atlas and source map. V2 should use official names, roles, institutions, and story behavior wherever they exist. Synthesis is for the enormous amount of daily urban life that official sources necessarily leave undescribed.
 
 
 ---
@@ -118,11 +160,18 @@ The guilds become real when they are felt through those ordinary pressures.
 
 # Ravnica V2 — Deep-Lore Index
 
+## Complete single-file edition
+
+- Ravnica V2 Complete Living-World Voice Reader
+
 ## GM operation
+
 - 00-GM/Immersion-Standard
 - 00-GM/Scene-Hydration-Checklist
 
 ## City and society
+
+- 01-Setting/Living-Guildpact-Day-to-Day-from-Official-Fiction
 - 01-Setting/City-World-Deep-Lore
 - 01-Setting/Sensory-Palette-and-Daily-Rhythm
 - 01-Setting/Sights-Sounds-Smells-and-Social-Signals
@@ -141,9 +190,12 @@ The guilds become real when they are felt through those ordinary pressures.
 - 01-Setting/Medicine-Health-Disability-and-the-Body
 
 ## Places
+
+- 02-Locations/Canonical-Named-Locations-Deep-Atlas
 - 02-Locations/Tenth-District-Living-Gazetteer
 - 02-Locations/Transguild-Promenade-and-Trade-Ways
 - 02-Locations/Undercity-Verticality-and-Buried-City
+- 02-Locations/The-Ten-Guildhalls-Experiential-Atlas
 - 02-Locations/Precinct-1-Guildpact-and-Ceremony
 - 02-Locations/Precinct-2-Civic-and-Residential
 - 02-Locations/Precinct-3-Greenbelts-and-Communal-Space
@@ -152,15 +204,17 @@ The guilds become real when they are felt through those ordinary pressures.
 - 02-Locations/Precinct-6-Industry-Deadbridge-and-Smelt
 
 ### Named-place deep dives
+
 - 02-Locations/Named-Places/Precinct-1-Named-Places
 - 02-Locations/Named-Places/Precinct-2-Named-Places
 - 02-Locations/Named-Places/Precinct-3-Named-Places
 - 02-Locations/Named-Places/Precinct-4-Named-Places
 - 02-Locations/Named-Places/Precinct-5-Named-Places
 - 02-Locations/Named-Places/Precinct-6-Named-Places
-- 02-Locations/The-Ten-Guildhalls-Experiential-Atlas
 
 ## Guilds
+
+- 03-Guilds/Canonical-Guild-Structures-and-Roles-Atlas
 - 03-Guilds/Guild-Index
 - 03-Guilds/Ten-Guilds-A-Day-in-Ordinary-Life
 - 03-Guilds/Azorius-Senate-Deep-Dossier
@@ -175,6 +229,7 @@ The guilds become real when they are felt through those ordinary pressures.
 - 03-Guilds/Simic-Combine-Deep-Dossier
 
 ## Interaction tools
+
 - 04-Interactions/Guild-Interaction-Matrix
 - 04-Interactions/Interguild-Social-Stereotypes-Respect-and-Misreadings
 - 04-Interactions/Conflict-Reaction-and-Escalation-Engine
@@ -184,15 +239,30 @@ The guilds become real when they are felt through those ordinary pressures.
 - 04-Interactions/Interguild-Case-Studies
 
 ## Ready scenes
+
 - 05-Scenes/Street-Scenes-Vol-1
 - 05-Scenes/Street-Scenes-Vol-2
 - 05-Scenes/Institutional-Scenes-Vol-1
 - 05-Scenes/Night-and-Undercity-Scenes
 
 ## Campaign integration
+
 - 06-Campaign/Glass-Run-Deep-Integration
 
+## Alternate era overlays
+
+- 07-Eras/Original-Ravnica-Trilogy/Deep-Era-Overlay
+- 07-Eras/War-of-the-Spark/Deep-Era-Overlay
+
+## Player immersion
+
+- 08-Player/Living-in-Ravnica-Player-Reader
+- 08-Player/One-Hundred-Things-a-Ravnican-Knows
+- 08-Player/An-Ordinary-Week-in-the-Tenth-District
+
 ## Sources and canon boundaries
+
+- 99-Sources/Expanded-Source-Map
 - 99-Sources/Canon-and-Synthesis-Policy
 - 99-Sources/Primary-Source-Map
 - 99-Sources/Official-Public-Fiction-Reading-Map
@@ -9620,9 +9690,8 @@ When sources conflict:
 Do not flatten contradictory eras into one timeless present.
 
 
-
 ---
 
 # End of Complete Voice Reader
 
-This file is generated from the modular notes. Edit the modular Ravnica-v2 notes as the canonical working set, then regenerate this reader so the voice edition stays synchronized.
+This file is compiled from the modular Ravnica-v2 notes.
