@@ -18,8 +18,8 @@ Jace's frequent absence is a core political fact. The Chamber of the Guildpact s
 
 ## Alternate era overlays
 
-- [[alternate-eras/Guildpact-Novel-10012-ZC/00-Era-Overview|Original Ravnica / Guildpact novel period]]
-- [[alternate-eras/War-of-the-Spark/00-Era-Overview|War of the Spark]]
+- [[Ravnicav1/alternate-eras/Guildpact-Novel-10012-ZC/00-Era-Overview|Original Ravnica / Guildpact novel period]]
+- [[Ravnicav1/alternate-eras/War-of-the-Spark/00-Era-Overview|War of the Spark]]
 
 These overlays replace era-sensitive facts such as leaders, destroyed or rebuilt guildhalls, public mood, and planar-access conditions. They do not duplicate the whole city atlas.
 
