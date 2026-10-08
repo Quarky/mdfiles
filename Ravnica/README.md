@@ -23,10 +23,6 @@ Jace's frequent absence is a core political fact. The Chamber of the Guildpact s
 
 These overlays replace era-sensitive facts such as leaders, destroyed or rebuilt guildhalls, public mood, and planar-access conditions. They do not duplicate the whole city atlas.
 
-## Expanded V2 guide
-
-The expanded deep-lore edition is now nested at [[Ravnica-v2/Ravnica - V2 Home|Ravnica V2 Home]]. This original edition stays at the Ravnica root.
-
 ## Standard for every major location
 
 Every detailed location answers:
