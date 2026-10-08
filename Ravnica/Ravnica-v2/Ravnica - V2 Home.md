@@ -7,7 +7,7 @@ status: "deep-lore campaign bible"
 
 # Ravnica — V2 Home
 
-> This is the source-first, scene-ready deep-lore reference. The older `Ravnica/` folder remains unchanged.
+> This is the source-first, scene-ready deep-lore reference. The original guide remains at the `Ravnica/` root; this expanded version lives at `Ravnica/Ravnica-v2/`.
 
 ## Full-project reader
 

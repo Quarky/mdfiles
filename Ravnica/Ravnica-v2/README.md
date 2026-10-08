@@ -7,7 +7,7 @@ status: "deep-lore campaign bible"
 
 # Ravnica V2 — Deep-Lore Living World Bible
 
-This is a **new parallel version**. The existing `Ravnica/` tree is intentionally frozen and is not edited by this project.
+This is a **new parallel version** located at `Ravnica/Ravnica-v2/`. The original guide remains at the `Ravnica/` root, with its content preserved.
 
 V2 exists because a usable Ravnica guide cannot stop at guild slogans and one-line location summaries. The GM and players need enough cultural, sensory, political, economic, architectural, historical, and interpersonal context to inhabit the plane rather than merely recognize its faction symbols.
 

@@ -18,10 +18,14 @@ Jace's frequent absence is a core political fact. The Chamber of the Guildpact s
 
 ## Alternate era overlays
 
-- [[Ravnicav1/alternate-eras/Guildpact-Novel-10012-ZC/00-Era-Overview|Original Ravnica / Guildpact novel period]]
-- [[Ravnicav1/alternate-eras/War-of-the-Spark/00-Era-Overview|War of the Spark]]
+- [[Ravnica/alternate-eras/Guildpact-Novel-10012-ZC/00-Era-Overview|Original Ravnica / Guildpact novel period]]
+- [[Ravnica/alternate-eras/War-of-the-Spark/00-Era-Overview|War of the Spark]]
 
 These overlays replace era-sensitive facts such as leaders, destroyed or rebuilt guildhalls, public mood, and planar-access conditions. They do not duplicate the whole city atlas.
+
+## Expanded V2 guide
+
+The expanded deep-lore edition is now nested at [[Ravnica-v2/Ravnica - V2 Home|Ravnica V2 Home]]. This original edition stays at the Ravnica root.
 
 ## Standard for every major location
 

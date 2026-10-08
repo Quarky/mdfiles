@@ -6,6 +6,9 @@ tags: [ravnica, index, obsidian]
 
 # Ravnica Home
 
+## Expanded V2 guide
+- [[Ravnica-v2/Ravnica - V2 Home|Ravnica V2 — Deep-Lore Living World]]
+
 ## Run the city
 - [[Living-World-Operating-Manual]]
 - [[Jump-Into-Any-NPC]]
@@ -57,8 +60,8 @@ tags: [ravnica, index, obsidian]
 - [[Dialogue-and-Mannerisms]]
 
 ## Alternate eras
-- [[Ravnicav1/alternate-eras/Guildpact-Novel-10012-ZC/00-Era-Overview]]
-- [[Ravnicav1/alternate-eras/War-of-the-Spark/00-Era-Overview]]
+- [[Ravnica/alternate-eras/Guildpact-Novel-10012-ZC/00-Era-Overview]]
+- [[Ravnica/alternate-eras/War-of-the-Spark/00-Era-Overview]]
 
 ## Stories
 - [[Story-Index]]
