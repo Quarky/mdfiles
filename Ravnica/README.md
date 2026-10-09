@@ -6,6 +6,8 @@ tags: [ravnica, mtg, living-world, gm-guide]
 
 # Ravnica Living World Setting Bible
 
+**[One-shot Campaign — Leylines and Tigers and Bears](./Campaign/README.md)** — complete GM guide and prep-first sessions.
+
 This vault is a GM operating encyclopedia, not a short lore primer. It is built so you can stop anywhere in Ravnica, describe the physical place, improvise a believable NPC from any faction, understand what the factions want, and know what happens if the player characters do nothing.
 
 ## Default playable era
