@@ -1,0 +1,89 @@
+# December 7 — Music Under Glass
+
+## Purpose
+
+Give both characters a day that is mostly humane. The campaign needs memories of the Arcology that are worth saving.
+
+## Scene 1: Rowan's performance
+
+**Time:** 17:10  
+**Location:** atrium performance terrace  
+**Cast:** Angie, Rowan, Eli, shoppers, office workers, children
+
+> Rowan's licensed sound canopy is a transparent half-dome no one can see until the lights catch its edge. It keeps the music inside a permitted volume while a tip meter floats politely beside the performer.
+>
+> The setup is corporate. The music is not.
+
+Rowan is playing a layered acoustic/electronic piece when Angie approaches. Let the performance breathe. Describe people slowing without intending to: a courier taking out one earbud, a tired office worker missing a lift because she stays through the chorus, two teenagers pretending not to sway.
+
+Rowan notices Angie's attention.
+
+> Rowan: “You play?”
+>
+> If Angie hesitates: “That was not a job interview.”
+
+If Angie joins, Rowan gives her space rather than making the scene about novelty. Glamour and Mood Hair can make her visually memorable, but the crowd's warmth should also come from what she contributes.
+
+Potential crowd reactions:
+
+- a child sits cross-legged directly in front of them;
+- an older resident mouths the refrain;
+- Eli turns his kiosk speaker off so the food ads do not compete;
+- a security guard watches for a minute before remembering he is working.
+
+**Average Charm or appropriate performance skill.**
+
+- Success: **Friendly Face: Atrium Crowd**.
+- Advantage: Rowan teaches Angie a simple refrain. Use it later as a memory anchor during sensory overload.
+- Triumph: nearby device indicators synchronize to the final note for one breath. Hidden Attention +1 and **Residual Signature**.
+
+If the device synchronization occurs, the crowd applauds harder because they think it is part of the show.
+
+Rowan knows it was not.
+
+> Rowan, quietly while packing up: “I do not have that lighting package.”
+
+## Scene 2: Frank fixes a problem because it is there
+
+**Time:** 17:35  
+**Location:** Eli's kiosk  
+**Cast:** Frank, Eli, Niko passing through
+
+Eli's dispenser has begun adding pickled ginger to everything: noodles, tea, pastries, even plain hot water.
+
+Customers are irritated but laughing.
+
+> Eli: “I have discovered the universal ingredient.”
+>
+> Customer: “I ordered coffee.”
+>
+> Eli: “The machine has opinions.”
+
+Frank can stop because he wants to help, not because his queue tells him to.
+
+The fault is embarrassingly simple: a feed label has been swapped. Nothing supernatural.
+
+**Easy Mechanics:** fix it.
+
+- Success: **Friendly Face: Eli Mercer**.
+- Advantage: Eli gives Frank a meal voucher and says, “Use it before I become a ginger-only establishment again.”
+- Threat: Frank is late to the next work assignment.
+
+The late arrival creates a small notation on tomorrow's queue: **NODE 7-G / VERIFY RELAY HANDSHAKE**. It is easy to overlook.
+
+## Scene 3: Amber applause
+
+At the final note of Rowan's next song, every indicator within sight turns amber simultaneously.
+
+Not warning amber. The same strange amber tone Angie has been beginning to notice.
+
+The lights return to normal before the applause ends.
+
+Eli says, “Nice effect.”
+
+Rowan looks at Angie instead of answering.
+
+End the day there.
+
+---
+
