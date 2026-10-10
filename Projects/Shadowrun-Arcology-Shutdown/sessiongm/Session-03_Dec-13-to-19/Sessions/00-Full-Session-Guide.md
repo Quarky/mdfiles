@@ -1,7 +1,7 @@
 # Session 03 — Pressure Behind Glass: Continuous GM Guide
 
 **In-fiction dates:** December 13–19, 2059.  
-**Read alongside:** [full approved original Prelude v2](../../Sessions/SESSION_1A_FRANK_AND_ANGIE_18_DAY_PRELUDE_FULL_SCENES_v2.md).  
+**Read alongside:** [full approved original Prelude v2](../../../Sessions/SESSION_1A_FRANK_AND_ANGIE_18_DAY_PRELUDE_FULL_SCENES_v2.md).  
 **Rule:** this runbook compiles the **new additive daily scenes**. It does not replace the original's complete core episodes, narrative, NPC dialogue, choices or timing. Each original day and GM hint edition remain linked within the daily chapters.
 
 ## How to run this sitting
