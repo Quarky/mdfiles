@@ -53,6 +53,24 @@
 - Art/token audit: `not recorded`
 
 
+## Newer approved Chandra rules — 2026-10-08
+
+This section comes from [approved issue #33](https://github.com/Quarky/Pwalk5e/blob/main/docs/qa/ISSUE_33_CHANDRA_APPROVED_CONVERSION_SPEC.md), newer and more specific than the v9 checkpoint. These are *approved conversion mechanics*, not an assertion of completed live acceptance.
+
+- Both versions begin at **4 loyalty**. Chandra commands spend the controller's **Action**, are **combat-only**, use sorcery timing and allow **one loyalty ability per turn**.
+- Native D&D healing cannot restore a summoned Planeswalker. Damage reduces HP and synchronizes loyalty down; explicit loyalty changes adjust both current and maximum HP, preserving partial damage.
+- `hpPerLoyalty = startingHP / 4`; `derivedLoyalty = ceil(currentHP / hpPerLoyalty)` for HP above zero, subject to cap; `maxHPAtLoyalty(L) = floor(hpPerLoyalty * L)`. At zero HP/loyalty, remove through the usual graveyard lifecycle.
+
+### Acolyte of Flame abilities
+
+| Loyalty cost | Conversion |
+|---|---|
+| 0 | Each red Planeswalker the controller controls gains +1 loyalty, applying the corresponding HP/max HP increase. |
+| 0 | Create **two 1/1 red Elemental** tokens with haste; sacrifice them at the next end step. Reuse the locked token: **11 HP, AC 13, speed 30 ft, +4 to hit, Flame Touch 7 (2d4+2) fire**. |
+| -2 | Cast an Instant or Sorcery card with **MV 3 or less** from controller's graveyard through the canonical pipeline; exile it instead of returning it to graveyard after this cast. Avoid double action/mana charging. |
+
+Acolyte HP threshold: **20 HP per loyalty**, so loyalty 1/2/3/4 has maximum HP 20/40/60/80. Explicit increases continue cumulative 20-HP bands.
+
 ## Implementation cautions
 
 - A locked rule definition does not establish that it has passed live Foundry v14 testing.

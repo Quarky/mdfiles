@@ -7,7 +7,7 @@
 1. **Actual 5e conversion** — [Pwalk5e native `items.json`](https://github.com/Quarky/Pwalk5e/blob/main/work/current/planeswalker5e/data/items.json), with [`actors.json`](https://github.com/Quarky/Pwalk5e/blob/main/work/current/planeswalker5e/data/actors.json) for creature stats/attacks. Current GitHub source overrules earlier documentation; live-game behavior is unverified here.
 2. **Saved deck** — [Ramza's Archidekt deck](https://archidekt.com/decks/26036532/ramzas_deck) plus Pwalk5e's [saved canonical Archidekt + Scryfall JSON](https://github.com/Quarky/Pwalk5e/blob/main/work/current/mtg-dnd-bridge/data/ramzus-canonical-deck.json). Snapshot retrieved **2026-10-06T16:52:57.619Z**; Archidekt snapshot last updated **2026-10-04T14:10:47.652991Z**.
 3. **Oracle identity/printings** — [Scryfall](https://scryfall.com/) IDs, types, faces, printing, art and Oracle reference links. [MTGJSON AtomicCards](https://www.mtgjson.com/downloads/all-files/) is an alternative catalog/cross-check, *not a converter*.
-4. **Rules checkpoint** — Planeswalker5e v9 (2026-10-02) §§6.1–7.3, as recovered, unless superseded by newer source or explicit instructions.
+4. **Rules checkpoint** — Planeswalker5e v9 (2026-10-02) §§6.1–7.3, as recovered, unless superseded by newer source or explicit instructions. **Approved Chandra rules:** [issue #33 spec dated 2026-10-08](https://github.com/Quarky/Pwalk5e/blob/main/docs/qa/ISSUE_33_CHANDRA_APPROVED_CONVERSION_SPEC.md), authoritative for its specific conversion and HP/loyalty formula.
 
 ## Audited coverage
 

@@ -38,6 +38,9 @@ Default magnitude is **1 MTG point ≈ 2.5 D&D hit points**; use half-up roundin
 | Fiery Inscription — 2 damage | 5 per opposing side on relevant spell cast | [[Cards/fiery-inscription]] converted `trigger` |
 | Reckless Rage — 4 enemy / 2 friendly | 10 fire enemy / 5 fire friendly | [[Cards/reckless-rage]] converted `dnd` |
 | Talisman of Conviction — 1 self-damage | 3 typed HP damage | [[Cards/talisman-of-conviction]] converted `damage_rule` |
+| Chandra, Torch of Defiance — 2/4/5 MTG damage | 5/10/13 D&D damage | [[Cards/chandra-torch-of-defiance]]; 2026-10-08 approved issue #33 specification |
+
+**Later source:** The [2026-10-08 Chandra approval](https://github.com/Quarky/Pwalk5e/blob/main/docs/qa/ISSUE_33_CHANDRA_APPROVED_CONVERSION_SPEC.md) independently confirms 2→5, 4→10, and 5→13, and separately specifies fractional **22.5 HP per loyalty** for Torch. That loyalty conversion is **not** a creature Power/DPR table.
 
 **Caution:** Other card targets and triggers may be implementation-specific. For example, some native source definitions still mark damage type as pending.
 

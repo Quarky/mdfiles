@@ -9,7 +9,7 @@
 |---|---|
 | Name | Lindblum, Industrial Regency // Mage Siege |
 | Oracle identity | `4cc014f3-05e0-442e-9dee-03eab1aa65a3` |
-| MTG mana cost | {2}{R} |
+| MTG mana cost | Land face: none; **Mage Siege adventure**: `{2}{R}` |
 | Mana value | 0 (land; do not apply the MV 1–7 spell band) |
 | Types |  |
 | Base P/T | Not applicable / not recorded |
@@ -20,6 +20,12 @@
 
 - [Oracle/printing details on Scryfall](https://scryfall.com/card/fin/285/lindblum-industrial-regency-mage-siege?utm_source=api)
 - [Archidekt source deck](https://archidekt.com/decks/26036532/ramzas_deck)
+
+## Multi-face mana-value distinction
+
+- **Lindblum (land):** no mana cost and MV 0 as a land in the saved Scryfall data; taps for red mana, enters tapped.
+- **Mage Siege (Adventure):** `{2}{R}`, converted spell-face equivalent cost 3, and creates a 0/1 Wizard with a noncreature-spell damage trigger.
+- MV 0 does **not** have a verified character-level access band. Spell face effective/casting value must be considered separately; do not apply the land MV of zero to bypass spell access restrictions.
 
 ## Actual Planeswalker5e conversion
 

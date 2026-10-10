@@ -18,7 +18,7 @@
 | Conversion source | Planeswalker5e native Item |
 | Runtime verification | Not established by this documentation |
 
-- [Oracle/printing details on Scryfall](https://scryfall.com/search?q=!%22Restoration%20Magic%22)
+- **Custom module spell, not identified as an official printed MTG card.** No Scryfall Oracle/printing identifier is established; do not merge by name with a public Oracle card.
 - [Archidekt source deck](https://archidekt.com/decks/26036532/ramzas_deck)
 
 ## Actual Planeswalker5e conversion

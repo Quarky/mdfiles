@@ -9,9 +9,9 @@
 |---|---|
 | Name | Sejiri Shelter // Sejiri Glacier |
 | Oracle identity | `d54e4e37-042b-44a5-918d-757308545d4d` |
-| MTG mana cost |  |
+| MTG mana cost | Front spell **Sejiri Shelter:** `{1}{W}`; back land **Sejiri Glacier:** no mana cost |
 | Mana value | 2 |
-| Types | Instant |
+| Types | Spell face: Instant; land face: Land |
 | Base P/T | Not applicable / not recorded |
 | Deck quantity in saved snapshot | 1 |
 | Saved printing | Zendikar Rising |
@@ -20,6 +20,13 @@
 
 - [Oracle/printing details on Scryfall](https://scryfall.com/card/znr/37/sejiri-shelter-sejiri-glacier?utm_source=api)
 - [Archidekt source deck](https://archidekt.com/decks/26036532/ramzas_deck)
+
+
+## Two-face rules metadata
+
+- **Sejiri Shelter (front):** `{1}{W}`, MV 2; Instant, creature protection effect.
+- **Sejiri Glacier (back):** Land with no casting cost; enters tapped; can tap for white mana.
+- A spell's mana value for band access is not automatically the land face's cost, and this dual-face card has no approved native D&D conversion in audited source.
 
 ## Conversion status
 
