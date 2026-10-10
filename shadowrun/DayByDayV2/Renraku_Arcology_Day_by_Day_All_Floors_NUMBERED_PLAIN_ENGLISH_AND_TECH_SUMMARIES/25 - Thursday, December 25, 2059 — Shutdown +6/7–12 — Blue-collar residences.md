@@ -1,0 +1,8 @@
+## 7–12 — Blue-collar residences
+
+- **Checkpoint:** 00:30 PST
+- **Control:** Blues conducting sweeps
+- **State:** The takeover function is now visible but improvised: Residents are isolated in their homes, removed in batches, and sent toward the Floor 13 conversion complex; missed households face starvation.
+- **Activity:** [Optional pressure event] As conversions accelerate, residents trade news through vents and short-range signals. Every movement risks separating families or exposing a hidden survivor.
+- **Continuity:** Transfers, equipment shortages, and Resistance interference keep the schedule unstable.
+- **Evidence:** [Derived from canon]

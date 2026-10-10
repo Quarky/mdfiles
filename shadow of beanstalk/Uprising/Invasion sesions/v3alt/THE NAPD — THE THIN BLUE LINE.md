@@ -1,0 +1,5 @@
+## THE NAPD — THE THIN BLUE LINE
+
+The New Angeles Police Department safeguards the city as the largest police entity in the world, its territories expanding as far as the Heinlein district on the moon through the New Angeles Space Elevator. Each of its hundreds of precincts is responsible for its territories, leading to a great difference of management between them.
+
+Jinteki's Caprice Nisei is currently prototyped as the first clone member of the NAPD, rumored to use her extraordinary cognitive powers for investigation. Haas-Bioroid's Floyd 2X3A7C is the first bioroid detective, utilized for his deductive processing and logic to solve cases. Floyd, a bioroid leased to the NAPD, has performed well but exhibits behaviors outside his programmers' expectations—visits to church, asking theological questions his programmers cannot answer.

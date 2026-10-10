@@ -1,0 +1,8 @@
+## 190 — Middle-class housing
+
+- **Checkpoint:** 00:30 PST
+- **Control:** Greens
+- **State:** Green monitors record and analyze the conversations of Floors 181–189.
+- **Activity:** [Optional pressure event] Monitors compare today's pattern to the prior cycle. This creates a scene hook without changing the floor's strategic state.
+- **Continuity:** Local control can still be disrupted by the Resistance or the player characters.
+- **Evidence:** [Canon destination state; intervening activity derived]

@@ -1,0 +1,8 @@
+## 251 — Hydroponics, aquaculture, food, and waste
+
+- **Checkpoint:** 12:20 PST
+- **Control:** Greens
+- **State:** Higher-quality food production supplies upper-rank Banded personnel.
+- **Activity:** [Optional pressure event] Maintenance crews isolate a failing bed or tank. This creates a scene hook without changing the floor's strategic state.
+- **Continuity:** Local control can still be disrupted by the Resistance or the player characters.
+- **Evidence:** [Canon destination state; intervening activity derived]

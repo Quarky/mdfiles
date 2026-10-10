@@ -1,0 +1,5 @@
+## How to use the chronology
+
+The book's Floor Index is an intelligence snapshot assembled on February 10, not a minute-by-minute construction log. This document therefore preserves every explicit date and treats the evolution of each floor as derived until the snapshot catches up. A floor entry's **state** is strategic; its **activity** is the specific scene occurring there that day. If the runners intervene, keep the strategic state only when it still follows from play.
+
+The chronology begins on December 1 because the coup requires a quiet subversion period even though the first precisely dated White-otaku record is December 14. The pre-December-14 material is intentionally marked derived. The December 9 Angie/Frank contact is campaign-established. Shutdown occurs on December 19 at 19:02:09 PST.

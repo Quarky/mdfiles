@@ -1,0 +1,62 @@
+
+
+# THE BATTLE OF KAGUYA
+[[Complete GM Session — Full Living World]]
+[[High Story · High Tactics · Three Parts]]
+
+[[THE AI CONTACT — ENCOUNTER FILE INTEGRATION]]
+
+# PART 1 — THE EXIT & THE RUINS
+[[What Happened While You Were Underground]]
+[[Duration ~60-75 minutes]]
+
+[[THE EXIT — THE DOOR OPENS]]
+
+[[DISCOVERY 1 — THE ABANDONED PAD]]
+
+[[Uprising/Invasion sesions/v4alt/DISCOVERY 2 — THE NBN SUPPRESSION ORDER]]
+
+[[DISCOVERY 3 — THE CLONE HANDPRINT]]
+
+[[NPC ENCOUNTER — REYES]]
+
+[[THE STARSCAPE RUINS — MOVING THROUGH]]
+
+[[NPC ENCOUNTER — THE REFUGEE]]
+
+[[THE ATRIUM — THE AFTERMATH]]
+
+# PART 2 — THE HUNT
+[[The Military Advances. The Workers Hold.]]
+[[Duration ~75-90 minutes]]
+
+[[THE MAINTENANCE TUNNELS — FINDING ZANE]]
+
+[[NPC ENCOUNTER — THE MINER TEAM]]
+
+[[NPC ENCOUNTER — ZANE]]
+
+[[ENCOUNTER 1 — THE BREACHING TEAM]]
+
+[[NPC ENCOUNTER — KAI]]
+
+[[ENCOUNTER 2 — THE DECOMPRESSION EVENT]]
+
+# PART 3 — THE CHOICES
+[[What Gets Out. What Stays. What Ends.]]
+[[Duration ~60-75 minutes2]]
+
+[[THE LAUNCH CORE — BERTH 3]]
+
+[[NPC ENCOUNTER — LIEUTENANT VASORA]]
+
+[[THE TEENAGER — KAI NGUYEN]]
+
+[[THE CORE DECISIONS — SESSION END]]
+
+[[CLOSING IMAGE]]
+
+[[NPC REFERENCE — KEY STATS]]
+
+[[GM REFERENCE — SESSION TRACKER]]
+

@@ -1,0 +1,8 @@
+## 1 — Main entrances, Funzone, zoo, aquarium, pool, and circus
+
+- **Checkpoint:** 12:20 PST
+- **Control:** Blues/constructs; survivor pockets
+- **State:** The zone is being forced toward its later configuration: Barriers seal most entrances. Storefront enclaves become desperate; escaped predators inhabit the indoor forest and most aquarium life dies.
+- **Activity:** [Optional pressure event] During the first full days of captivity, stores become improvised shelter and barter points. Conflicting instructions and incomplete staffing leave exploitable gaps.
+- **Continuity:** Control is incomplete; panicked civilians, trapped staff, and isolated resistance can still overturn a local outcome.
+- **Evidence:** [Derived from February 10 canon snapshot]

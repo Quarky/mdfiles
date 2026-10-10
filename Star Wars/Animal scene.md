@@ -1,0 +1,1 @@
+A [Vulptex] meets a [7. Charhound (Juvenile)]  the chart Hound shoots a little blast of fire in the fox steps back in a Chase each other in circles

@@ -1,0 +1,8 @@
+## 21 — Hydroponics, aquaculture, food, and waste
+
+- **Checkpoint:** 12:20 PST
+- **Control:** Greens
+- **State:** Food production remains operational and supplies the new internal order.
+- **Activity:** [Optional pressure event] Lights, pumps, and feed cycles continue under a reduced crew. This creates a scene hook without changing the floor's strategic state.
+- **Continuity:** Local control can still be disrupted by the Resistance or the player characters.
+- **Evidence:** [Canon destination state; intervening activity derived]

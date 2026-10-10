@@ -1,0 +1,90 @@
+# Appendix A — Floor coverage audit
+
+The daily ledger repeats the following canonical ranges so no numbered floor is omitted. Adjacent ranges do not overlap.
+
+- **B21:** Fusion plants
+- **B20:** Emergency headquarters and command center
+- **B18–B19:** Frozen-food storage
+- **B16–B17:** Aquaculture
+- **B13–B15:** Water filtration and recycling
+- **B12:** Security training center
+- **B11:** Software testing and packaging
+- **B9–B10:** Computer-product storage
+- **B7–B8:** Large-computer manufacturing
+- **B6:** Parking garage
+- **B5:** Parking and Metropolitan bus station
+- **B4–B3:** Parking and Ork Underground interface
+- **B2:** Parking and Interstate 5 ramps
+- **B1:** Mall service tunnels and loading docks
+- **1:** Main entrances, Funzone, zoo, aquarium, pool, and circus
+- **2–5:** Mall shops, restaurants, and monorail
+- **6:** Club Quarter, mall offices, and helicopter pads
+- **7–12:** Blue-collar residences
+- **13:** Blue-collar housing and hospital
+- **14:** Blue-collar housing
+- **15–20:** Blue-collar residences
+- **21:** Hydroponics, aquaculture, food, and waste
+- **22:** Electronics manufacturing
+- **23–30:** Corporate offices
+- **31:** Middle-class housing and garden roof
+- **32–39:** Middle-class housing
+- **40:** Middle-class housing and hospital
+- **41:** Middle-class housing
+- **42–50:** Middle-class housing
+- **51:** Hydroponics, aquaculture, food, and waste
+- **52:** Personal-computer manufacturing
+- **53–60:** Blue-collar worker housing
+- **61:** Blue-collar housing and hospital
+- **62–70:** Blue-collar worker housing
+- **71:** Hydroponics, aquaculture, food, and waste
+- **72:** Cyberware research and manufacturing
+- **73–80:** Corporate offices
+- **81–100:** Middle-class housing
+- **101:** Hydroponics, aquaculture, food, and waste
+- **102:** Software-development laboratories
+- **103–120:** Blue-collar worker housing
+- **121:** Hydroponics, aquaculture, food, and waste
+- **122:** Trideo and simsense research/manufacturing
+- **123–130:** Corporate offices
+- **131–132:** Middle-class housing
+- **133–148:** Middle-class housing
+- **149–150:** Middle-class housing
+- **151:** Hydroponics, aquaculture, food, and waste
+- **152:** Mainframe hardware/software manufacturing
+- **153–167:** Blue-collar housing
+- **168–170:** Blue-collar housing
+- **171:** Hydroponics, aquaculture, food, and waste
+- **172:** Computer-systems manufacturing
+- **173–180:** Corporate offices and principal security centers
+- **181–189:** Middle-class housing
+- **190:** Middle-class housing
+- **191–193:** Middle-class housing
+- **194–199:** Middle-class housing
+- **200:** Middle-class housing
+- **201:** Hydroponics, aquaculture, food, and waste
+- **202:** Computer research and product assembly
+- **203–209:** Magical laboratories, libraries, and mage housing
+- **210–212:** Magical laboratories, libraries, mage housing, and temple
+- **213–230:** Corporate offices
+- **231–236:** Executive housing
+- **237–240:** Executive housing
+- **241:** Executive housing and hospital
+- **242–250:** Executive housing
+- **251:** Hydroponics, aquaculture, food, and waste
+- **252–253:** Microtronics and product assembly
+- **254–259:** Executive housing
+- **260:** Executive housing
+- **261–279:** Executive housing
+- **280:** Executive housing
+- **281:** Hydroponics, aquaculture, food, and waste
+- **282–290:** Renraku University under construction
+- **291–300:** Executive housing and schools
+- **301:** Hydroponics, aquaculture, food, and waste
+- **302–303:** Arcology spa and fitness facilities
+- **304–310:** Board offices
+- **311:** Air-traffic control and rooftop security
+- **312:** Luxury housing
+- **313:** Luxury housing
+- **314–320:** Luxury housing, private pads, and hangars
+- **Rooftop:** Decorative gardens and helipads
+- **Service spine / Node 7-G:** Campaign maintenance node and amber terminal

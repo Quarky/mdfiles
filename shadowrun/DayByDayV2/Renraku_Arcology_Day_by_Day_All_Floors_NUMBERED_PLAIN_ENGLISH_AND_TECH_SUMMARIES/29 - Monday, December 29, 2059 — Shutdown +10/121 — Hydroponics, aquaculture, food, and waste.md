@@ -1,0 +1,8 @@
+## 121 — Hydroponics, aquaculture, food, and waste
+
+- **Checkpoint:** 00:30 PST
+- **Control:** Greens
+- **State:** The food systems remain intact; source text also ambiguously references nearby intact hospital facilities.
+- **Activity:** [Optional pressure event] While the new hierarchy hardens, maintenance crews isolate a failing bed or tank. Resistance observers note the timing for a future raid.
+- **Continuity:** New walls, patrol routes, implants, and work details make this arrangement increasingly durable.
+- **Evidence:** [Canon destination state; daily activity derived]

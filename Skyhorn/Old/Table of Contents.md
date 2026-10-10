@@ -1,0 +1,28 @@
+# Table of Contents
+
+- [Synopsis & Background](#synopsis--background)
+- [Three Hooks](#three-hooks)
+- [Captain Sheila Coppertree (CG half-elf spy)](#captain-sheila-coppertree-cg-half-elf-spy)
+- [Benji Frogwater (LG halfling noble)](#benji-frogwater-lg-halfling-noble)
+- [Gaspar (NE human bandit captain)](#gaspar-ne-human-bandit-captain)
+- [Neeno (NE half-orc bandit captain)](#neeno-ne-half-orc-bandit-captain)
+- [Lucien Skyhorn (NG human druid)](#lucien-skyhorn-ng-human-druid)
+- [Captain Aryn Hest (CG human veteran)](#captain-aryn-hest-cg-human-veteran)
+- [Raf Frogwater (CG halfling commoner)](#raf-frogwater-cg-halfling-commoner)
+- [Eelfolk – General Enhancements](#eelfolk--general-enhancements)
+- [Eelfolk (Standard)](#eelfolk-standard)
+- [Eelfolk Hunter](#eelfolk-hunter)
+- [Eelfolk Scourge (Large)](#eelfolk-scourge-large)
+- [Eelfolk Stormcaller](#eelfolk-stormcaller)
+- [Hunter Shark](#hunter-shark)
+- [Scene 1: Rumors in the Harbor](#scene-1-rumors-in-the-harbor)
+- [Scene 2: Scurvy Dogfight (The Docks)](#scene-2-scurvy-dogfight-the-docks)
+- [Scene 3: Sea Monster Attacks](#scene-3-sea-monster-attacks)
+- [Scene 4: Under Siege (Exterior & Area 1)](#scene-4-under-siege-exterior--area-1)
+- [Scene 5: The Light in the Tower (Area 4)](#scene-5-the-light-in-the-tower-area-4)
+- [Scene 6: The Caverns Below (Areas 5–9)](#scene-6-the-caverns-below-areas-59)
+- [Scene 7: Aftermath](#scene-7-aftermath)
+- [Appendices: Maps, Treasure, Conflicts](#appendices-maps-treasure-conflicts)
+- [DM Prep & Tools](#dm-prep--tools)
+
+---

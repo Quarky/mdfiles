@@ -1,0 +1,26 @@
+### DOCUMENT 3-H: ARCHIVE TERMINAL — FOUNDER ACCESS LOG
+
+**ARCHIVE ACCESS TERMINAL — LEVEL 3 — SYSTEM LOG**
+
+*Found on the archive terminal. Shows attempted access to FOUNDER-ONLY records.*
+
+---
+
+**ACCESS LOG — FOUNDER-ONLY RECORDS**
+
+| Time | User | Credential | Status |
+|------|------|------------|--------|
+| 20:01:03 | HARLAN MOSE | FOUNDER CREDENTIALS | ACCESS GRANTED |
+| 20:01:03 | — | — | LEVEL 6 ARCHIVE — OPENED |
+| 20:03:11 | — | — | AFTER DRIVE — ACCESSED |
+| 04:15:00 | MIRA | ARCHIVE ACCESS | ACCESS DENIED — FOUNDER-ONLY |
+| 04:16:00 | MIRA | ARCHIVE ACCESS | ACCESS DENIED — FOUNDER-ONLY |
+| 04:17:00 | MIRA | ARCHIVE ACCESS | ACCESS DENIED — FOUNDER-ONLY |
+| 06:30:00 | MIRA | ARCHIVE ACCESS | ACCESS DENIED — FOUNDER-ONLY |
+| 09:45:00 | MIRA | ARCHIVE ACCESS | ACCESS DENIED — FOUNDER-ONLY |
+
+---
+
+*Mira has been trying to access FOUNDER-ONLY records since 04:15. She has been denied every time.*
+
+---

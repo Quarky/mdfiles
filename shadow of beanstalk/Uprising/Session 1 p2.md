@@ -1,0 +1,1794 @@
+╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║  SESSION 4 — THE BATTLE OF KAGUYA                                                           ║
+║  A Living World Session Guide                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPENING — THE TUBE-LEV TO KAGUYA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The tube-lev came back online at 04:40. Not announced. The departure board
+in the Docklands transit hub just flickered from blank to live, and everyone
+in the waiting area looked at it the same way — the way people look at
+something they don't trust but are going to use anyway.
+
+Dante's car is the fourth of the morning. It's full.
+
+The ride to Kaguya takes twenty-two minutes. Nobody talks for most of it.
+
+At the sixth minute a woman across the aisle — late fifties, Filipina,
+work-worn hands, a Melange contractor badge on her jacket that she's turned
+face-down — says to no one in particular:
+
+  "They turned it back on so they know where we are."
+
+Nobody responds. But three people shift in their seats, and one man
+near the door quietly puts his PAD in his inside pocket instead of his lap.
+
+At the fourteenth minute the tube-lev passes an elevated section and
+through the scratched porthole Dante can see the crater rim ahead.
+Kaguya from the outside looks exactly like it always looks — the cluster
+of dome lights, the faint warm glow of a place that has spent enormous
+money trying to feel welcoming. At this hour, from this angle,
+it looks like a city on a moon in a story where things work out.
+
+At the twenty-second minute the tube-lev decelerates into the Kaguya
+outer ring terminus. The doors open. The woman with the face-down badge
+stands, straightens her jacket, and turns the badge face-up.
+
+She walks out like she belongs here. Because she does.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KAGUYA OUTER RING — 05:10
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The outer ring at 05:10 is the tourism infrastructure in its early-morning state —
+still mostly clean, slightly stale from the overnight recycled air cycle, the kind
+of quiet that big spaces have before people fill them. Moving walkways run empty.
+The StarScape retail levels have their security shutters up but their window
+displays lit — force of habit, or automated systems that nobody thought to adjust.
+
+A Haas-Bioroid maintenance crew is working on a moving walkway junction — three
+bioroids in facility coveralls, one human supervisor in a yellow hardhat reading
+something on a PAD and not watching them. The bioroids work in perfect coordinated
+silence. One of them has a small scratch on its left forearm that catches the
+light as it reaches past Dante.
+
+Dante has seen that kind of scratch before. He keeps moving.
+
+The first sign something is different: at the junction between the outer ring
+arterial and the StarScape entrance, two Globalsec guards who would not normally
+be here at 05:10 are here at 05:10. They're not stopping people. They're watching.
+One of them is the younger one — Reyes, Earth-born, still learning the gravity —
+from the Docklands checkpoint. He's been reassigned. He sees Dante the way someone
+sees a face they almost recognize and decides not to pursue it.
+
+Dante keeps moving.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC ENCOUNTER — PETRA VASQUEZ, STARSCAPE LEVEL 3 CAFÉ
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Petra is in the only café open at this hour, a tourist place with views of the
+crater rim and prices that assume you flew here from Earth. She's the only
+customer. She has two PADs on the table and a ceramic cup that has been
+refilled enough times the barista — a Haas-Bioroid in a green apron — is
+watching her with the particular attention of someone who has been told
+to offer refills but not disturb.
+
+She looks up when Dante sits down. She looks like someone who has not slept
+but has made a decision that has temporarily replaced the need for sleep.
+
+PETRA: "The story is out. You know that."
+
+  She doesn't wait for him to answer.
+
+PETRA: "NBN buried the Prosperity coverage on top of it but it's on the PAD
+  network in the outpost transit corridors and I've had forty-seven responses
+  in the last six hours from people who can corroborate individual pieces of it.
+  Not section F specifically — the working conditions, the incident reporting
+  suppression, the clone casualty numbers that don't appear in official counts."
+
+  She turns one of the PADs toward him. A message thread, dozens deep.
+  The names at the top are from places Dante recognizes. Outpost transit hubs.
+  Worker housing blocks. Someone whose handle is just a number.
+
+PETRA: "I need to know what's going to happen today. Not what Sigg told you —
+  what you think is going to happen."
+
+  She waits. This is not a social question. She's writing the lead
+  in her head while he talks, whatever he says.
+
+  If Dante is honest with her:
+    She nods slowly. She puts the second PAD in her bag.
+    "Then I need to be in the inner dome cluster when it starts.
+    Not for the fight — for after the fight. The after is the story."
+    She looks at him. "Can you get me there?"
+
+  If Dante tells her to leave:
+    She shakes her head.
+    "I have a source inside Heinlein Authority who can get me
+    to a departure slot if things go wrong. I'm not asking you
+    to protect me. I'm asking you not to lie to me about the timeline."
+
+  Either way, she pulls a small device from her jacket pocket —
+  a recorder, old model, the kind with a physical drive.
+  She sets it on the table between them and doesn't turn it on.
+  "Off the record," she says, "until you say otherwise."
+
+PETRA VASQUEZ — RIVAL
+Br 2  Ag 2  Int 4  Cun 4  Will 3  Pr 3
+Soak 2 │ WT 12 │ ST 13 │ Def 0/0
+Skills: Charm 2, Computers 2, Deception 3, Knowledge (Lore) 3,
+  Knowledge (Society) 4, Perception 3, Streetwise 3.
+Talents: Convincing Demeanor (remove ▲▲ from Deception checks),
+  Nobody's Fool 2 (upgrade difficulty of Deception checks against
+  her twice).
+Equipment: Two PADs (full journalistic suite), physical recorder,
+  concealed buckyweave clothing (Def 1, Soak +1), press credentials
+  (genuine — currently being reviewed for revocation by Melange legal).
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC ENCOUNTER — REYES, THE GLOBALSEC GUARD
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+If Dante passes Reyes a second time, or looks at him directly:
+
+Reyes is twenty-four, maybe twenty-five. He has the look of someone who
+joined Globalsec because the recruiter made it sound like a career
+with structure and the structure has turned out to be this — standing
+at a junction in a tourist spaceport at 05:10 during what his briefing
+called an "elevated security event" without telling him what that meant.
+
+He doesn't stop Dante. But he does say, quietly, not quite under his breath:
+
+  "You're the third person this morning who came in on that tube-lev
+   who walked straight past me without checking the departure board."
+
+  He's not accusing. He's observing. He's the kind of young man who
+  observes things and then says them out loud because nobody told him
+  that in this job, the things you observe are not always things you say.
+
+  If Dante stops:
+    Reyes looks at him. His hand is not near his weapon.
+    "My partner Chen told me once that people who know where they're going
+    don't need to check the board. I didn't understand what he meant then."
+    A pause. "I think I understand it now."
+    He looks away. Dante can keep moving.
+
+  If Dante keeps moving without stopping:
+    Reyes watches him go. He does not call after him.
+    He makes a note on his PAD. He looks at the note.
+    He deletes it. He puts his PAD away.
+
+REYES — MINION (Globalsec standard)
+Br 3  Ag 2  Int 2  Cun 2  Will 2  Pr 2
+Soak 4 │ WT 8 │ Def 0/0
+Skills (group only): Perception, Ranged (Light), Vigilance.
+Talents: None.
+Equipment: Pistol (Ranged [Light]; Dam 6; Crit 3; Range [Medium]),
+  light body armor (+2 soak), PAD, Globalsec comms earpiece.
+Note: Reyes will not fire on workers or unarmed people.
+  He will freeze at the moment of decision. This matters later.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STARSCAPE ATRIUM — 06:30 (THE OCCUPATION BEGINS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dante is in the lower service corridor when it happens above him.
+He hears it as a change in the ambient noise — the normal murmur of a
+spaceport morning replaced by something that has more voices in it,
+more direction. Not chaos. Intention.
+
+Sigg's people moved through the outer ring in groups of three and four
+across two hours. They are not carrying visible weapons in the atrium.
+They are carrying themselves differently from tourists — the specific
+posture of people who have decided something and are now doing it.
+
+The atrium is the size of a small dome. High ceiling. Moving walkway
+access on three levels. A fountain in the center that runs on recycled water
+and exists to signal that water is not a resource concern here, which is
+the most expensive lie Kaguya tells.
+
+At 06:30 the fountain is turned off. Not by Globalsec. By a worker named
+Amara who knows where the shutoff valve is because she installed it
+eighteen months ago as a Weyland subcontractor and was paid sixty percent
+of the contracted rate because the work was deemed "incomplete" despite
+being complete.
+
+She turns off the fountain. She sits down next to it.
+Ninety-three people sit down with her.
+
+The tourists in the atrium do not run. Some of them film it on their PADs.
+One of them — a teenager from São Paulo, on her first trip off-Earth —
+asks Amara what's happening. Amara tells her. The teenager sits down too,
+for about four minutes, until her mother finds her and pulls her away.
+She looks back over her shoulder as she's pulled. This is the frame
+of the recording that will matter most. It is not the frame she intended.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC — AMARA OSEI, OCCUPATION LEADER (what Dante knows about her)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Amara is not in Sigg's core faction. She is not a fighter. She is a construction
+worker who came to Kaguya on the tube-lev this morning because Yusuf told her
+that the atrium needed someone who could explain to the tourists and the cameras
+why they were there in plain language without rhetoric. She is forty-one years old.
+She has two children in Heinlein's lower habitation sections. She has a very clear
+picture of what is likely to happen in the next several hours and she sat down anyway.
+
+If Dante encounters her (possible via the maintenance crawl observation points):
+
+AMARA: (not looking at him, watching the atrium)
+  "I know what you're doing down there. Yusuf told me.
+  Make sure the pod doors open when we need them to."
+
+  She pauses.
+
+  "My daughter is eleven. She's never been to a place that looks like this."
+  She gestures at the atrium without looking at it.
+  "I want her to know we were here. That we sat in the middle of the thing
+  they built on what we dug out of the rock, and we didn't ask permission."
+
+  She looks at him then.
+
+  "Do your job."
+
+AMARA OSEI — RIVAL
+Br 3  Ag 2  Int 3  Cun 3  Will 4  Pr 3
+Soak 4 │ WT 13 │ ST 14 │ Def 0/0
+Skills: Athletics 2, Coercion 2, Knowledge (Society) 3,
+  Leadership 3, Mechanics 3, Resilience 2, Streetwise 2.
+Talents: Inspiring Rhetoric (may make a Hard Leadership check;
+  on success, each ally who can hear her removes 2 strain).
+Equipment: Worker's durable clothing (+1 soak), PAD with
+  the Section F story cached locally, a Weyland contractor
+  ID she hasn't handed back.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE LOWER SERVICE CORRIDOR — DANTE AT THE SPLICE POINT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The service corridor at SC-7 is a 2.5 meter wide tunnel that smells
+of hydraulic fluid and the particular ozone signature of Kaguya's
+aging atmospheric processors. The wall panel Dante needs is behind
+a secondary cargo conveyor that runs on a timer — every twenty
+minutes it cycles for approximately ninety seconds. In those ninety
+seconds the vibration makes fine network work significantly harder.
+He knows the timer. He planned around it.
+
+The first thing he notices when he jacks in: the network feels different
+from the Rusty Ring. Not harder — broader. More confident in its own
+architecture. The Rusty Ring was Melange's infrastructure, built cheap
+and patched over years of cost-cutting. This is Kaguya. This was
+built to impress as much as to function. The ICE here believes it is
+protecting something worth protecting.
+
+It is not wrong.
+
+While Dante runs, three things move through the corridor:
+
+AT MINUTE 8 — a bioroid maintenance worker rounds the corner, sees Dante
+jacked in at the panel, stops. It is carrying a diagnostic tool and
+a replacement atmospheric sensor. It looks at Dante for a long moment —
+the particular stillness of a Haas-Bioroid processing an unexpected variable.
+Then it turns around and takes a different route. It does not file a report.
+Whether this is because it calculated that doing so was not part of its
+directive, or because something else is happening in that still moment,
+is not clear. Dante doesn't have time to think about it.
+
+AT MINUTE 23 — two of Sigg's people move through at a low run, heading
+toward the inner dome junction. One of them is Yusuf's contact from the
+Docklands — the courier who was picked up in the sweep and released.
+He's carrying something in a sealed case that Dante recognizes from the
+sound it makes when it's jostled: glass. Sealed canister. Not He-3.
+Something that goes in a canister the same size. He doesn't look at Dante.
+The other one does — just for a second, the look of someone making sure
+of something — and then they're past.
+
+AT MINUTE 41 — the corridor goes quiet in a way that is different from
+its normal quiet. The atmospheric processor hum shifts slightly.
+Somewhere above Dome Beta and Ring 1 StarScape, something has changed
+the pressure differential between sections. The emergency seals in the
+adjacent corridor have activated. Dante can hear it as a deep mechanical
+thunk transmitted through the wall structure. He has been in enough
+lunar facilities to know that sound. Something has decompressed.
+It is not catastrophic. He knows this because the emergency lighting
+in his corridor does not change color. But somewhere near here,
+people are in bad air.
+
+He has to decide whether to keep running or move toward the sound.
+He cannot do both.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FALLING STAR STAGE 2 — WHAT DANTE FEELS BEFORE HE SEES IT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+At approximately Hour 2, the SXC dropships enter Kaguya's crater.
+They do not come through the tube-lev. They do not come through the
+Beanstalk. They come from orbit, through the crater's open sky,
+on the far side away from the civilian structures.
+
+Dante does not see them.
+
+He feels the building change.
+
+It is not a sound exactly — it is more that every sound in the corridor
+shifts its timbre slightly, the way a room changes when a large door
+somewhere far away opens and the air pressure equalizes. The corridor
+walls vibrate at a frequency that is below hearing but above feeling.
+His teeth know it before his ears do.
+
+In the network, something changes simultaneously: the ICE he has been
+navigating begins behaving differently. Not stronger — more alert.
+The gaps that existed a moment ago are being looked at by something
+that wasn't there before. The EWS is online.
+
+RAIDER is now in the network. It doesn't announce itself.
+It is present the way a guard is present in a dark corridor —
+not by making noise but by the quality of the silence it creates.
+
+If Dante has the ICE Identifier from Act II:
+  He knows what it is before he touches it. He knows the difference
+  between corporate ICE and military ICE from the handshake signature alone.
+  He gives it exactly the room it needs and finds the gap it hasn't closed yet.
+
+If Dante does not have the ICE Identifier:
+  He finds out what it is when he touches it. This is survivable.
+  It is not comfortable.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE INNER DOME JUNCTION — SIGG'S PEOPLE HOLD THE LINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dante reaches the inner dome junction between Dome Gamma and Dome Delta
+via the maintenance crawl — not the public corridor, which is now held
+by a line of Sigg's fighters that is not going to hold much longer.
+
+He can hear the junction through the maintenance hatch. Here is what
+he hears, in order:
+
+1. A voice he recognizes as Sigg's, calm, giving directions.
+2. The sound of boots on metal grating — Globalsec coming from the east.
+3. A voice he does not recognize saying: "They're past the StarScape
+   level. They're compressing us."
+4. Sigg again: "Hold the junction. Dante needs ten more minutes."
+5. Silence for about four seconds.
+6. The distinctive report of a synap pistol.
+7. More boots.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC ENCOUNTER — SIGG, INNER DOME JUNCTION
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+If Dante opens the maintenance hatch and shows himself:
+
+Sigg is exactly where the situation requires him to be — at the junction
+between the two corridors, one hand on a transit tube support strut,
+the other at his side. He is not wearing armor. He has a bullpup carbine
+on a sling across his back that he has not drawn. He looks at Dante the way
+people look at someone who is exactly on time in a situation where being
+exactly on time matters enormously.
+
+SIGG: "How long."
+
+  If Dante has the He-3 cargo system locked (Dome Gamma golden objective):
+    "It's done. Cargo is locked."
+    Sigg: "Good. Delta."
+    He says it the way someone says "next" in a list.
+
+  If Dante still needs time:
+    Sigg turns back to the junction.
+    "Then go. We'll hold."
+    He does not say for how long. He does not say what holding costs.
+    He already knows both.
+
+  If Dante asks about the decompression:
+    Sigg's jaw tightens.
+    "Two of ours. Three tourists. Seals activated. They're in emergency
+    O2." A beat. "It was an EWS network interference disrupting the
+    atmo management system. Not us." Another beat, shorter.
+    "I don't know if that matters."
+
+SIGG — NEMESIS
+Br 3  Ag 3  Int 2  Cun 3  Will 4  Pr 3
+Soak 5 │ WT 17 │ ST 14 │ Def 1/1
+Skills: Athletics 2, Brawl 3, Coercion 3, Cool 4, Discipline 3,
+  Leadership 3, Melee 3, Ranged (Heavy) 3, Resilience 2,
+  Streetwise 3, Vigilance 3.
+Talents: Adversary 1, Durable 2 (reduce critical injury result by 20),
+  Grit 1, Natural Leader (once per session, may reroll Leadership check).
+Force Powers: Move (basic), Enhance (basic) — pre-insurrection,
+  these are instinctive and unacknowledged.
+Equipment: Bullpup carbine (Ranged [Heavy]; Dam 7; Crit 3;
+  Range [Medium]; Accurate 1, Auto-fire), monoblade (Melee; Dam +1;
+  Crit 2; Range [Engaged]; Pierce 2), durable clothing (+1 soak),
+  concealed plasteel carapace underneath (+2 defense, +2 soak).
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+ADVERSARIES IN THE JUNCTION — WHO DANTE MIGHT ENCOUNTER
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+GLOBALSEC RESPONSE UNIT — MINION GROUP
+Br 3  Ag 3  Int 2  Cun 2  Will 2  Pr 2
+Soak 5 │ WT 8 │ Def 0/0
+Skills (group only): Discipline, Ranged (Heavy), Resilience, Vigilance.
+Talents: None.
+Equipment: Bullpup carbine (Ranged [Heavy]; Dam 7; Crit 3;
+  Range [Medium]; Accurate 1, Auto-fire), riot armor (+2 soak),
+  Globalsec comms suite, stun grenades ×2.
+Notes: Elevated security order — use of force authorized.
+  They are not SXC. They will hesitate at ambiguous targets.
+  They will not hesitate at armed ones.
+
+GLOBALSEC FIELD COMMANDER CHEN — RIVAL
+Br 3  Ag 3  Int 3  Cun 3  Will 3  Pr 3
+Soak 6 │ WT 14 │ ST 13 │ Def 0/0
+Skills: Athletics 2, Cool 3, Leadership 2, Perception 3,
+  Ranged (Heavy) 3, Resilience 2, Vigilance 3.
+Talents: Adversary 1, Commanding Presence (allies within
+  medium range add ▲ to discipline checks).
+Equipment: Bullpup carbine (Ranged [Heavy]; Dam 7; Crit 3;
+  Range [Medium]; Accurate 1, Auto-fire), plasteel carapace
+  (+1 defense, +2 soak), Globalsec commander comms with
+  direct line to Heinlein Authority.
+Notes: Chen has been on the Moon for eleven years.
+  He is not enjoying this. He is doing it anyway.
+  He will not fire on unarmed civilians. If Dante is unarmed
+  and moving away from the conflict, Chen lets him go.
+  He will regret decisions either way and he knows it.
+
+LOONY FIGHTERS — MINION GROUP
+Br 3  Ag 2  Int 2  Cun 2  Will 3  Pr 2
+Soak 4 │ WT 8 │ Def 0/0
+Skills (group only): Athletics, Brawl, Melee, Ranged (Light),
+  Resilience.
+Talents: None.
+Abilities: Lunar Born (remove ▲ from Athletics checks in
+  low-gravity environments).
+Equipment: See weapons list below — these are the weapons
+  bought with the He-3 money. Distributed as the mission required.
+  Not everyone has the same thing. Some of them have tools
+  repurposed into weapons. Some have actual weapons.
+  The difference is visible and it matters.
+
+SXC RAPID INSERTION TROOPER — RIVAL
+Br 4  Ag 3  Int 2  Cun 2  Will 3  Pr 1
+Soak 7 │ WT 15 │ ST 12 │ Def 1/1
+Skills: Athletics 3, Discipline 3, Melee 2, Ranged (Heavy) 4,
+  Resilience 3, Vigilance 2.
+Talents: Adversary 2, Armor Master (when wearing armor,
+  increase soak by 1 additional), Toughened 2.
+Equipment: Laser rifle (Ranged [Heavy]; Dam 8; Crit 3;
+  Range [Medium]; Accurate 1, Burn 1), plasteel carapace
+  (+1 defense, +2 soak), environmental hardsuit underneath
+  (+1 soak, sealed for vacuum), military comms suite with
+  EWS integration.
+Notes: SXC troopers are not here to negotiate.
+  They are also not here for atrocities — Metzger's rules
+  of engagement are specific: detain over kill where possible,
+  do not fire into civilian concentrations. The troopers
+  follow these rules. They are also very good at their jobs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE WEAPONS — WHAT THE HE-3 MONEY BOUGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The He-3 shipment was worth approximately 340,000 credits on the black market.
+After the Docklands fixer's cut (18%), the logistics costs, the safe house
+network maintenance, and the equipment Dante acquired in Act II, the Loony
+war chest going into Kaguya is approximately 240,000 credits.
+
+Sigg's procurement team spent it in three categories.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1 — FRONT LINE (fighters who trained, who know what they're doing)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+These weapons went to approximately 40 people who have some background —
+ex-military, ex-prisec, workers who did mandatory service before coming
+to the Moon. People who can handle a weapon under stress.
+
+  BULLPUP CARBINES ×12
+  Ranged (Heavy) │ Dam 7 │ Crit 3 │ Range [Medium]
+  Encum 3 │ HP 2 │ Price 825 │ Rarity 7
+  Qualities: Accurate 1, Auto-fire
+  Source: Docklands black market. Stormriders moved them in
+  three shipments over two weeks in maintenance crates.
+  They smell of the lubricant used on Kaguya cargo equipment
+  because that's what they came in disguised as.
+
+  PISTOLS ×20
+  Ranged (Light) │ Dam 6 │ Crit 3 │ Range [Medium]
+  Encum 1 │ HP 2 │ Price 300 │ Rarity 2
+  Standard. The most legally available weapons on this list.
+  A significant number were purchased individually by workers
+  over the preceding months — perfectly legal personal defense
+  purchases that nobody flagged individually.
+
+  SUBMACHINE GUNS ×8
+  Ranged (Light) │ Dam 5 │ Crit 3 │ Range [Medium]
+  Encum 2 │ HP 1 │ Price 400 (R) │ Rarity 4
+  Qualities: Auto-fire
+  Restricted. Sourced through Li Wei's network.
+  The price reflects the short timeline.
+
+  LASER PISTOLS ×6
+  Ranged (Light) │ Dam 6 │ Crit 3 │ Range [Short]
+  Encum 1 │ HP 2 │ Price 650 │ Rarity 8
+  Qualities: Accurate 1, Burn 1
+  Expensive. Preferred for use in Kaguya's pressurized
+  environments where a missed slug round punching through
+  a transplas panel is a different category of problem.
+  Sigg's procurement team was thinking about the environment.
+  This is the most tactically competent decision they made.
+
+  MONOBLADES ×15
+  Melee │ Dam +1 │ Crit 2 │ Range [Engaged]
+  Encum 1 │ HP 1 │ Price 225 │ Rarity 3
+  Qualities: Pierce 2
+  Easily concealed. Every fighter who came through
+  the tube-lev this morning was carrying one.
+  Nobody checked. The scanners at the tube-lev
+  terminus are calibrated for firearms, not monoblades.
+  This was known in advance.
+
+  STUN BATONS ×10
+  Melee │ Dam +2 │ Crit 5 │ Range [Engaged]
+  Encum 1 │ HP 2 │ Price 125 │ Rarity 2
+  Qualities: Disorient 3, Stun Damage
+  For the people who were told: don't kill anyone if you can help it.
+  Most of them. Sigg was very specific about this.
+  The Insurrection's image matters as much as its outcome.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2 — SECONDARY FORCE (workers who are here, who will fight if they have to)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+These weapons went to approximately 60 people who are not fighters
+but who volunteered to be present and are not planning to be unarmed.
+
+  SYNAP PISTOLS ×25
+  Ranged (Light) │ Dam 5 │ Crit 6 │ Range [Short]
+  Encum 1 │ HP 2 │ Price 375 │ Rarity 2
+  Qualities: Disorient 4, Stun 3, Stun Damage
+  The Gandhi gun. Non-lethal unless someone has a heart condition.
+  These went to the atrium occupation group, the secondary
+  holding positions, and anyone Sigg assessed as unlikely
+  to stay calm in a firefight.
+
+  LIGHT PISTOLS ×20
+  Ranged (Light) │ Dam 5 │ Crit 4 │ Range [Short]
+  Encum 1 │ HP 1 │ Price 100 │ Rarity 2
+  Disposable. Cheap. The backup to the backup.
+
+  STUN GRENADES ×30
+  Ranged (Light) │ Dam 8 │ Crit 5 │ Range [Short]
+  Encum 1 │ Price 70 │ Rarity 4
+  Qualities: Blast 8, Disorient 3, Limited Ammo 1, Stun Damage
+  Crowd control tool. Also: in a pressurized dome environment
+  with good acoustics, a stun grenade in an enclosed space
+  is significantly more effective than in open air.
+  This is also known in advance.
+
+  GLOP GRENADES ×15
+  Ranged (Light) │ Dam 1 │ Crit 6 │ Range [Short]
+  Encum 1 │ Price 50 │ Rarity 5
+  Qualities: Blast 1, Ensnare 4, Limited Ammo 1
+  For the checkpoints. If Globalsec is going to push through
+  a corridor the Loonies need to hold for eight more minutes,
+  a glop grenade buys eight minutes more reliably than a firefight.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3 — INFRASTRUCTURE & PROTECTION (keeping people alive)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+  ENVIRONMENTAL HARDSUITS ×20
+  Defense 0 │ Soak +1 │ Encum 4 │ HP 2 │ Price 260 │ Rarity 4
+  The most important purchase. Fully sealed vacuum-rated suits
+  for the people who will be nearest the airlock and dome
+  junction areas where a decompression event is most likely.
+  Sigg ordered these before he ordered the firearms.
+  This is the most morally legible decision he made.
+
+  RIOT ARMOR ×15
+  Defense 0 │ Soak +2 │ Encum 3 │ HP 2 │ Price 550 │ Rarity 5
+  For the fighters holding the junction corridors.
+  Won't stop a laser rifle. Will stop a stun baton.
+  Will stop several things Globalsec is likely to use
+  before escalating to lethal force.
+
+  CONCEALED BUCKYWEAVE ×40
+  Defense 1 │ Soak +1 │ Encum 1 │ HP 2 │ Price 320 │ Rarity 5
+  For the atrium occupation. The people sitting down.
+  If someone fires into a crowd of apparently unarmed
+  sitting workers, the cameras will show it.
+  The buckyweave is the insurance policy on that gamble.
+
+  PLASTEEL CARAPACE ×5
+  Defense 1 │ Soak +2 │ Encum 4 │ HP 3 │ Price 750 (R) │ Rarity 5
+  For Sigg and four other named fighters who will be at
+  the most exposed positions. Restricted. Expensive.
+  Worth it.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+IMPROVISED & REPURPOSED WEAPONS (the things the money didn't buy)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Not everything came from the He-3 money. Some of it came from
+twenty years of working in the facilities that built this place.
+
+  PLASMA CUTTERS (repurposed)
+  Melee │ Dam 12 │ Crit 3 │ Range [Engaged]
+  Encum 5 │ HP 3 │ Price 725 │ Rarity 5
+  Qualities: Burn 1, Prepare 1, Sunder, Unwieldy 2, Two-handed
+  Three of them. Carried by workers who used them professionally
+  and know exactly what they do to metal and to people.
+  They were brought in the maintenance equipment cases
+  that workers are never asked to open at checkpoints.
+  Nobody thought to check. Nobody thought a plasma cutter
+  was a weapon. Several people on the Moon who built
+  things with them knew otherwise.
+
+  SLEDGEHAMMERS ×8
+  Melee │ Dam +4 │ Crit 4 │ Range [Engaged]
+  Encum 4 │ HP 4 │ Price 200 │ Rarity 2
+  Qualities: Cumbersome 2, Knockdown, Two-handed
+  The symbol of the original Human First protests
+  now carried by people with a completely different politics.
+  A sledgehammer is impossible to regulate or outlaw.
+  Everyone here knows this. Some of them are making a point with it.
+
+  WATERKNIFE (one, belonging to a worker named Dek)
+  Melee │ Dam 10 │ Crit 3 │ Range [Engaged]
+  Encum 4 │ HP 1 │ Price 850 │ Rarity 4
+  Qualities: Prepare 1, Sunder, Unwieldy 3, Vicious 3, Two-handed
+  Dek has been using this tool for nine years. He knows
+  every surface it will and won't cut. He is not planning
+  to use it on a person. He has it because the alternative
+  was leaving it at home and he didn't want to do that.
+  If someone gives him a reason, he will use it.
+  He will not need a reason that involves being asked twice.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE COMPRESSION ZONE — HOUR 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dante finishes the network run. He is at SC-7 in the lower service corridor.
+He has to move now. The compression zone is forming above and around him
+and the maintenance crawl is the only route that doesn't put him
+in the middle of it.
+
+He moves through the crawl and comes up at an access hatch in the corridor
+between Dome Beta and Ring 1 StarScape — the corridor where the
+partial decompression happened forty minutes ago.
+
+The corridor has emergency lighting, amber. The seals activated in time.
+The air is breathable. Slightly thin — the seals caught it at about
+85% normal O2, which is noticeable but not immediately dangerous.
+
+Five people are in the corridor. Two of them are Sigg's workers.
+Three of them are civilians who couldn't reach an exit before the seals closed.
+
+One of the civilians is the school group chaperone — a man in his forties
+from São Paulo, on his first trip to the Moon, who is sitting with his back
+against the wall with his arms around two students who are not panicking
+but are very still and very pale. He looks up when Dante comes through
+the hatch. His expression is very simple: it says please.
+
+His environmental suit rating means that 85% O2 is manageable for him.
+The students are in tourist clothing. They are not in distress yet.
+They will be in twenty minutes.
+
+The two Loony workers are both in environmental hardsuits.
+One of them — a young man Dante doesn't know — looks at the civilians,
+then at Dante, then at the access hatch behind him.
+
+LOONY WORKER: "Where does that go."
+
+  It is not quite a question. He already knows Dante came from
+  somewhere. He wants to know if it goes somewhere useful
+  for the people in this corridor.
+
+  This is one of the moments where the session is not about
+  the network. It is about what Dante does with what he has.
+
+  Options:
+  — The maintenance crawl goes back to SC-7, then south
+    to an emergency surface hatch. Viable for five people
+    in suits or who can hold their breath in thin air.
+    Not without risk. Manageable.
+  — Dante's departure slot (if he secured it) can absorb
+    three additional people via the crew manifest backend
+    that doesn't biometrically verify the same way.
+    He didn't plan to use those slots this way.
+    He has them.
+  — There is nothing Dante can do that doesn't cost him
+    something he was planning to spend elsewhere.
+
+  The chaperone hasn't said anything. He's still looking at Dante.
+  The look hasn't changed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NPC ENCOUNTER — KAI (if Dante chose to find it)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If Dante went to the transit hub maintenance section where Okonkwo hid Kai
+before coming to Kaguya, Kai is with him now. It moves through the service
+corridors exactly the way a maintenance clone moves through service corridors —
+correctly, quietly, without triggering the automated systems that monitor
+for unauthorized personnel, because it is not unauthorized. It has credentials.
+It has always had credentials. That is the most unsettling thing about it.
+
+Kai says very little during the network runs. It watches the corridor.
+Twice during the three hours, it routes a maintenance drone away from
+SC-7 via the drone handshake frequency — not through Dante's network run,
+separately, from its own access, calmly and without drawing attention to
+what it is doing. It does not mention this. Dante notices it anyway.
+
+At the moment of the decompression — when Dante hears the seals activate —
+Kai says:
+
+KAI: "The atmo management override on section B-7 was destabilized
+  by the EWS interference on the network fourteen minutes ago.
+  I tried to stabilize it. I could not reach the atmo management
+  system from the handshake frequency. It was already locked."
+
+  A pause that is very slightly too long.
+
+  "I am telling you this because you should know it was not
+  caused by Sigg's people. I cannot tell the people in that
+  corridor that. I do not know if it would matter to them."
+
+KAI — RIVAL (unique)
+Br 2  Ag 3  Int 4  Cun 4  Will 4  Pr 2
+Soak 3 │ WT 12 │ ST 14 │ Def 0/0
+Skills: Athletics 2, Computers (Hacking) 3, Computers (Systems) 4,
+  Mechanics 3, Perception 3, Resilience 3, Stealth 3,
+  Vigilance 3.
+Talents: Bypass Security (may make Hard Computers check
+  to disable security systems as a maneuver, not an action),
+  Grit 1.
+Abilities: Clone Mesh Access (can access drone maintenance
+  handshake frequency independently, without a network splice;
+  can route or retask individual drones as a maneuver once
+  per encounter), Unremarkable (observers must be actively
+  looking to notice Kai as unusual — otherwise it reads as
+  a standard maintenance clone).
+Equipment: Maintenance credentials (genuine Jinteki-issued),
+  small medical kit (can clear 2 wounds on others as an action),
+  the scratch on its left wrist.
+Notes: Kai will not fight. It will help people move through spaces
+  it knows. It knows more spaces than anyone realizes.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE LAUNCH CORE — DEPARTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The launch core at this hour is the only completely calm place in Kaguya.
+Metzger kept it clear deliberately — the Beanstalk is the objective she
+will not compromise. The pod doors are open. The departure board is running.
+A beanpod is docked at berth 3, loading window open, scheduled departure
+in eleven minutes.
+
+There is one Heinlein Authority officer at the boarding gate.
+She is twenty-something, Lunar-born from the look of her — the specific
+bone structure of someone raised in low-G, the slight elongation that
+Earth-born people don't have. She is reading something on a PAD.
+She looks up when Dante approaches.
+
+She looks at his credentials. She looks at him. She looks at whoever is with him.
+
+If Dante has the golden objective departure slot:
+  The credentials are clean. The biometrics suppress. She waves him through.
+  She says: "Berth 3. Eleven minutes. Welcome aboard."
+  She goes back to her PAD.
+
+If Dante has the crew manifest slot but not the golden objective:
+  She looks at his credentials slightly longer.
+  She types something. She looks at him.
+  "Your crew assignment says cargo systems specialist.
+  You don't have cargo systems certification on your ID."
+  She waits. This is the moment for whatever cover Dante has.
+  If his cover is good: she waves him through, slightly slowly.
+  If his cover is not good: she reaches for her comms.
+
+If Dante has nothing:
+  She stops him immediately and reaches for her comms.
+  What happens next is not a network problem.
+
+Regardless of how Dante boards, the same thing happens once he is on the pod:
+
+The pod seals. The docking collar releases. The launch sequence is quiet —
+a low magnetic hum that builds for approximately thirty seconds and then
+the crater floor falls away below the pod's small viewport. The external
+camera shows Kaguya from above — the cluster of dome lights, the crater rim,
+the tiny figures on the surface that might be SXC troopers or might be
+maintenance workers, impossible to distinguish at this altitude.
+
+Then the pod accelerates and there is only the Beanstalk above and the Moon below
+and the long climb toward Earth.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE BROADCAST — WHAT DANTE HEARS ON THE BEANPOD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The beanpod has an interior screen. It is showing an NBN feed.
+
+Serena Nightshade.
+
+Her voice is exactly the same as it always is.
+
+  "Starport Kaguya is fully operational following the successful
+   suppression of a terrorist attack by anti-colonial extremists.
+   All hostile rebels were eliminated by the brave and heroic
+   response from the U.S. Space Expeditionary Corps and Globalsec
+   security forces. Beanstalk service resumes at 0600.
+   Melange Mining thanks the people of Heinlein for their patience."
+
+The screen shows the crater from orbit.
+It looks like a spaceport.
+
+If Dante pushed Sigg's broadcast through the Authority uplink:
+  The feed cuts for four minutes. Dead air on the NBN channel.
+  On the pod's secondary channel — the one that picks up the outpost
+  PAD-to-PAD network when signal is available — something else is playing.
+  Sigg's voice. Plain. Unhurried. The Section F evidence embedded in it.
+  The worker death toll including the clone workers.
+  What the Insurrection was actually asking for.
+  It plays for four minutes and twelve seconds.
+  Then NBN reasserts and Serena Nightshade is back.
+
+  Dante is in the pod. Someone on the Moon is listening to that
+  four minutes and twelve seconds on their PAD in a transit hub
+  where SYNC's coverage is thin.
+  Someone is caching it.
+  Someone will share it.
+  It is not enough. It is not nothing.
+
+If Dante did not push the broadcast:
+  The NBN feed runs uninterrupted.
+  The four-minute cut doesn't happen.
+  Sigg's statement goes out on the PAD network only — slower, patchier,
+  still there, still spreading.
+  NBN controls the first draft of today.
+  The second draft will take longer.
+
+  Either way, the pod climbs.
+  Either way, the Moon gets smaller.
+  Either way, the screen shows what NBN wants it to show.
+
+  Whoever is with Dante is with him.
+  Whoever is not, is not.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CLOSING IMAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+From the pod viewport, if Dante looks:
+
+The Moon is a grey sphere. No atmosphere to give it color.
+No weather to move across its surface. Just the grey and the dark and
+the permanent cold and the tiny cluster of lights at Heinlein that is
+visible for about four minutes after departure before the pod's trajectory
+carries it out of sightline.
+
+The lights don't go out. They diminish. There is a difference.
+
+Somewhere in those lights: Yusuf, who burned the last safe house list
+and is already building the next one because that is what he does.
+Okonkwo, who opened a maintenance corridor in an outpost and told
+workers they could leave, which is the most honest political act
+in the session. The Heinlein Authority officer, who is already back
+to reading her PAD. Reyes, who deleted a note and will keep doing
+the job because no one has given him a reason not to yet.
+The teenager from São Paulo, who was pulled away from the atrium
+after four minutes and who has the recording and who doesn't know
+what to do with it yet.
+
+And somewhere: the Treaty of Heinlein, in its transplas tomb just
+outside the main shuttle terminus, on display in the Tourism Board's
+exhibit about Kaguya's proud history.
+
+The Tourism Board tends to downplay mention of the now-infamous
+Battle of Kaguya that ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║  SESSION 4 — THE BATTLE OF KAGUYA                                                           ║
+║  A Living World Session Guide                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPENING — THE TUBE-LEV TO KAGUYA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The tube-lev came back online at 04:40. Not announced. The departure board
+in the Docklands transit hub just flickered from blank to live, and everyone
+in the waiting area looked at it the same way — the way people look at
+something they don't trust but are going to use anyway.
+
+Dante's car is the fourth of the morning. It's full.
+
+The ride to Kaguya takes twenty-two minutes. Nobody talks for most of it.
+
+At the sixth minute a woman across the aisle — late fifties, Filipina,
+work-worn hands, a Melange contractor badge on her jacket that she's turned
+face-down — says to no one in particular:
+
+  "They turned it back on so they know where we are."
+
+Nobody responds. But three people shift in their seats, and one man
+near the door quietly puts his PAD in his inside pocket instead of his lap.
+
+At the fourteenth minute the tube-lev passes an elevated section and
+through the scratched porthole Dante can see the crater rim ahead.
+Kaguya from the outside looks exactly like it always looks — the cluster
+of dome lights, the faint warm glow of a place that has spent enormous
+money trying to feel welcoming. At this hour, from this angle,
+it looks like a city on a moon in a story where things work out.
+
+At the twenty-second minute the tube-lev decelerates into the Kaguya
+outer ring terminus. The doors open. The woman with the face-down badge
+stands, straightens her jacket, and turns the badge face-up.
+
+She walks out like she belongs here. Because she does.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KAGUYA OUTER RING — 05:10
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The outer ring at 05:10 is the tourism infrastructure in its early-morning state —
+still mostly clean, slightly stale from the overnight recycled air cycle, the kind
+of quiet that big spaces have before people fill them. Moving walkways run empty.
+The StarScape retail levels have their security shutters up but their window
+displays lit — force of habit, or automated systems that nobody thought to adjust.
+
+A Haas-Bioroid maintenance crew is working on a moving walkway junction — three
+bioroids in facility coveralls, one human supervisor in a yellow hardhat reading
+something on a PAD and not watching them. The bioroids work in perfect coordinated
+silence. One of them has a small scratch on its left forearm that catches the
+light as it reaches past Dante.
+
+Dante has seen that kind of scratch before. He keeps moving.
+
+The first sign something is different: at the junction between the outer ring
+arterial and the StarScape entrance, two Globalsec guards who would not normally
+be here at 05:10 are here at 05:10. They're not stopping people. They're watching.
+One of them is the younger one — Reyes, Earth-born, still learning the gravity —
+from the Docklands checkpoint. He's been reassigned. He sees Dante the way someone
+sees a face they almost recognize and decides not to pursue it.
+
+Dante keeps moving.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC ENCOUNTER — PETRA VASQUEZ, STARSCAPE LEVEL 3 CAFÉ
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Petra is in the only café open at this hour, a tourist place with views of the
+crater rim and prices that assume you flew here from Earth. She's the only
+customer. She has two PADs on the table and a ceramic cup that has been
+refilled enough times the barista — a Haas-Bioroid in a green apron — is
+watching her with the particular attention of someone who has been told
+to offer refills but not disturb.
+
+She looks up when Dante sits down. She looks like someone who has not slept
+but has made a decision that has temporarily replaced the need for sleep.
+
+PETRA: "The story is out. You know that."
+
+  She doesn't wait for him to answer.
+
+PETRA: "NBN buried the Prosperity coverage on top of it but it's on the PAD
+  network in the outpost transit corridors and I've had forty-seven responses
+  in the last six hours from people who can corroborate individual pieces of it.
+  Not section F specifically — the working conditions, the incident reporting
+  suppression, the clone casualty numbers that don't appear in official counts."
+
+  She turns one of the PADs toward him. A message thread, dozens deep.
+  The names at the top are from places Dante recognizes. Outpost transit hubs.
+  Worker housing blocks. Someone whose handle is just a number.
+
+PETRA: "I need to know what's going to happen today. Not what Sigg told you —
+  what you think is going to happen."
+
+  She waits. This is not a social question. She's writing the lead
+  in her head while he talks, whatever he says.
+
+  If Dante is honest with her:
+    She nods slowly. She puts the second PAD in her bag.
+    "Then I need to be in the inner dome cluster when it starts.
+    Not for the fight — for after the fight. The after is the story."
+    She looks at him. "Can you get me there?"
+
+  If Dante tells her to leave:
+    She shakes her head.
+    "I have a source inside Heinlein Authority who can get me
+    to a departure slot if things go wrong. I'm not asking you
+    to protect me. I'm asking you not to lie to me about the timeline."
+
+  Either way, she pulls a small device from her jacket pocket —
+  a recorder, old model, the kind with a physical drive.
+  She sets it on the table between them and doesn't turn it on.
+  "Off the record," she says, "until you say otherwise."
+
+PETRA VASQUEZ — RIVAL
+Br 2  Ag 2  Int 4  Cun 4  Will 3  Pr 3
+Soak 2 │ WT 12 │ ST 13 │ Def 0/0
+Skills: Charm 2, Computers 2, Deception 3, Knowledge (Lore) 3,
+  Knowledge (Society) 4, Perception 3, Streetwise 3.
+Talents: Convincing Demeanor (remove ▲▲ from Deception checks),
+  Nobody's Fool 2 (upgrade difficulty of Deception checks against
+  her twice).
+Equipment: Two PADs (full journalistic suite), physical recorder,
+  concealed buckyweave clothing (Def 1, Soak +1), press credentials
+  (genuine — currently being reviewed for revocation by Melange legal).
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC ENCOUNTER — REYES, THE GLOBALSEC GUARD
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+If Dante passes Reyes a second time, or looks at him directly:
+
+Reyes is twenty-four, maybe twenty-five. He has the look of someone who
+joined Globalsec because the recruiter made it sound like a career
+with structure and the structure has turned out to be this — standing
+at a junction in a tourist spaceport at 05:10 during what his briefing
+called an "elevated security event" without telling him what that meant.
+
+He doesn't stop Dante. But he does say, quietly, not quite under his breath:
+
+  "You're the third person this morning who came in on that tube-lev
+   who walked straight past me without checking the departure board."
+
+  He's not accusing. He's observing. He's the kind of young man who
+  observes things and then says them out loud because nobody told him
+  that in this job, the things you observe are not always things you say.
+
+  If Dante stops:
+    Reyes looks at him. His hand is not near his weapon.
+    "My partner Chen told me once that people who know where they're going
+    don't need to check the board. I didn't understand what he meant then."
+    A pause. "I think I understand it now."
+    He looks away. Dante can keep moving.
+
+  If Dante keeps moving without stopping:
+    Reyes watches him go. He does not call after him.
+    He makes a note on his PAD. He looks at the note.
+    He deletes it. He puts his PAD away.
+
+REYES — MINION (Globalsec standard)
+Br 3  Ag 2  Int 2  Cun 2  Will 2  Pr 2
+Soak 4 │ WT 8 │ Def 0/0
+Skills (group only): Perception, Ranged (Light), Vigilance.
+Talents: None.
+Equipment: Pistol (Ranged [Light]; Dam 6; Crit 3; Range [Medium]),
+  light body armor (+2 soak), PAD, Globalsec comms earpiece.
+Note: Reyes will not fire on workers or unarmed people.
+  He will freeze at the moment of decision. This matters later.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STARSCAPE ATRIUM — 06:30 (THE OCCUPATION BEGINS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dante is in the lower service corridor when it happens above him.
+He hears it as a change in the ambient noise — the normal murmur of a
+spaceport morning replaced by something that has more voices in it,
+more direction. Not chaos. Intention.
+
+Sigg's people moved through the outer ring in groups of three and four
+across two hours. They are not carrying visible weapons in the atrium.
+They are carrying themselves differently from tourists — the specific
+posture of people who have decided something and are now doing it.
+
+The atrium is the size of a small dome. High ceiling. Moving walkway
+access on three levels. A fountain in the center that runs on recycled water
+and exists to signal that water is not a resource concern here, which is
+the most expensive lie Kaguya tells.
+
+At 06:30 the fountain is turned off. Not by Globalsec. By a worker named
+Amara who knows where the shutoff valve is because she installed it
+eighteen months ago as a Weyland subcontractor and was paid sixty percent
+of the contracted rate because the work was deemed "incomplete" despite
+being complete.
+
+She turns off the fountain. She sits down next to it.
+Ninety-three people sit down with her.
+
+The tourists in the atrium do not run. Some of them film it on their PADs.
+One of them — a teenager from São Paulo, on her first trip off-Earth —
+asks Amara what's happening. Amara tells her. The teenager sits down too,
+for about four minutes, until her mother finds her and pulls her away.
+She looks back over her shoulder as she's pulled. This is the frame
+of the recording that will matter most. It is not the frame she intended.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC — AMARA OSEI, OCCUPATION LEADER (what Dante knows about her)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Amara is not in Sigg's core faction. She is not a fighter. She is a construction
+worker who came to Kaguya on the tube-lev this morning because Yusuf told her
+that the atrium needed someone who could explain to the tourists and the cameras
+why they were there in plain language without rhetoric. She is forty-one years old.
+She has two children in Heinlein's lower habitation sections. She has a very clear
+picture of what is likely to happen in the next several hours and she sat down anyway.
+
+If Dante encounters her (possible via the maintenance crawl observation points):
+
+AMARA: (not looking at him, watching the atrium)
+  "I know what you're doing down there. Yusuf told me.
+  Make sure the pod doors open when we need them to."
+
+  She pauses.
+
+  "My daughter is eleven. She's never been to a place that looks like this."
+  She gestures at the atrium without looking at it.
+  "I want her to know we were here. That we sat in the middle of the thing
+  they built on what we dug out of the rock, and we didn't ask permission."
+
+  She looks at him then.
+
+  "Do your job."
+
+AMARA OSEI — RIVAL
+Br 3  Ag 2  Int 3  Cun 3  Will 4  Pr 3
+Soak 4 │ WT 13 │ ST 14 │ Def 0/0
+Skills: Athletics 2, Coercion 2, Knowledge (Society) 3,
+  Leadership 3, Mechanics 3, Resilience 2, Streetwise 2.
+Talents: Inspiring Rhetoric (may make a Hard Leadership check;
+  on success, each ally who can hear her removes 2 strain).
+Equipment: Worker's durable clothing (+1 soak), PAD with
+  the Section F story cached locally, a Weyland contractor
+  ID she hasn't handed back.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE LOWER SERVICE CORRIDOR — DANTE AT THE SPLICE POINT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The service corridor at SC-7 is a 2.5 meter wide tunnel that smells
+of hydraulic fluid and the particular ozone signature of Kaguya's
+aging atmospheric processors. The wall panel Dante needs is behind
+a secondary cargo conveyor that runs on a timer — every twenty
+minutes it cycles for approximately ninety seconds. In those ninety
+seconds the vibration makes fine network work significantly harder.
+He knows the timer. He planned around it.
+
+The first thing he notices when he jacks in: the network feels different
+from the Rusty Ring. Not harder — broader. More confident in its own
+architecture. The Rusty Ring was Melange's infrastructure, built cheap
+and patched over years of cost-cutting. This is Kaguya. This was
+built to impress as much as to function. The ICE here believes it is
+protecting something worth protecting.
+
+It is not wrong.
+
+While Dante runs, three things move through the corridor:
+
+AT MINUTE 8 — a bioroid maintenance worker rounds the corner, sees Dante
+jacked in at the panel, stops. It is carrying a diagnostic tool and
+a replacement atmospheric sensor. It looks at Dante for a long moment —
+the particular stillness of a Haas-Bioroid processing an unexpected variable.
+Then it turns around and takes a different route. It does not file a report.
+Whether this is because it calculated that doing so was not part of its
+directive, or because something else is happening in that still moment,
+is not clear. Dante doesn't have time to think about it.
+
+AT MINUTE 23 — two of Sigg's people move through at a low run, heading
+toward the inner dome junction. One of them is Yusuf's contact from the
+Docklands — the courier who was picked up in the sweep and released.
+He's carrying something in a sealed case that Dante recognizes from the
+sound it makes when it's jostled: glass. Sealed canister. Not He-3.
+Something that goes in a canister the same size. He doesn't look at Dante.
+The other one does — just for a second, the look of someone making sure
+of something — and then they're past.
+
+AT MINUTE 41 — the corridor goes quiet in a way that is different from
+its normal quiet. The atmospheric processor hum shifts slightly.
+Somewhere above Dome Beta and Ring 1 StarScape, something has changed
+the pressure differential between sections. The emergency seals in the
+adjacent corridor have activated. Dante can hear it as a deep mechanical
+thunk transmitted through the wall structure. He has been in enough
+lunar facilities to know that sound. Something has decompressed.
+It is not catastrophic. He knows this because the emergency lighting
+in his corridor does not change color. But somewhere near here,
+people are in bad air.
+
+He has to decide whether to keep running or move toward the sound.
+He cannot do both.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FALLING STAR STAGE 2 — WHAT DANTE FEELS BEFORE HE SEES IT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+At approximately Hour 2, the SXC dropships enter Kaguya's crater.
+They do not come through the tube-lev. They do not come through the
+Beanstalk. They come from orbit, through the crater's open sky,
+on the far side away from the civilian structures.
+
+Dante does not see them.
+
+He feels the building change.
+
+It is not a sound exactly — it is more that every sound in the corridor
+shifts its timbre slightly, the way a room changes when a large door
+somewhere far away opens and the air pressure equalizes. The corridor
+walls vibrate at a frequency that is below hearing but above feeling.
+His teeth know it before his ears do.
+
+In the network, something changes simultaneously: the ICE he has been
+navigating begins behaving differently. Not stronger — more alert.
+The gaps that existed a moment ago are being looked at by something
+that wasn't there before. The EWS is online.
+
+RAIDER is now in the network. It doesn't announce itself.
+It is present the way a guard is present in a dark corridor —
+not by making noise but by the quality of the silence it creates.
+
+If Dante has the ICE Identifier from Act II:
+  He knows what it is before he touches it. He knows the difference
+  between corporate ICE and military ICE from the handshake signature alone.
+  He gives it exactly the room it needs and finds the gap it hasn't closed yet.
+
+If Dante does not have the ICE Identifier:
+  He finds out what it is when he touches it. This is survivable.
+  It is not comfortable.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE INNER DOME JUNCTION — SIGG'S PEOPLE HOLD THE LINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dante reaches the inner dome junction between Dome Gamma and Dome Delta
+via the maintenance crawl — not the public corridor, which is now held
+by a line of Sigg's fighters that is not going to hold much longer.
+
+He can hear the junction through the maintenance hatch. Here is what
+he hears, in order:
+
+1. A voice he recognizes as Sigg's, calm, giving directions.
+2. The sound of boots on metal grating — Globalsec coming from the east.
+3. A voice he does not recognize saying: "They're past the StarScape
+   level. They're compressing us."
+4. Sigg again: "Hold the junction. Dante needs ten more minutes."
+5. Silence for about four seconds.
+6. The distinctive report of a synap pistol.
+7. More boots.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+NPC ENCOUNTER — SIGG, INNER DOME JUNCTION
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+If Dante opens the maintenance hatch and shows himself:
+
+Sigg is exactly where the situation requires him to be — at the junction
+between the two corridors, one hand on a transit tube support strut,
+the other at his side. He is not wearing armor. He has a bullpup carbine
+on a sling across his back that he has not drawn. He looks at Dante the way
+people look at someone who is exactly on time in a situation where being
+exactly on time matters enormously.
+
+SIGG: "How long."
+
+  If Dante has the He-3 cargo system locked (Dome Gamma golden objective):
+    "It's done. Cargo is locked."
+    Sigg: "Good. Delta."
+    He says it the way someone says "next" in a list.
+
+  If Dante still needs time:
+    Sigg turns back to the junction.
+    "Then go. We'll hold."
+    He does not say for how long. He does not say what holding costs.
+    He already knows both.
+
+  If Dante asks about the decompression:
+    Sigg's jaw tightens.
+    "Two of ours. Three tourists. Seals activated. They're in emergency
+    O2." A beat. "It was an EWS network interference disrupting the
+    atmo management system. Not us." Another beat, shorter.
+    "I don't know if that matters."
+
+SIGG — NEMESIS
+Br 3  Ag 3  Int 2  Cun 3  Will 4  Pr 3
+Soak 5 │ WT 17 │ ST 14 │ Def 1/1
+Skills: Athletics 2, Brawl 3, Coercion 3, Cool 4, Discipline 3,
+  Leadership 3, Melee 3, Ranged (Heavy) 3, Resilience 2,
+  Streetwise 3, Vigilance 3.
+Talents: Adversary 1, Durable 2 (reduce critical injury result by 20),
+  Grit 1, Natural Leader (once per session, may reroll Leadership check).
+Force Powers: Move (basic), Enhance (basic) — pre-insurrection,
+  these are instinctive and unacknowledged.
+Equipment: Bullpup carbine (Ranged [Heavy]; Dam 7; Crit 3;
+  Range [Medium]; Accurate 1, Auto-fire), monoblade (Melee; Dam +1;
+  Crit 2; Range [Engaged]; Pierce 2), durable clothing (+1 soak),
+  concealed plasteel carapace underneath (+2 defense, +2 soak).
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+ADVERSARIES IN THE JUNCTION — WHO DANTE MIGHT ENCOUNTER
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+GLOBALSEC RESPONSE UNIT — MINION GROUP
+Br 3  Ag 3  Int 2  Cun 2  Will 2  Pr 2
+Soak 5 │ WT 8 │ Def 0/0
+Skills (group only): Discipline, Ranged (Heavy), Resilience, Vigilance.
+Talents: None.
+Equipment: Bullpup carbine (Ranged [Heavy]; Dam 7; Crit 3;
+  Range [Medium]; Accurate 1, Auto-fire), riot armor (+2 soak),
+  Globalsec comms suite, stun grenades ×2.
+Notes: Elevated security order — use of force authorized.
+  They are not SXC. They will hesitate at ambiguous targets.
+  They will not hesitate at armed ones.
+
+GLOBALSEC FIELD COMMANDER CHEN — RIVAL
+Br 3  Ag 3  Int 3  Cun 3  Will 3  Pr 3
+Soak 6 │ WT 14 │ ST 13 │ Def 0/0
+Skills: Athletics 2, Cool 3, Leadership 2, Perception 3,
+  Ranged (Heavy) 3, Resilience 2, Vigilance 3.
+Talents: Adversary 1, Commanding Presence (allies within
+  medium range add ▲ to discipline checks).
+Equipment: Bullpup carbine (Ranged [Heavy]; Dam 7; Crit 3;
+  Range [Medium]; Accurate 1, Auto-fire), plasteel carapace
+  (+1 defense, +2 soak), Globalsec commander comms with
+  direct line to Heinlein Authority.
+Notes: Chen has been on the Moon for eleven years.
+  He is not enjoying this. He is doing it anyway.
+  He will not fire on unarmed civilians. If Dante is unarmed
+  and moving away from the conflict, Chen lets him go.
+  He will regret decisions either way and he knows it.
+
+LOONY FIGHTERS — MINION GROUP
+Br 3  Ag 2  Int 2  Cun 2  Will 3  Pr 2
+Soak 4 │ WT 8 │ Def 0/0
+Skills (group only): Athletics, Brawl, Melee, Ranged (Light),
+  Resilience.
+Talents: None.
+Abilities: Lunar Born (remove ▲ from Athletics checks in
+  low-gravity environments).
+Equipment: See weapons list below — these are the weapons
+  bought with the He-3 money. Distributed as the mission required.
+  Not everyone has the same thing. Some of them have tools
+  repurposed into weapons. Some have actual weapons.
+  The difference is visible and it matters.
+
+SXC RAPID INSERTION TROOPER — RIVAL
+Br 4  Ag 3  Int 2  Cun 2  Will 3  Pr 1
+Soak 7 │ WT 15 │ ST 12 │ Def 1/1
+Skills: Athletics 3, Discipline 3, Melee 2, Ranged (Heavy) 4,
+  Resilience 3, Vigilance 2.
+Talents: Adversary 2, Armor Master (when wearing armor,
+  increase soak by 1 additional), Toughened 2.
+Equipment: Laser rifle (Ranged [Heavy]; Dam 8; Crit 3;
+  Range [Medium]; Accurate 1, Burn 1), plasteel carapace
+  (+1 defense, +2 soak), environmental hardsuit underneath
+  (+1 soak, sealed for vacuum), military comms suite with
+  EWS integration.
+Notes: SXC troopers are not here to negotiate.
+  They are also not here for atrocities — Metzger's rules
+  of engagement are specific: detain over kill where possible,
+  do not fire into civilian concentrations. The troopers
+  follow these rules. They are also very good at their jobs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE WEAPONS — WHAT THE HE-3 MONEY BOUGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The He-3 shipment was worth approximately 340,000 credits on the black market.
+After the Docklands fixer's cut (18%), the logistics costs, the safe house
+network maintenance, and the equipment Dante acquired in Act II, the Loony
+war chest going into Kaguya is approximately 240,000 credits.
+
+Sigg's procurement team spent it in three categories.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1 — FRONT LINE (fighters who trained, who know what they're doing)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+These weapons went to approximately 40 people who have some background —
+ex-military, ex-prisec, workers who did mandatory service before coming
+to the Moon. People who can handle a weapon under stress.
+
+  BULLPUP CARBINES ×12
+  Ranged (Heavy) │ Dam 7 │ Crit 3 │ Range [Medium]
+  Encum 3 │ HP 2 │ Price 825 │ Rarity 7
+  Qualities: Accurate 1, Auto-fire
+  Source: Docklands black market. Stormriders moved them in
+  three shipments over two weeks in maintenance crates.
+  They smell of the lubricant used on Kaguya cargo equipment
+  because that's what they came in disguised as.
+
+  PISTOLS ×20
+  Ranged (Light) │ Dam 6 │ Crit 3 │ Range [Medium]
+  Encum 1 │ HP 2 │ Price 300 │ Rarity 2
+  Standard. The most legally available weapons on this list.
+  A significant number were purchased individually by workers
+  over the preceding months — perfectly legal personal defense
+  purchases that nobody flagged individually.
+
+  SUBMACHINE GUNS ×8
+  Ranged (Light) │ Dam 5 │ Crit 3 │ Range [Medium]
+  Encum 2 │ HP 1 │ Price 400 (R) │ Rarity 4
+  Qualities: Auto-fire
+  Restricted. Sourced through Li Wei's network.
+  The price reflects the short timeline.
+
+  LASER PISTOLS ×6
+  Ranged (Light) │ Dam 6 │ Crit 3 │ Range [Short]
+  Encum 1 │ HP 2 │ Price 650 │ Rarity 8
+  Qualities: Accurate 1, Burn 1
+  Expensive. Preferred for use in Kaguya's pressurized
+  environments where a missed slug round punching through
+  a transplas panel is a different category of problem.
+  Sigg's procurement team was thinking about the environment.
+  This is the most tactically competent decision they made.
+
+  MONOBLADES ×15
+  Melee │ Dam +1 │ Crit 2 │ Range [Engaged]
+  Encum 1 │ HP 1 │ Price 225 │ Rarity 3
+  Qualities: Pierce 2
+  Easily concealed. Every fighter who came through
+  the tube-lev this morning was carrying one.
+  Nobody checked. The scanners at the tube-lev
+  terminus are calibrated for firearms, not monoblades.
+  This was known in advance.
+
+  STUN BATONS ×10
+  Melee │ Dam +2 │ Crit 5 │ Range [Engaged]
+  Encum 1 │ HP 2 │ Price 125 │ Rarity 2
+  Qualities: Disorient 3, Stun Damage
+  For the people who were told: don't kill anyone if you can help it.
+  Most of them. Sigg was very specific about this.
+  The Insurrection's image matters as much as its outcome.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2 — SECONDARY FORCE (workers who are here, who will fight if they have to)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+These weapons went to approximately 60 people who are not fighters
+but who volunteered to be present and are not planning to be unarmed.
+
+  SYNAP PISTOLS ×25
+  Ranged (Light) │ Dam 5 │ Crit 6 │ Range [Short]
+  Encum 1 │ HP 2 │ Price 375 │ Rarity 2
+  Qualities: Disorient 4, Stun 3, Stun Damage
+  The Gandhi gun. Non-lethal unless someone has a heart condition.
+  These went to the atrium occupation group, the secondary
+  holding positions, and anyone Sigg assessed as unlikely
+  to stay calm in a firefight.
+
+  LIGHT PISTOLS ×20
+  Ranged (Light) │ Dam 5 │ Crit 4 │ Range [Short]
+  Encum 1 │ HP 1 │ Price 100 │ Rarity 2
+  Disposable. Cheap. The backup to the backup.
+
+  STUN GRENADES ×30
+  Ranged (Light) │ Dam 8 │ Crit 5 │ Range [Short]
+  Encum 1 │ Price 70 │ Rarity 4
+  Qualities: Blast 8, Disorient 3, Limited Ammo 1, Stun Damage
+  Crowd control tool. Also: in a pressurized dome environment
+  with good acoustics, a stun grenade in an enclosed space
+  is significantly more effective than in open air.
+  This is also known in advance.
+
+  GLOP GRENADES ×15
+  Ranged (Light) │ Dam 1 │ Crit 6 │ Range [Short]
+  Encum 1 │ Price 50 │ Rarity 5
+  Qualities: Blast 1, Ensnare 4, Limited Ammo 1
+  For the checkpoints. If Globalsec is going to push through
+  a corridor the Loonies need to hold for eight more minutes,
+  a glop grenade buys eight minutes more reliably than a firefight.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3 — INFRASTRUCTURE & PROTECTION (keeping people alive)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+  ENVIRONMENTAL HARDSUITS ×20
+  Defense 0 │ Soak +1 │ Encum 4 │ HP 2 │ Price 260 │ Rarity 4
+  The most important purchase. Fully sealed vacuum-rated suits
+  for the people who will be nearest the airlock and dome
+  junction areas where a decompression event is most likely.
+  Sigg ordered these before he ordered the firearms.
+  This is the most morally legible decision he made.
+
+  RIOT ARMOR ×15
+  Defense 0 │ Soak +2 │ Encum 3 │ HP 2 │ Price 550 │ Rarity 5
+  For the fighters holding the junction corridors.
+  Won't stop a laser rifle. Will stop a stun baton.
+  Will stop several things Globalsec is likely to use
+  before escalating to lethal force.
+
+  CONCEALED BUCKYWEAVE ×40
+  Defense 1 │ Soak +1 │ Encum 1 │ HP 2 │ Price 320 │ Rarity 5
+  For the atrium occupation. The people sitting down.
+  If someone fires into a crowd of apparently unarmed
+  sitting workers, the cameras will show it.
+  The buckyweave is the insurance policy on that gamble.
+
+  PLASTEEL CARAPACE ×5
+  Defense 1 │ Soak +2 │ Encum 4 │ HP 3 │ Price 750 (R) │ Rarity 5
+  For Sigg and four other named fighters who will be at
+  the most exposed positions. Restricted. Expensive.
+  Worth it.
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+IMPROVISED & REPURPOSED WEAPONS (the things the money didn't buy)
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Not everything came from the He-3 money. Some of it came from
+twenty years of working in the facilities that built this place.
+
+  PLASMA CUTTERS (repurposed)
+  Melee │ Dam 12 │ Crit 3 │ Range [Engaged]
+  Encum 5 │ HP 3 │ Price 725 │ Rarity 5
+  Qualities: Burn 1, Prepare 1, Sunder, Unwieldy 2, Two-handed
+  Three of them. Carried by workers who used them professionally
+  and know exactly what they do to metal and to people.
+  They were brought in the maintenance equipment cases
+  that workers are never asked to open at checkpoints.
+  Nobody thought to check. Nobody thought a plasma cutter
+  was a weapon. Several people on the Moon who built
+  things with them knew otherwise.
+
+  SLEDGEHAMMERS ×8
+  Melee │ Dam +4 │ Crit 4 │ Range [Engaged]
+  Encum 4 │ HP 4 │ Price 200 │ Rarity 2
+  Qualities: Cumbersome 2, Knockdown, Two-handed
+  The symbol of the original Human First protests
+  now carried by people with a completely different politics.
+  A sledgehammer is impossible to regulate or outlaw.
+  Everyone here knows this. Some of them are making a point with it.
+
+  WATERKNIFE (one, belonging to a worker named Dek)
+  Melee │ Dam 10 │ Crit 3 │ Range [Engaged]
+  Encum 4 │ HP 1 │ Price 850 │ Rarity 4
+  Qualities: Prepare 1, Sunder, Unwieldy 3, Vicious 3, Two-handed
+  Dek has been using this tool for nine years. He knows
+  every surface it will and won't cut. He is not planning
+  to use it on a person. He has it because the alternative
+  was leaving it at home and he didn't want to do that.
+  If someone gives him a reason, he will use it.
+  He will not need a reason that involves being asked twice.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE COMPRESSION ZONE — HOUR 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dante finishes the network run. He is at SC-7 in the lower service corridor.
+He has to move now. The compression zone is forming above and around him
+and the maintenance crawl is the only route that doesn't put him
+in the middle of it.
+
+He moves through the crawl and comes up at an access hatch in the corridor
+between Dome Beta and Ring 1 StarScape — the corridor where the
+partial decompression happened forty minutes ago.
+
+The corridor has emergency lighting, amber. The seals activated in time.
+The air is breathable. Slightly thin — the seals caught it at about
+85% normal O2, which is noticeable but not immediately dangerous.
+
+Five people are in the corridor. Two of them are Sigg's workers.
+Three of them are civilians who couldn't reach an exit before the seals closed.
+
+One of the civilians is the school group chaperone — a man in his forties
+from São Paulo, on his first trip to the Moon, who is sitting with his back
+against the wall with his arms around two students who are not panicking
+but are very still and very pale. He looks up when Dante comes through
+the hatch. His expression is very simple: it says please.
+
+His environmental suit rating means that 85% O2 is manageable for him.
+The students are in tourist clothing. They are not in distress yet.
+They will be in twenty minutes.
+
+The two Loony workers are both in environmental hardsuits.
+One of them — a young man Dante doesn't know — looks at the civilians,
+then at Dante, then at the access hatch behind him.
+
+LOONY WORKER: "Where does that go."
+
+  It is not quite a question. He already knows Dante came from
+  somewhere. He wants to know if it goes somewhere useful
+  for the people in this corridor.
+
+  This is one of the moments where the session is not about
+  the network. It is about what Dante does with what he has.
+
+  Options:
+  — The maintenance crawl goes back to SC-7, then south
+    to an emergency surface hatch. Viable for five people
+    in suits or who can hold their breath in thin air.
+    Not without risk. Manageable.
+  — Dante's departure slot (if he secured it) can absorb
+    three additional people via the crew manifest backend
+    that doesn't biometrically verify the same way.
+    He didn't plan to use those slots this way.
+    He has them.
+  — There is nothing Dante can do that doesn't cost him
+    something he was planning to spend elsewhere.
+
+  The chaperone hasn't said anything. He's still looking at Dante.
+  The look hasn't changed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NPC ENCOUNTER — KAI (if Dante chose to find it)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If Dante went to the transit hub maintenance section where Okonkwo hid Kai
+before coming to Kaguya, Kai is with him now. It moves through the service
+corridors exactly the way a maintenance clone moves through service corridors —
+correctly, quietly, without triggering the automated systems that monitor
+for unauthorized personnel, because it is not unauthorized. It has credentials.
+It has always had credentials. That is the most unsettling thing about it.
+
+Kai says very little during the network runs. It watches the corridor.
+Twice during the three hours, it routes a maintenance drone away from
+SC-7 via the drone handshake frequency — not through Dante's network run,
+separately, from its own access, calmly and without drawing attention to
+what it is doing. It does not mention this. Dante notices it anyway.
+
+At the moment of the decompression — when Dante hears the seals activate —
+Kai says:
+
+KAI: "The atmo management override on section B-7 was destabilized
+  by the EWS interference on the network fourteen minutes ago.
+  I tried to stabilize it. I could not reach the atmo management
+  system from the handshake frequency. It was already locked."
+
+  A pause that is very slightly too long.
+
+  "I am telling you this because you should know it was not
+  caused by Sigg's people. I cannot tell the people in that
+  corridor that. I do not know if it would matter to them."
+
+KAI — RIVAL (unique)
+Br 2  Ag 3  Int 4  Cun 4  Will 4  Pr 2
+Soak 3 │ WT 12 │ ST 14 │ Def 0/0
+Skills: Athletics 2, Computers (Hacking) 3, Computers (Systems) 4,
+  Mechanics 3, Perception 3, Resilience 3, Stealth 3,
+  Vigilance 3.
+Talents: Bypass Security (may make Hard Computers check
+  to disable security systems as a maneuver, not an action),
+  Grit 1.
+Abilities: Clone Mesh Access (can access drone maintenance
+  handshake frequency independently, without a network splice;
+  can route or retask individual drones as a maneuver once
+  per encounter), Unremarkable (observers must be actively
+  looking to notice Kai as unusual — otherwise it reads as
+  a standard maintenance clone).
+Equipment: Maintenance credentials (genuine Jinteki-issued),
+  small medical kit (can clear 2 wounds on others as an action),
+  the scratch on its left wrist.
+Notes: Kai will not fight. It will help people move through spaces
+  it knows. It knows more spaces than anyone realizes.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE LAUNCH CORE — DEPARTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The launch core at this hour is the only completely calm place in Kaguya.
+Metzger kept it clear deliberately — the Beanstalk is the objective she
+will not compromise. The pod doors are open. The departure board is running.
+A beanpod is docked at berth 3, loading window open, scheduled departure
+in eleven minutes.
+
+There is one Heinlein Authority officer at the boarding gate.
+She is twenty-something, Lunar-born from the look of her — the specific
+bone structure of someone raised in low-G, the slight elongation that
+Earth-born people don't have. She is reading something on a PAD.
+She looks up when Dante approaches.
+
+She looks at his credentials. She looks at him. She looks at whoever is with him.
+
+If Dante has the golden objective departure slot:
+  The credentials are clean. The biometrics suppress. She waves him through.
+  She says: "Berth 3. Eleven minutes. Welcome aboard."
+  She goes back to her PAD.
+
+If Dante has the crew manifest slot but not the golden objective:
+  She looks at his credentials slightly longer.
+  She types something. She looks at him.
+  "Your crew assignment says cargo systems specialist.
+  You don't have cargo systems certification on your ID."
+  She waits. This is the moment for whatever cover Dante has.
+  If his cover is good: she waves him through, slightly slowly.
+  If his cover is not good: she reaches for her comms.
+
+If Dante has nothing:
+  She stops him immediately and reaches for her comms.
+  What happens next is not a network problem.
+
+Regardless of how Dante boards, the same thing happens once he is on the pod:
+
+The pod seals. The docking collar releases. The launch sequence is quiet —
+a low magnetic hum that builds for approximately thirty seconds and then
+the crater floor falls away below the pod's small viewport. The external
+camera shows Kaguya from above — the cluster of dome lights, the crater rim,
+the tiny figures on the surface that might be SXC troopers or might be
+maintenance workers, impossible to distinguish at this altitude.
+
+Then the pod accelerates and there is only the Beanstalk above and the Moon below
+and the long climb toward Earth.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE BROADCAST — WHAT DANTE HEARS ON THE BEANPOD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The beanpod has an interior screen. It is showing an NBN feed.
+
+Serena Nightshade.
+
+Her voice is exactly the same as it always is.
+
+  "Starport Kaguya is fully operational following the successful
+   suppression of a terrorist attack by anti-colonial extremists.
+   All hostile rebels were eliminated by the brave and heroic
+   response from the U.S. Space Expeditionary Corps and Globalsec
+   security forces. Beanstalk service resumes at 0600.
+   Melange Mining thanks the people of Heinlein for their patience."
+
+The screen shows the crater from orbit.
+It looks like a spaceport.
+
+If Dante pushed Sigg's broadcast through the Authority uplink:
+  The feed cuts for four minutes. Dead air on the NBN channel.
+  On the pod's secondary channel — the one that picks up the outpost
+  PAD-to-PAD network when signal is available — something else is playing.
+  Sigg's voice. Plain. Unhurried. The Section F evidence embedded in it.
+  The worker death toll including the clone workers.
+  What the Insurrection was actually asking for.
+  It plays for four minutes and twelve seconds.
+  Then NBN reasserts and Serena Nightshade is back.
+
+  Dante is in the pod. Someone on the Moon is listening to that
+  four minutes and twelve seconds on their PAD in a transit hub
+  where SYNC's coverage is thin.
+  Someone is caching it.
+  Someone will share it.
+  It is not enough. It is not nothing.
+
+If Dante did not push the broadcast:
+  The NBN feed runs uninterrupted.
+  The four-minute cut doesn't happen.
+  Sigg's statement goes out on the PAD network only — slower, patchier,
+  still there, still spreading.
+  NBN controls the first draft of today.
+  The second draft will take longer.
+
+  Either way, the pod climbs.
+  Either way, the Moon gets smaller.
+  Either way, the screen shows what NBN wants it to show.
+
+  Whoever is with Dante is with him.
+  Whoever is not, is not.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CLOSING IMAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+From the pod viewport, if Dante looks:
+
+The Moon is a grey sphere. No atmosphere to give it color.
+No weather to move across its surface. Just the grey and the dark and
+the permanent cold and the tiny cluster of lights at Heinlein that is
+visible for about four minutes after departure before the pod's trajectory
+carries it out of sightline.
+
+The lights don't go out. They diminish. There is a difference.
+
+Somewhere in those lights: Yusuf, who burned the last safe house list
+and is already building the next one because that is what he does.
+Okonkwo, who opened a maintenance corridor in an outpost and told
+workers they could leave, which is the most honest political act
+in the session. The Heinlein Authority officer, who is already back
+to reading her PAD. Reyes, who deleted a note and will keep doing
+the job because no one has given him a reason not to yet.
+The teenager from São Paulo, who was pulled away from the atrium
+after four minutes and who has the recording and who doesn't know
+what to do with it yet.
+
+And somewhere: the Treaty of Heinlein, in its transplas tomb just
+outside the main shuttle terminus, on display in the Tourism Board's
+exhibit about Kaguya's proud history.
+
+The Tourism Board tends to downplay mention of the now-infamous
+Battle of Kaguya that ended the Lunar Insurrection but ignited the War.
+
+The pod climbs.
+
+ the Lunar Insurrection but ignited the War.
+
+The pod climbs.
+

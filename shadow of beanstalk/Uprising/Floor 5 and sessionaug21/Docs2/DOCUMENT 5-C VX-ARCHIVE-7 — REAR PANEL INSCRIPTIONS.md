@@ -1,0 +1,19 @@
+### DOCUMENT 5-C: VX-ARCHIVE-7 — REAR PANEL INSCRIPTIONS
+
+**VX-ARCHIVE-7 RACK — LEVEL 5 SERVER ROOM — REAR PANEL**
+
+*Found on the inside face of the rear panel. Written in small precise letters with a fine-tipped marker. The rack must be moved to access this panel.*
+
+---
+
+**FIRST INSCRIPTION — SAME HANDWRITING AS LEVEL 6 DOCUMENTS:**
+
+*"THE NETWORK REMEMBERS EVERYTHING."*
+
+---
+
+**SECOND INSCRIPTION — DIFFERENT HANDWRITING — WRITTEN RECENTLY:**
+
+*"WE WOKE IT UP. IT HAS BEEN SLEEPING SINCE THE BLACKOUT. WE WOKE IT UP."*
+
+---

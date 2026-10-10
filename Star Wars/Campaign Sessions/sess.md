@@ -1,0 +1,1 @@
+Last session after navigating the perils of sankar charlie found the full truth of  what happened with warde. crystal found the party is ready to tackle the next.

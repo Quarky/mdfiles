@@ -1,0 +1,8 @@
+## 151 — Hydroponics, aquaculture, food, and waste
+
+- **Checkpoint:** 12:20 PST
+- **Control:** damaged/contested
+- **State:** Waste systems are damaged during early fighting. The level is mostly abandoned and repeatedly raided for supplies.
+- **Activity:** [Optional pressure event] A Resistance supply raid crosses damaged waste-processing machinery. This creates a scene hook without changing the floor's strategic state.
+- **Continuity:** Local control can still be disrupted by the Resistance or the player characters.
+- **Evidence:** [Canon destination state; intervening activity derived]
