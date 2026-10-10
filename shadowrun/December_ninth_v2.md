@@ -20,7 +20,7 @@ tags:
 ---
 
 # December Ninth V2 — The Gift and the Ordinary Day
-**Seattle Renraku Arcology (SCIRE) · Sunday, December 9, 2059 · T−10 days before the Shutdown**
+**Seattle Renraku Arcology (SCIRE) · Tuesday, December 9, 2059 · T−10 days before the Shutdown**
 
 > **This is a NEW, SELF-CONTAINED December 9 GM runbook**, drafted as an alternative to the older December 9 material, rather than a replacement for it. It collects the entire playable day, the previously approved Shobu gift conversation verbatim, new Frank and Angie scenes, read-aloud passages, NPC motivations, choices, Genesys checks, a concise GM dashboard, and the handoff into December 10.
 
@@ -75,7 +75,7 @@ All clock times above are **GM staging suggestions for the new December 9 V2**, 
 
 **Small props you can display or read aloud:**
 - A wrapped doll box with a generic Renraku-compatible consumer-product insert. No confirmed factory explanation for its personalization.
-- Frank's *December 8* anomalous printed order: \`2059-12-09 / NODE 7-G / RELAY–SCRUBBER HANDSHAKE / ROUTINE / DO NOT DEFER\`. The date on this first printout is **wrong or prematurely routed** in V2; this becomes a paperwork discrepancy, not a reason for Frank to enter 7-G today.
+- Frank's *December 8* anomalous printed order: `2059-12-09 / NODE 7-G / RELAY–SCRUBBER HANDSHAKE / ROUTINE / DO NOT DEFER`. The date on this first printout is **wrong or prematurely routed** in V2; this becomes a paperwork discrepancy, not a reason for Frank to enter 7-G today.
 - Frank's *corrected* job assignment for **2059-12-10**, issued at the end of Scene 6 or Scene 8.
 - A human-positive callback: a favorite meal, lyric, gentle joke, promised visit, or the memory of the doll as a gift.
 
@@ -326,7 +326,7 @@ If Marisol mentioned the vibration to Angie earlier, this is **not** a predeterm
 
 At the end of shift, Frank's queue gets a formal confirmation.
 
-\`\`\`text
+```text
 RENRAKU FACILITIES / CONTRACT SERVICE DISPATCH
 EXECUTION DATE: 2059-12-10
 ASSIGNED: FRANK CRODLER
@@ -336,7 +336,7 @@ PRIORITY: ROUTINE
 ESTIMATED DURATION: 02:00
 STATUS: CONFIRMED — MORNING SHIFT
 NOTE: PRIOR QUEUE ENTRY SUPERSEDED
-\`\`\`
+```
 
 The oddity is that yesterday's auto-printed request was dated **2059-12-09**, while the formal execution is **2059-12-10**. Frank may notice. The discrepancy can be simple scheduling bad data—or something less simple; **do not explain it to the players now**.
 
