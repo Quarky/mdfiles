@@ -1,6 +1,6 @@
 # Prelude v2 — Archived Day-by-Day, Exact Text
 
-**Source:** [Full original Prelude v2](../../Sessions/SESSION_1A_FRANK_AND_ANGIE_18_DAY_PRELUDE_FULL_SCENES_v2.md)
+**Source:** [Full original Prelude v2](SOURCE_FULL_ORIGINAL.md)
 
 These files are an **unmodified, lossless split** of the approved eighteen-day living-world prelude. Reading `00-Preface.md`, then `Day-01.md` through `Day-19.md` in order reconstructs the original document exactly. The original complete file remains in `Sessions/`, and should not be overwritten by additional scene material.
 

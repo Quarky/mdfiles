@@ -1,7 +1,7 @@
 # Shadowrun Arcology — Session GM Master Index
 
 **In-fiction dates:** December 1–19, 2059. **Next two GM sessions:** December 9–12 and December 13–19.  
-**Baseline:** [Approved Prelude v2 original](../Sessions/SESSION_1A_FRANK_AND_ANGIE_18_DAY_PRELUDE_FULL_SCENES_v2.md).
+**Baseline:** [Approved Prelude v2 original](Original-Prelude-v2/SOURCE_FULL_ORIGINAL.md).
 
 ## Source and preservation
 
